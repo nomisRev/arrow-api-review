@@ -1,7 +1,3 @@
-public final class arrow/core/Arrow_core_TryKt {
-	public static final fun fix (Larrow/Kind;)Larrow/core/Try;
-}
-
 public final class arrow/core/ForTry {
 	public static final field Companion Larrow/core/ForTry$Companion;
 }
@@ -89,6 +85,7 @@ public final class arrow/core/TryException$UnsupportedOperationException : arrow
 
 public final class arrow/core/TryKt {
 	public static final fun failure (Ljava/lang/Throwable;)Larrow/core/Try;
+	public static final fun fix (Larrow/Kind;)Larrow/core/Try;
 	public static final fun flatten (Larrow/Kind;)Larrow/core/Try;
 	public static final fun getOrDefault (Larrow/Kind;Lkotlin/jvm/functions/Function0;)Ljava/lang/Object;
 	public static final fun getOrElse (Larrow/Kind;Lkotlin/jvm/functions/Function1;)Ljava/lang/Object;
@@ -102,6 +99,10 @@ public final class arrow/core/TryKt {
 
 public abstract class arrow/core/test/UnitSpec : io/kotlintest/specs/AbstractStringSpec {
 	public fun <init> ()V
+	public final fun forAll (Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;Lkotlin/jvm/functions/Function11;)V
+	public final fun forAll (Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;Lkotlin/jvm/functions/Function10;)V
+	public final fun forAll (Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;Lkotlin/jvm/functions/Function9;)V
+	public final fun forAll (Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;Lkotlin/jvm/functions/Function8;)V
 	public fun testCases ()Ljava/util/List;
 	public final fun testLaws ([Ljava/util/List;)Ljava/util/List;
 }
@@ -139,7 +140,6 @@ public final class arrow/core/test/generators/GenKKt {
 	public static final fun genK (Larrow/core/Const$Companion;Lio/kotlintest/properties/Gen;)Larrow/core/test/generators/GenK;
 	public static final fun genK (Larrow/core/Either$Companion;Lio/kotlintest/properties/Gen;)Larrow/core/test/generators/GenK;
 	public static final fun genK (Larrow/core/Hashed$Companion;)Larrow/core/test/generators/GenK;
-	public static final fun genK (Larrow/core/Id$Companion;)Larrow/core/test/generators/GenK;
 	public static final fun genK (Larrow/core/Ior$Companion;Lio/kotlintest/properties/Gen;)Larrow/core/test/generators/GenK;
 	public static final fun genK (Larrow/core/ListK$Companion;I)Larrow/core/test/generators/GenK;
 	public static final fun genK (Larrow/core/MapK$Companion;Lio/kotlintest/properties/Gen;I)Larrow/core/test/generators/GenK;
@@ -157,6 +157,7 @@ public final class arrow/core/test/generators/GenKKt {
 }
 
 public final class arrow/core/test/generators/GeneratorsKt {
+	public static final fun any (Lio/kotlintest/properties/Gen$Companion;)Lio/kotlintest/properties/Gen;
 	public static final fun applicative (Lio/kotlintest/properties/Gen;Larrow/typeclasses/Applicative;)Lio/kotlintest/properties/Gen;
 	public static final fun applicativeError (Lio/kotlintest/properties/Gen$Companion;Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;Larrow/typeclasses/ApplicativeError;)Lio/kotlintest/properties/Gen;
 	public static final fun applicativeError (Lio/kotlintest/properties/Gen;Larrow/typeclasses/ApplicativeError;)Lio/kotlintest/properties/Gen;
@@ -177,7 +178,6 @@ public final class arrow/core/test/generators/GeneratorsKt {
 	public static final fun genConst (Lio/kotlintest/properties/Gen$Companion;Lio/kotlintest/properties/Gen;)Lio/kotlintest/properties/Gen;
 	public static final fun genSetK (Lio/kotlintest/properties/Gen$Companion;Lio/kotlintest/properties/Gen;)Lio/kotlintest/properties/Gen;
 	public static final fun hashed (Lio/kotlintest/properties/Gen;Larrow/typeclasses/Hash;)Lio/kotlintest/properties/Gen;
-	public static final fun id (Lio/kotlintest/properties/Gen$Companion;Lio/kotlintest/properties/Gen;)Lio/kotlintest/properties/Gen;
 	public static final fun intPredicate (Lio/kotlintest/properties/Gen$Companion;)Lio/kotlintest/properties/Gen;
 	public static final fun intSmall (Lio/kotlintest/properties/Gen$Companion;)Lio/kotlintest/properties/Gen;
 	public static final fun ior (Lio/kotlintest/properties/Gen$Companion;Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;)Lio/kotlintest/properties/Gen;
@@ -188,10 +188,16 @@ public final class arrow/core/test/generators/GeneratorsKt {
 	public static final fun nonZeroInt (Lio/kotlintest/properties/Gen$Companion;)Lio/kotlintest/properties/Gen;
 	public static final fun option (Lio/kotlintest/properties/Gen$Companion;Lio/kotlintest/properties/Gen;)Lio/kotlintest/properties/Gen;
 	public static final fun or (Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;)Lio/kotlintest/properties/Gen;
+	public static final fun sequence (Lio/kotlintest/properties/Gen$Companion;Lio/kotlintest/properties/Gen;)Lio/kotlintest/properties/Gen;
 	public static final fun sequenceK (Lio/kotlintest/properties/Gen$Companion;Lio/kotlintest/properties/Gen;)Lio/kotlintest/properties/Gen;
 	public static final fun short (Lio/kotlintest/properties/Gen$Companion;)Lio/kotlintest/properties/Gen;
 	public static final fun shortSmall (Lio/kotlintest/properties/Gen$Companion;)Lio/kotlintest/properties/Gen;
 	public static final fun sortedMapK (Lio/kotlintest/properties/Gen$Companion;Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;)Lio/kotlintest/properties/Gen;
+	public static final fun suspendFunThatReturnsAnyLeft (Lio/kotlintest/properties/Gen$Companion;)Lio/kotlintest/properties/Gen;
+	public static final fun suspendFunThatReturnsAnyRight (Lio/kotlintest/properties/Gen$Companion;)Lio/kotlintest/properties/Gen;
+	public static final fun suspendFunThatReturnsEitherAnyOrAnyOrThrows (Lio/kotlintest/properties/Gen$Companion;)Lio/kotlintest/properties/Gen;
+	public static final fun suspendFunThatThrows (Lio/kotlintest/properties/Gen$Companion;)Lio/kotlintest/properties/Gen;
+	public static final fun suspendFunThatThrowsFatalThrowable (Lio/kotlintest/properties/Gen$Companion;)Lio/kotlintest/properties/Gen;
 	public static final fun throwable (Lio/kotlintest/properties/Gen$Companion;)Lio/kotlintest/properties/Gen;
 	public static final fun tuple10 (Lio/kotlintest/properties/Gen$Companion;Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;)Lio/kotlintest/properties/Gen;
 	public static final fun tuple2 (Lio/kotlintest/properties/Gen$Companion;Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;)Lio/kotlintest/properties/Gen;
@@ -375,6 +381,7 @@ public final class arrow/core/test/laws/FoldableLaws {
 	public final fun firstOrNoneReturnsNoneIfPredicateFails (Larrow/typeclasses/Foldable;Lio/kotlintest/properties/Gen;)V
 	public final fun fold should combine all items (Larrow/typeclasses/Foldable;Lio/kotlintest/properties/Gen;Larrow/typeclasses/Eq;)V
 	public final fun foldMIdIsFoldL (Larrow/typeclasses/Foldable;Lio/kotlintest/properties/Gen;Larrow/typeclasses/Eq;)V
+	public final fun foldMapA folds on F mapping values to G(B) using given Monoid (Larrow/typeclasses/Foldable;Lio/kotlintest/properties/Gen;Larrow/typeclasses/Eq;)V
 	public final fun foldMapM folds on F mapping values to G(B) using given Monoid (Larrow/typeclasses/Foldable;Lio/kotlintest/properties/Gen;Larrow/typeclasses/Eq;)V
 	public final fun foldRight is lazy (Larrow/typeclasses/Foldable;Lio/kotlintest/properties/Gen;)V
 	public final fun forAllIsLazy (Larrow/typeclasses/Foldable;Lio/kotlintest/properties/Gen;Larrow/typeclasses/Eq;)V
@@ -431,7 +438,8 @@ public final class arrow/core/test/laws/FunctorLaws {
 
 public final class arrow/core/test/laws/FxLaws {
 	public static final field INSTANCE Larrow/core/test/laws/FxLaws;
-	public final fun laws (Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;Larrow/typeclasses/Eq;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function2;)Ljava/util/List;
+	public final fun eager (Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;Larrow/typeclasses/Eq;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function3;)Ljava/util/List;
+	public final fun suspended (Lio/kotlintest/properties/Gen;Lio/kotlintest/properties/Gen;Larrow/typeclasses/Eq;Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function3;)Ljava/util/List;
 }
 
 public final class arrow/core/test/laws/HashLaws {
@@ -494,25 +502,8 @@ public final class arrow/core/test/laws/MonadFilterLaws {
 
 public final class arrow/core/test/laws/MonadLaws {
 	public static final field INSTANCE Larrow/core/test/laws/MonadLaws;
-	public final fun derivedApConsistent (Larrow/typeclasses/Monad;Larrow/core/test/generators/GenK;Larrow/typeclasses/Apply;Larrow/typeclasses/Eq;)V
-	public final fun derivedApTapConsistent (Larrow/typeclasses/Monad;Larrow/core/test/generators/GenK;Larrow/typeclasses/Apply;Larrow/typeclasses/Eq;)V
-	public final fun derivedFlattenConsistent (Larrow/typeclasses/Monad;Larrow/core/test/generators/GenK;Larrow/typeclasses/Eq;)V
-	public final fun derivedFollowedByConsistent (Larrow/typeclasses/Monad;Larrow/core/test/generators/GenK;Larrow/typeclasses/Apply;Larrow/typeclasses/Eq;)V
-	public final fun derivedFollowedByEvalConsistent (Larrow/typeclasses/Monad;Larrow/core/test/generators/GenK;Larrow/typeclasses/Eq;)V
-	public final fun derivedIfMConsistent (Larrow/typeclasses/Monad;Larrow/core/test/generators/GenK;Larrow/typeclasses/Eq;)V
-	public final fun derivedMProductConsistent (Larrow/typeclasses/Monad;Larrow/core/test/generators/GenK;Larrow/typeclasses/Eq;)V
-	public final fun derivedMapConsistent (Larrow/typeclasses/Monad;Lio/kotlintest/properties/Gen;Larrow/typeclasses/Functor;Larrow/typeclasses/Eq;)V
-	public final fun derivedProductConsistent (Larrow/typeclasses/Monad;Larrow/core/test/generators/GenK;Larrow/typeclasses/Apply;Larrow/typeclasses/Eq;)V
-	public final fun derivedProductLConsistent (Larrow/typeclasses/Monad;Larrow/core/test/generators/GenK;Larrow/typeclasses/Eq;)V
-	public final fun derivedProductLEvalConsistent (Larrow/typeclasses/Monad;Larrow/core/test/generators/GenK;Larrow/typeclasses/Eq;)V
-	public final fun derivedSelectiveConsistent (Larrow/typeclasses/Monad;Larrow/core/test/generators/GenK;Larrow/typeclasses/Selective;Larrow/typeclasses/Eq;)V
 	public final fun laws (Larrow/typeclasses/Monad;Larrow/core/test/generators/GenK;Larrow/typeclasses/EqK;)Ljava/util/List;
 	public final fun laws (Larrow/typeclasses/Monad;Larrow/typeclasses/Functor;Larrow/typeclasses/Apply;Larrow/typeclasses/Selective;Larrow/core/test/generators/GenK;Larrow/typeclasses/EqK;)Ljava/util/List;
-	public final fun leftIdentity (Larrow/typeclasses/Monad;Lio/kotlintest/properties/Gen;Larrow/typeclasses/Eq;)V
-	public final fun monadComprehensions (Larrow/typeclasses/Monad;Larrow/typeclasses/Eq;)V
-	public final fun rightIdentity (Larrow/typeclasses/Monad;Lio/kotlintest/properties/Gen;Larrow/typeclasses/Eq;)V
-	public final fun stackSafety (Larrow/typeclasses/Monad;ILarrow/typeclasses/Eq;)V
-	public static synthetic fun stackSafety$default (Larrow/core/test/laws/MonadLaws;Larrow/typeclasses/Monad;ILarrow/typeclasses/Eq;ILjava/lang/Object;)V
 }
 
 public final class arrow/core/test/laws/MonadLogicLaws {
@@ -673,17 +664,6 @@ public final class arrow/core/test/laws/ShowLaws {
 	public final fun laws (Larrow/typeclasses/Show;Larrow/typeclasses/Eq;Lio/kotlintest/properties/Gen;)Ljava/util/List;
 }
 
-public final class arrow/core/test/laws/TIC : arrow/Kind {
-	public fun <init> (Larrow/core/Tuple2;)V
-	public final fun component1 ()Larrow/core/Tuple2;
-	public final fun copy (Larrow/core/Tuple2;)Larrow/core/test/laws/TIC;
-	public static synthetic fun copy$default (Larrow/core/test/laws/TIC;Larrow/core/Tuple2;ILjava/lang/Object;)Larrow/core/test/laws/TIC;
-	public fun equals (Ljava/lang/Object;)Z
-	public final fun getTi ()Larrow/core/Tuple2;
-	public fun hashCode ()I
-	public fun toString ()Ljava/lang/String;
-}
-
 public final class arrow/core/test/laws/TIF {
 }
 
@@ -709,7 +689,6 @@ public final class arrow/core/test/laws/TraverseLaws {
 
 public final class arrow/core/test/laws/TraverseLawsKt {
 	public static final fun ComposedApplicative (Larrow/typeclasses/Applicative;Larrow/typeclasses/Applicative;)Larrow/typeclasses/Applicative;
-	public static final fun fix (Larrow/Kind;)Larrow/core/test/laws/TIC;
 	public static final fun nest (Larrow/Kind;)Larrow/Kind;
 	public static final fun unnest (Larrow/Kind;)Larrow/Kind;
 }
@@ -747,5 +726,9 @@ public final class arrow/core/test/laws/ZipLaws {
 	public final fun zippyness1 (Larrow/typeclasses/Zip;Lio/kotlintest/properties/Gen;Larrow/typeclasses/Eq;)V
 	public final fun zippyness2 (Larrow/typeclasses/Zip;Lio/kotlintest/properties/Gen;Larrow/typeclasses/Eq;)V
 	public final fun zippyness3 (Larrow/typeclasses/Zip;Lio/kotlintest/properties/Gen;Larrow/typeclasses/Eq;)V
+}
+
+public final class arrow/core/test/laws/internal/IdKt {
+	public static final fun id (Lio/kotlintest/properties/Gen$Companion;Lio/kotlintest/properties/Gen;)Lio/kotlintest/properties/Gen;
 }
 

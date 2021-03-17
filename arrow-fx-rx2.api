@@ -310,7 +310,6 @@ public final class arrow/fx/rx2/extensions/FlowableKApplicative$DefaultImpls {
 	public static fun tupledN (Larrow/fx/rx2/extensions/FlowableKApplicative;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun tupledN (Larrow/fx/rx2/extensions/FlowableKApplicative;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/FlowableKApplicative;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/FlowableKApplicative;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/FlowableKApplicative;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/FlowableKApplicative;Larrow/Kind;)Larrow/Kind;
 }
@@ -397,7 +396,6 @@ public final class arrow/fx/rx2/extensions/FlowableKApplicativeError$DefaultImpl
 	public static fun tupledN (Larrow/fx/rx2/extensions/FlowableKApplicativeError;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun tupledN (Larrow/fx/rx2/extensions/FlowableKApplicativeError;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/FlowableKApplicativeError;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/FlowableKApplicativeError;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/FlowableKApplicativeError;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/FlowableKApplicativeError;Larrow/Kind;)Larrow/Kind;
 }
@@ -535,7 +533,6 @@ public final class arrow/fx/rx2/extensions/FlowableKAsync$DefaultImpls {
 	public static fun uncancelable (Larrow/fx/rx2/extensions/FlowableKAsync;Larrow/Kind;)Larrow/Kind;
 	public static fun uncancellable (Larrow/fx/rx2/extensions/FlowableKAsync;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/FlowableKAsync;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/FlowableKAsync;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/FlowableKAsync;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/rx2/extensions/FlowableKAsync;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/FlowableKAsync;Larrow/Kind;)Larrow/Kind;
@@ -653,7 +650,6 @@ public final class arrow/fx/rx2/extensions/FlowableKBracket$DefaultImpls {
 	public static fun uncancelable (Larrow/fx/rx2/extensions/FlowableKBracket;Larrow/Kind;)Larrow/Kind;
 	public static fun uncancellable (Larrow/fx/rx2/extensions/FlowableKBracket;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/FlowableKBracket;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/FlowableKBracket;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/FlowableKBracket;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/rx2/extensions/FlowableKBracket;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/FlowableKBracket;Larrow/Kind;)Larrow/Kind;
@@ -857,7 +853,6 @@ public final class arrow/fx/rx2/extensions/FlowableKConcurrent$DefaultImpls {
 	public static fun uncancelable (Larrow/fx/rx2/extensions/FlowableKConcurrent;Larrow/Kind;)Larrow/Kind;
 	public static fun uncancellable (Larrow/fx/rx2/extensions/FlowableKConcurrent;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/FlowableKConcurrent;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/FlowableKConcurrent;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/FlowableKConcurrent;Larrow/Kind;)Larrow/Kind;
 	public static fun waitFor (Larrow/fx/rx2/extensions/FlowableKConcurrent;Larrow/Kind;Larrow/fx/typeclasses/Duration;)Larrow/Kind;
 	public static fun waitFor (Larrow/fx/rx2/extensions/FlowableKConcurrent;Larrow/Kind;Larrow/fx/typeclasses/Duration;Larrow/Kind;)Larrow/Kind;
@@ -998,7 +993,6 @@ public final class arrow/fx/rx2/extensions/FlowableKConcurrentEffect$DefaultImpl
 	public static fun uncancelable (Larrow/fx/rx2/extensions/FlowableKConcurrentEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun uncancellable (Larrow/fx/rx2/extensions/FlowableKConcurrentEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/FlowableKConcurrentEffect;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/FlowableKConcurrentEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/FlowableKConcurrentEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/rx2/extensions/FlowableKConcurrentEffect;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/FlowableKConcurrentEffect;Larrow/Kind;)Larrow/Kind;
@@ -1146,7 +1140,6 @@ public final class arrow/fx/rx2/extensions/FlowableKEffect$DefaultImpls {
 	public static fun uncancelable (Larrow/fx/rx2/extensions/FlowableKEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun uncancellable (Larrow/fx/rx2/extensions/FlowableKEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/FlowableKEffect;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/FlowableKEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/FlowableKEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/rx2/extensions/FlowableKEffect;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/FlowableKEffect;Larrow/Kind;)Larrow/Kind;
@@ -1170,6 +1163,7 @@ public final class arrow/fx/rx2/extensions/FlowableKFoldable$DefaultImpls {
 	public static fun foldLeft (Larrow/fx/rx2/extensions/FlowableKFoldable;Larrow/Kind;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Ljava/lang/Object;
 	public static fun foldM (Larrow/fx/rx2/extensions/FlowableKFoldable;Larrow/Kind;Larrow/typeclasses/Monad;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Larrow/Kind;
 	public static fun foldMap (Larrow/fx/rx2/extensions/FlowableKFoldable;Larrow/Kind;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Ljava/lang/Object;
+	public static fun foldMapA (Larrow/fx/rx2/extensions/FlowableKFoldable;Larrow/Kind;Larrow/typeclasses/Applicative;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static fun foldMapM (Larrow/fx/rx2/extensions/FlowableKFoldable;Larrow/Kind;Larrow/typeclasses/Monad;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static fun foldRight (Larrow/fx/rx2/extensions/FlowableKFoldable;Larrow/Kind;Larrow/core/Eval;Lkotlin/jvm/functions/Function2;)Larrow/core/Eval;
 	public static fun forAll (Larrow/fx/rx2/extensions/FlowableKFoldable;Larrow/Kind;Lkotlin/jvm/functions/Function1;)Z
@@ -1201,7 +1195,6 @@ public final class arrow/fx/rx2/extensions/FlowableKFunctor$DefaultImpls {
 	public static fun mapConst (Larrow/fx/rx2/extensions/FlowableKFunctor;Ljava/lang/Object;Larrow/Kind;)Larrow/Kind;
 	public static fun tupleLeft (Larrow/fx/rx2/extensions/FlowableKFunctor;Larrow/Kind;Ljava/lang/Object;)Larrow/Kind;
 	public static fun tupleRight (Larrow/fx/rx2/extensions/FlowableKFunctor;Larrow/Kind;Ljava/lang/Object;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/FlowableKFunctor;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/FlowableKFunctor;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/FlowableKFunctor;Larrow/Kind;)Larrow/Kind;
 }
@@ -1223,7 +1216,6 @@ public final class arrow/fx/rx2/extensions/FlowableKFunctorFilter$DefaultImpls {
 	public static fun mapConst (Larrow/fx/rx2/extensions/FlowableKFunctorFilter;Ljava/lang/Object;Larrow/Kind;)Larrow/Kind;
 	public static fun tupleLeft (Larrow/fx/rx2/extensions/FlowableKFunctorFilter;Larrow/Kind;Ljava/lang/Object;)Larrow/Kind;
 	public static fun tupleRight (Larrow/fx/rx2/extensions/FlowableKFunctorFilter;Larrow/Kind;Ljava/lang/Object;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/FlowableKFunctorFilter;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/FlowableKFunctorFilter;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/FlowableKFunctorFilter;Larrow/Kind;)Larrow/Kind;
 }
@@ -1320,7 +1312,6 @@ public final class arrow/fx/rx2/extensions/FlowableKMonad$DefaultImpls {
 	public static fun tupledN (Larrow/fx/rx2/extensions/FlowableKMonad;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun tupledN (Larrow/fx/rx2/extensions/FlowableKMonad;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/FlowableKMonad;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/FlowableKMonad;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/FlowableKMonad;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/rx2/extensions/FlowableKMonad;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/FlowableKMonad;Larrow/Kind;)Larrow/Kind;
@@ -1446,7 +1437,6 @@ public final class arrow/fx/rx2/extensions/FlowableKMonadDefer$DefaultImpls {
 	public static fun uncancelable (Larrow/fx/rx2/extensions/FlowableKMonadDefer;Larrow/Kind;)Larrow/Kind;
 	public static fun uncancellable (Larrow/fx/rx2/extensions/FlowableKMonadDefer;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/FlowableKMonadDefer;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/FlowableKMonadDefer;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/FlowableKMonadDefer;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/rx2/extensions/FlowableKMonadDefer;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/FlowableKMonadDefer;Larrow/Kind;)Larrow/Kind;
@@ -1556,7 +1546,6 @@ public final class arrow/fx/rx2/extensions/FlowableKMonadError$DefaultImpls {
 	public static fun tupledN (Larrow/fx/rx2/extensions/FlowableKMonadError;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun tupledN (Larrow/fx/rx2/extensions/FlowableKMonadError;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/FlowableKMonadError;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/FlowableKMonadError;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/FlowableKMonadError;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/rx2/extensions/FlowableKMonadError;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/FlowableKMonadError;Larrow/Kind;)Larrow/Kind;
@@ -1657,7 +1646,6 @@ public final class arrow/fx/rx2/extensions/FlowableKMonadFilter$DefaultImpls {
 	public static fun tupledN (Larrow/fx/rx2/extensions/FlowableKMonadFilter;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun tupledN (Larrow/fx/rx2/extensions/FlowableKMonadFilter;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/FlowableKMonadFilter;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/FlowableKMonadFilter;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/FlowableKMonadFilter;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/rx2/extensions/FlowableKMonadFilter;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/FlowableKMonadFilter;Larrow/Kind;)Larrow/Kind;
@@ -1766,7 +1754,6 @@ public final class arrow/fx/rx2/extensions/FlowableKMonadThrow$DefaultImpls {
 	public static fun tupledN (Larrow/fx/rx2/extensions/FlowableKMonadThrow;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun tupledN (Larrow/fx/rx2/extensions/FlowableKMonadThrow;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/FlowableKMonadThrow;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/FlowableKMonadThrow;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/FlowableKMonadThrow;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/rx2/extensions/FlowableKMonadThrow;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/FlowableKMonadThrow;Larrow/Kind;)Larrow/Kind;
@@ -1801,6 +1788,7 @@ public final class arrow/fx/rx2/extensions/FlowableKTraverse$DefaultImpls {
 	public static fun foldLeft (Larrow/fx/rx2/extensions/FlowableKTraverse;Larrow/Kind;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Ljava/lang/Object;
 	public static fun foldM (Larrow/fx/rx2/extensions/FlowableKTraverse;Larrow/Kind;Larrow/typeclasses/Monad;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Larrow/Kind;
 	public static fun foldMap (Larrow/fx/rx2/extensions/FlowableKTraverse;Larrow/Kind;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Ljava/lang/Object;
+	public static fun foldMapA (Larrow/fx/rx2/extensions/FlowableKTraverse;Larrow/Kind;Larrow/typeclasses/Applicative;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static fun foldMapM (Larrow/fx/rx2/extensions/FlowableKTraverse;Larrow/Kind;Larrow/typeclasses/Monad;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static fun foldRight (Larrow/fx/rx2/extensions/FlowableKTraverse;Larrow/Kind;Larrow/core/Eval;Lkotlin/jvm/functions/Function2;)Larrow/core/Eval;
 	public static fun forAll (Larrow/fx/rx2/extensions/FlowableKTraverse;Larrow/Kind;Lkotlin/jvm/functions/Function1;)Z
@@ -1827,7 +1815,6 @@ public final class arrow/fx/rx2/extensions/FlowableKTraverse$DefaultImpls {
 	public static fun traverse_ (Larrow/fx/rx2/extensions/FlowableKTraverse;Larrow/Kind;Larrow/typeclasses/Applicative;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static fun tupleLeft (Larrow/fx/rx2/extensions/FlowableKTraverse;Larrow/Kind;Ljava/lang/Object;)Larrow/Kind;
 	public static fun tupleRight (Larrow/fx/rx2/extensions/FlowableKTraverse;Larrow/Kind;Ljava/lang/Object;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/FlowableKTraverse;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/FlowableKTraverse;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/FlowableKTraverse;Larrow/Kind;)Larrow/Kind;
 }
@@ -1941,7 +1928,6 @@ public final class arrow/fx/rx2/extensions/MaybeKApplicative$DefaultImpls {
 	public static fun tupledN (Larrow/fx/rx2/extensions/MaybeKApplicative;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun tupledN (Larrow/fx/rx2/extensions/MaybeKApplicative;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/MaybeKApplicative;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/MaybeKApplicative;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/MaybeKApplicative;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/MaybeKApplicative;Larrow/Kind;)Larrow/Kind;
 }
@@ -2028,7 +2014,6 @@ public final class arrow/fx/rx2/extensions/MaybeKApplicativeError$DefaultImpls {
 	public static fun tupledN (Larrow/fx/rx2/extensions/MaybeKApplicativeError;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun tupledN (Larrow/fx/rx2/extensions/MaybeKApplicativeError;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/MaybeKApplicativeError;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/MaybeKApplicativeError;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/MaybeKApplicativeError;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/MaybeKApplicativeError;Larrow/Kind;)Larrow/Kind;
 }
@@ -2165,7 +2150,6 @@ public final class arrow/fx/rx2/extensions/MaybeKAsync$DefaultImpls {
 	public static fun uncancelable (Larrow/fx/rx2/extensions/MaybeKAsync;Larrow/Kind;)Larrow/Kind;
 	public static fun uncancellable (Larrow/fx/rx2/extensions/MaybeKAsync;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/MaybeKAsync;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/MaybeKAsync;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/MaybeKAsync;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/rx2/extensions/MaybeKAsync;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/MaybeKAsync;Larrow/Kind;)Larrow/Kind;
@@ -2283,7 +2267,6 @@ public final class arrow/fx/rx2/extensions/MaybeKBracket$DefaultImpls {
 	public static fun uncancelable (Larrow/fx/rx2/extensions/MaybeKBracket;Larrow/Kind;)Larrow/Kind;
 	public static fun uncancellable (Larrow/fx/rx2/extensions/MaybeKBracket;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/MaybeKBracket;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/MaybeKBracket;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/MaybeKBracket;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/rx2/extensions/MaybeKBracket;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/MaybeKBracket;Larrow/Kind;)Larrow/Kind;
@@ -2486,7 +2469,6 @@ public final class arrow/fx/rx2/extensions/MaybeKConcurrent$DefaultImpls {
 	public static fun uncancelable (Larrow/fx/rx2/extensions/MaybeKConcurrent;Larrow/Kind;)Larrow/Kind;
 	public static fun uncancellable (Larrow/fx/rx2/extensions/MaybeKConcurrent;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/MaybeKConcurrent;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/MaybeKConcurrent;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/MaybeKConcurrent;Larrow/Kind;)Larrow/Kind;
 	public static fun waitFor (Larrow/fx/rx2/extensions/MaybeKConcurrent;Larrow/Kind;Larrow/fx/typeclasses/Duration;)Larrow/Kind;
 	public static fun waitFor (Larrow/fx/rx2/extensions/MaybeKConcurrent;Larrow/Kind;Larrow/fx/typeclasses/Duration;Larrow/Kind;)Larrow/Kind;
@@ -2635,7 +2617,6 @@ public final class arrow/fx/rx2/extensions/MaybeKEffect$DefaultImpls {
 	public static fun uncancelable (Larrow/fx/rx2/extensions/MaybeKEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun uncancellable (Larrow/fx/rx2/extensions/MaybeKEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/MaybeKEffect;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/MaybeKEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/MaybeKEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/rx2/extensions/MaybeKEffect;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/MaybeKEffect;Larrow/Kind;)Larrow/Kind;
@@ -2663,6 +2644,7 @@ public final class arrow/fx/rx2/extensions/MaybeKFoldable$DefaultImpls {
 	public static fun foldLeft (Larrow/fx/rx2/extensions/MaybeKFoldable;Larrow/Kind;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Ljava/lang/Object;
 	public static fun foldM (Larrow/fx/rx2/extensions/MaybeKFoldable;Larrow/Kind;Larrow/typeclasses/Monad;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Larrow/Kind;
 	public static fun foldMap (Larrow/fx/rx2/extensions/MaybeKFoldable;Larrow/Kind;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Ljava/lang/Object;
+	public static fun foldMapA (Larrow/fx/rx2/extensions/MaybeKFoldable;Larrow/Kind;Larrow/typeclasses/Applicative;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static fun foldMapM (Larrow/fx/rx2/extensions/MaybeKFoldable;Larrow/Kind;Larrow/typeclasses/Monad;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static fun foldRight (Larrow/fx/rx2/extensions/MaybeKFoldable;Larrow/Kind;Larrow/core/Eval;Lkotlin/jvm/functions/Function2;)Larrow/core/Eval;
 	public static fun forAll (Larrow/fx/rx2/extensions/MaybeKFoldable;Larrow/Kind;Lkotlin/jvm/functions/Function1;)Z
@@ -2694,7 +2676,6 @@ public final class arrow/fx/rx2/extensions/MaybeKFunctor$DefaultImpls {
 	public static fun mapConst (Larrow/fx/rx2/extensions/MaybeKFunctor;Ljava/lang/Object;Larrow/Kind;)Larrow/Kind;
 	public static fun tupleLeft (Larrow/fx/rx2/extensions/MaybeKFunctor;Larrow/Kind;Ljava/lang/Object;)Larrow/Kind;
 	public static fun tupleRight (Larrow/fx/rx2/extensions/MaybeKFunctor;Larrow/Kind;Ljava/lang/Object;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/MaybeKFunctor;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/MaybeKFunctor;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/MaybeKFunctor;Larrow/Kind;)Larrow/Kind;
 }
@@ -2716,7 +2697,6 @@ public final class arrow/fx/rx2/extensions/MaybeKFunctorFilter$DefaultImpls {
 	public static fun mapConst (Larrow/fx/rx2/extensions/MaybeKFunctorFilter;Ljava/lang/Object;Larrow/Kind;)Larrow/Kind;
 	public static fun tupleLeft (Larrow/fx/rx2/extensions/MaybeKFunctorFilter;Larrow/Kind;Ljava/lang/Object;)Larrow/Kind;
 	public static fun tupleRight (Larrow/fx/rx2/extensions/MaybeKFunctorFilter;Larrow/Kind;Ljava/lang/Object;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/MaybeKFunctorFilter;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/MaybeKFunctorFilter;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/MaybeKFunctorFilter;Larrow/Kind;)Larrow/Kind;
 }
@@ -2813,7 +2793,6 @@ public final class arrow/fx/rx2/extensions/MaybeKMonad$DefaultImpls {
 	public static fun tupledN (Larrow/fx/rx2/extensions/MaybeKMonad;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun tupledN (Larrow/fx/rx2/extensions/MaybeKMonad;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/MaybeKMonad;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/MaybeKMonad;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/MaybeKMonad;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/rx2/extensions/MaybeKMonad;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/MaybeKMonad;Larrow/Kind;)Larrow/Kind;
@@ -2937,7 +2916,6 @@ public final class arrow/fx/rx2/extensions/MaybeKMonadDefer$DefaultImpls {
 	public static fun uncancelable (Larrow/fx/rx2/extensions/MaybeKMonadDefer;Larrow/Kind;)Larrow/Kind;
 	public static fun uncancellable (Larrow/fx/rx2/extensions/MaybeKMonadDefer;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/MaybeKMonadDefer;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/MaybeKMonadDefer;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/MaybeKMonadDefer;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/rx2/extensions/MaybeKMonadDefer;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/MaybeKMonadDefer;Larrow/Kind;)Larrow/Kind;
@@ -3047,7 +3025,6 @@ public final class arrow/fx/rx2/extensions/MaybeKMonadError$DefaultImpls {
 	public static fun tupledN (Larrow/fx/rx2/extensions/MaybeKMonadError;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun tupledN (Larrow/fx/rx2/extensions/MaybeKMonadError;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/MaybeKMonadError;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/MaybeKMonadError;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/MaybeKMonadError;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/rx2/extensions/MaybeKMonadError;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/MaybeKMonadError;Larrow/Kind;)Larrow/Kind;
@@ -3148,7 +3125,6 @@ public final class arrow/fx/rx2/extensions/MaybeKMonadFilter$DefaultImpls {
 	public static fun tupledN (Larrow/fx/rx2/extensions/MaybeKMonadFilter;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun tupledN (Larrow/fx/rx2/extensions/MaybeKMonadFilter;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/MaybeKMonadFilter;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/MaybeKMonadFilter;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/MaybeKMonadFilter;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/rx2/extensions/MaybeKMonadFilter;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/MaybeKMonadFilter;Larrow/Kind;)Larrow/Kind;
@@ -3257,7 +3233,6 @@ public final class arrow/fx/rx2/extensions/MaybeKMonadThrow$DefaultImpls {
 	public static fun tupledN (Larrow/fx/rx2/extensions/MaybeKMonadThrow;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun tupledN (Larrow/fx/rx2/extensions/MaybeKMonadThrow;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/MaybeKMonadThrow;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/MaybeKMonadThrow;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/MaybeKMonadThrow;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/rx2/extensions/MaybeKMonadThrow;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/MaybeKMonadThrow;Larrow/Kind;)Larrow/Kind;
@@ -3369,7 +3344,6 @@ public final class arrow/fx/rx2/extensions/ObservableKApplicative$DefaultImpls {
 	public static fun tupledN (Larrow/fx/rx2/extensions/ObservableKApplicative;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun tupledN (Larrow/fx/rx2/extensions/ObservableKApplicative;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/ObservableKApplicative;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/ObservableKApplicative;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/ObservableKApplicative;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/ObservableKApplicative;Larrow/Kind;)Larrow/Kind;
 }
@@ -3456,7 +3430,6 @@ public final class arrow/fx/rx2/extensions/ObservableKApplicativeError$DefaultIm
 	public static fun tupledN (Larrow/fx/rx2/extensions/ObservableKApplicativeError;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun tupledN (Larrow/fx/rx2/extensions/ObservableKApplicativeError;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/ObservableKApplicativeError;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/ObservableKApplicativeError;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/ObservableKApplicativeError;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/ObservableKApplicativeError;Larrow/Kind;)Larrow/Kind;
 }
@@ -3593,7 +3566,6 @@ public final class arrow/fx/rx2/extensions/ObservableKAsync$DefaultImpls {
 	public static fun uncancelable (Larrow/fx/rx2/extensions/ObservableKAsync;Larrow/Kind;)Larrow/Kind;
 	public static fun uncancellable (Larrow/fx/rx2/extensions/ObservableKAsync;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/ObservableKAsync;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/ObservableKAsync;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/ObservableKAsync;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/rx2/extensions/ObservableKAsync;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/ObservableKAsync;Larrow/Kind;)Larrow/Kind;
@@ -3711,7 +3683,6 @@ public final class arrow/fx/rx2/extensions/ObservableKBracket$DefaultImpls {
 	public static fun uncancelable (Larrow/fx/rx2/extensions/ObservableKBracket;Larrow/Kind;)Larrow/Kind;
 	public static fun uncancellable (Larrow/fx/rx2/extensions/ObservableKBracket;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/ObservableKBracket;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/ObservableKBracket;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/ObservableKBracket;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/rx2/extensions/ObservableKBracket;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/ObservableKBracket;Larrow/Kind;)Larrow/Kind;
@@ -3914,7 +3885,6 @@ public final class arrow/fx/rx2/extensions/ObservableKConcurrent$DefaultImpls {
 	public static fun uncancelable (Larrow/fx/rx2/extensions/ObservableKConcurrent;Larrow/Kind;)Larrow/Kind;
 	public static fun uncancellable (Larrow/fx/rx2/extensions/ObservableKConcurrent;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/ObservableKConcurrent;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/ObservableKConcurrent;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/ObservableKConcurrent;Larrow/Kind;)Larrow/Kind;
 	public static fun waitFor (Larrow/fx/rx2/extensions/ObservableKConcurrent;Larrow/Kind;Larrow/fx/typeclasses/Duration;)Larrow/Kind;
 	public static fun waitFor (Larrow/fx/rx2/extensions/ObservableKConcurrent;Larrow/Kind;Larrow/fx/typeclasses/Duration;Larrow/Kind;)Larrow/Kind;
@@ -4054,7 +4024,6 @@ public final class arrow/fx/rx2/extensions/ObservableKConcurrentEffect$DefaultIm
 	public static fun uncancelable (Larrow/fx/rx2/extensions/ObservableKConcurrentEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun uncancellable (Larrow/fx/rx2/extensions/ObservableKConcurrentEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/ObservableKConcurrentEffect;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/ObservableKConcurrentEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/ObservableKConcurrentEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/rx2/extensions/ObservableKConcurrentEffect;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/ObservableKConcurrentEffect;Larrow/Kind;)Larrow/Kind;
@@ -4201,7 +4170,6 @@ public final class arrow/fx/rx2/extensions/ObservableKEffect$DefaultImpls {
 	public static fun uncancelable (Larrow/fx/rx2/extensions/ObservableKEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun uncancellable (Larrow/fx/rx2/extensions/ObservableKEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/ObservableKEffect;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/ObservableKEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/ObservableKEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/rx2/extensions/ObservableKEffect;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/ObservableKEffect;Larrow/Kind;)Larrow/Kind;
@@ -4225,6 +4193,7 @@ public final class arrow/fx/rx2/extensions/ObservableKFoldable$DefaultImpls {
 	public static fun foldLeft (Larrow/fx/rx2/extensions/ObservableKFoldable;Larrow/Kind;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Ljava/lang/Object;
 	public static fun foldM (Larrow/fx/rx2/extensions/ObservableKFoldable;Larrow/Kind;Larrow/typeclasses/Monad;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Larrow/Kind;
 	public static fun foldMap (Larrow/fx/rx2/extensions/ObservableKFoldable;Larrow/Kind;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Ljava/lang/Object;
+	public static fun foldMapA (Larrow/fx/rx2/extensions/ObservableKFoldable;Larrow/Kind;Larrow/typeclasses/Applicative;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static fun foldMapM (Larrow/fx/rx2/extensions/ObservableKFoldable;Larrow/Kind;Larrow/typeclasses/Monad;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static fun foldRight (Larrow/fx/rx2/extensions/ObservableKFoldable;Larrow/Kind;Larrow/core/Eval;Lkotlin/jvm/functions/Function2;)Larrow/core/Eval;
 	public static fun forAll (Larrow/fx/rx2/extensions/ObservableKFoldable;Larrow/Kind;Lkotlin/jvm/functions/Function1;)Z
@@ -4256,7 +4225,6 @@ public final class arrow/fx/rx2/extensions/ObservableKFunctor$DefaultImpls {
 	public static fun mapConst (Larrow/fx/rx2/extensions/ObservableKFunctor;Ljava/lang/Object;Larrow/Kind;)Larrow/Kind;
 	public static fun tupleLeft (Larrow/fx/rx2/extensions/ObservableKFunctor;Larrow/Kind;Ljava/lang/Object;)Larrow/Kind;
 	public static fun tupleRight (Larrow/fx/rx2/extensions/ObservableKFunctor;Larrow/Kind;Ljava/lang/Object;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/ObservableKFunctor;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/ObservableKFunctor;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/ObservableKFunctor;Larrow/Kind;)Larrow/Kind;
 }
@@ -4278,7 +4246,6 @@ public final class arrow/fx/rx2/extensions/ObservableKFunctorFilter$DefaultImpls
 	public static fun mapConst (Larrow/fx/rx2/extensions/ObservableKFunctorFilter;Ljava/lang/Object;Larrow/Kind;)Larrow/Kind;
 	public static fun tupleLeft (Larrow/fx/rx2/extensions/ObservableKFunctorFilter;Larrow/Kind;Ljava/lang/Object;)Larrow/Kind;
 	public static fun tupleRight (Larrow/fx/rx2/extensions/ObservableKFunctorFilter;Larrow/Kind;Ljava/lang/Object;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/ObservableKFunctorFilter;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/ObservableKFunctorFilter;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/ObservableKFunctorFilter;Larrow/Kind;)Larrow/Kind;
 }
@@ -4375,7 +4342,6 @@ public final class arrow/fx/rx2/extensions/ObservableKMonad$DefaultImpls {
 	public static fun tupledN (Larrow/fx/rx2/extensions/ObservableKMonad;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun tupledN (Larrow/fx/rx2/extensions/ObservableKMonad;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/ObservableKMonad;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/ObservableKMonad;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/ObservableKMonad;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/rx2/extensions/ObservableKMonad;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/ObservableKMonad;Larrow/Kind;)Larrow/Kind;
@@ -4499,7 +4465,6 @@ public final class arrow/fx/rx2/extensions/ObservableKMonadDefer$DefaultImpls {
 	public static fun uncancelable (Larrow/fx/rx2/extensions/ObservableKMonadDefer;Larrow/Kind;)Larrow/Kind;
 	public static fun uncancellable (Larrow/fx/rx2/extensions/ObservableKMonadDefer;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/ObservableKMonadDefer;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/ObservableKMonadDefer;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/ObservableKMonadDefer;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/rx2/extensions/ObservableKMonadDefer;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/ObservableKMonadDefer;Larrow/Kind;)Larrow/Kind;
@@ -4609,7 +4574,6 @@ public final class arrow/fx/rx2/extensions/ObservableKMonadError$DefaultImpls {
 	public static fun tupledN (Larrow/fx/rx2/extensions/ObservableKMonadError;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun tupledN (Larrow/fx/rx2/extensions/ObservableKMonadError;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/ObservableKMonadError;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/ObservableKMonadError;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/ObservableKMonadError;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/rx2/extensions/ObservableKMonadError;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/ObservableKMonadError;Larrow/Kind;)Larrow/Kind;
@@ -4718,7 +4682,6 @@ public final class arrow/fx/rx2/extensions/ObservableKMonadThrow$DefaultImpls {
 	public static fun tupledN (Larrow/fx/rx2/extensions/ObservableKMonadThrow;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun tupledN (Larrow/fx/rx2/extensions/ObservableKMonadThrow;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/ObservableKMonadThrow;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/ObservableKMonadThrow;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/ObservableKMonadThrow;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/rx2/extensions/ObservableKMonadThrow;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/ObservableKMonadThrow;Larrow/Kind;)Larrow/Kind;
@@ -4826,7 +4789,6 @@ public final class arrow/fx/rx2/extensions/SingleKApplicative$DefaultImpls {
 	public static fun tupledN (Larrow/fx/rx2/extensions/SingleKApplicative;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun tupledN (Larrow/fx/rx2/extensions/SingleKApplicative;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/SingleKApplicative;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/SingleKApplicative;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/SingleKApplicative;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/SingleKApplicative;Larrow/Kind;)Larrow/Kind;
 }
@@ -4913,7 +4875,6 @@ public final class arrow/fx/rx2/extensions/SingleKApplicativeError$DefaultImpls 
 	public static fun tupledN (Larrow/fx/rx2/extensions/SingleKApplicativeError;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun tupledN (Larrow/fx/rx2/extensions/SingleKApplicativeError;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/SingleKApplicativeError;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/SingleKApplicativeError;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/SingleKApplicativeError;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/SingleKApplicativeError;Larrow/Kind;)Larrow/Kind;
 }
@@ -5050,7 +5011,6 @@ public final class arrow/fx/rx2/extensions/SingleKAsync$DefaultImpls {
 	public static fun uncancelable (Larrow/fx/rx2/extensions/SingleKAsync;Larrow/Kind;)Larrow/Kind;
 	public static fun uncancellable (Larrow/fx/rx2/extensions/SingleKAsync;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/SingleKAsync;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/SingleKAsync;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/SingleKAsync;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/rx2/extensions/SingleKAsync;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/SingleKAsync;Larrow/Kind;)Larrow/Kind;
@@ -5168,7 +5128,6 @@ public final class arrow/fx/rx2/extensions/SingleKBracket$DefaultImpls {
 	public static fun uncancelable (Larrow/fx/rx2/extensions/SingleKBracket;Larrow/Kind;)Larrow/Kind;
 	public static fun uncancellable (Larrow/fx/rx2/extensions/SingleKBracket;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/SingleKBracket;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/SingleKBracket;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/SingleKBracket;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/rx2/extensions/SingleKBracket;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/SingleKBracket;Larrow/Kind;)Larrow/Kind;
@@ -5371,7 +5330,6 @@ public final class arrow/fx/rx2/extensions/SingleKConcurrent$DefaultImpls {
 	public static fun uncancelable (Larrow/fx/rx2/extensions/SingleKConcurrent;Larrow/Kind;)Larrow/Kind;
 	public static fun uncancellable (Larrow/fx/rx2/extensions/SingleKConcurrent;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/SingleKConcurrent;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/SingleKConcurrent;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/SingleKConcurrent;Larrow/Kind;)Larrow/Kind;
 	public static fun waitFor (Larrow/fx/rx2/extensions/SingleKConcurrent;Larrow/Kind;Larrow/fx/typeclasses/Duration;)Larrow/Kind;
 	public static fun waitFor (Larrow/fx/rx2/extensions/SingleKConcurrent;Larrow/Kind;Larrow/fx/typeclasses/Duration;Larrow/Kind;)Larrow/Kind;
@@ -5511,7 +5469,6 @@ public final class arrow/fx/rx2/extensions/SingleKConcurrentEffect$DefaultImpls 
 	public static fun uncancelable (Larrow/fx/rx2/extensions/SingleKConcurrentEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun uncancellable (Larrow/fx/rx2/extensions/SingleKConcurrentEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/SingleKConcurrentEffect;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/SingleKConcurrentEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/SingleKConcurrentEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/rx2/extensions/SingleKConcurrentEffect;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/SingleKConcurrentEffect;Larrow/Kind;)Larrow/Kind;
@@ -5658,7 +5615,6 @@ public final class arrow/fx/rx2/extensions/SingleKEffect$DefaultImpls {
 	public static fun uncancelable (Larrow/fx/rx2/extensions/SingleKEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun uncancellable (Larrow/fx/rx2/extensions/SingleKEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/SingleKEffect;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/SingleKEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/SingleKEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/rx2/extensions/SingleKEffect;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/SingleKEffect;Larrow/Kind;)Larrow/Kind;
@@ -5677,7 +5633,6 @@ public final class arrow/fx/rx2/extensions/SingleKFunctor$DefaultImpls {
 	public static fun mapConst (Larrow/fx/rx2/extensions/SingleKFunctor;Ljava/lang/Object;Larrow/Kind;)Larrow/Kind;
 	public static fun tupleLeft (Larrow/fx/rx2/extensions/SingleKFunctor;Larrow/Kind;Ljava/lang/Object;)Larrow/Kind;
 	public static fun tupleRight (Larrow/fx/rx2/extensions/SingleKFunctor;Larrow/Kind;Ljava/lang/Object;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/SingleKFunctor;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/SingleKFunctor;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/SingleKFunctor;Larrow/Kind;)Larrow/Kind;
 }
@@ -5774,7 +5729,6 @@ public final class arrow/fx/rx2/extensions/SingleKMonad$DefaultImpls {
 	public static fun tupledN (Larrow/fx/rx2/extensions/SingleKMonad;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun tupledN (Larrow/fx/rx2/extensions/SingleKMonad;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/SingleKMonad;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/SingleKMonad;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/SingleKMonad;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/rx2/extensions/SingleKMonad;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/SingleKMonad;Larrow/Kind;)Larrow/Kind;
@@ -5898,7 +5852,6 @@ public final class arrow/fx/rx2/extensions/SingleKMonadDefer$DefaultImpls {
 	public static fun uncancelable (Larrow/fx/rx2/extensions/SingleKMonadDefer;Larrow/Kind;)Larrow/Kind;
 	public static fun uncancellable (Larrow/fx/rx2/extensions/SingleKMonadDefer;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/SingleKMonadDefer;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/SingleKMonadDefer;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/SingleKMonadDefer;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/rx2/extensions/SingleKMonadDefer;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/SingleKMonadDefer;Larrow/Kind;)Larrow/Kind;
@@ -6008,7 +5961,6 @@ public final class arrow/fx/rx2/extensions/SingleKMonadError$DefaultImpls {
 	public static fun tupledN (Larrow/fx/rx2/extensions/SingleKMonadError;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun tupledN (Larrow/fx/rx2/extensions/SingleKMonadError;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/SingleKMonadError;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/SingleKMonadError;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/SingleKMonadError;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/rx2/extensions/SingleKMonadError;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/SingleKMonadError;Larrow/Kind;)Larrow/Kind;
@@ -6117,7 +6069,6 @@ public final class arrow/fx/rx2/extensions/SingleKMonadThrow$DefaultImpls {
 	public static fun tupledN (Larrow/fx/rx2/extensions/SingleKMonadThrow;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun tupledN (Larrow/fx/rx2/extensions/SingleKMonadThrow;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/rx2/extensions/SingleKMonadThrow;)Larrow/Kind;
-	public static fun unit (Larrow/fx/rx2/extensions/SingleKMonadThrow;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/rx2/extensions/SingleKMonadThrow;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/rx2/extensions/SingleKMonadThrow;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/rx2/extensions/SingleKMonadThrow;Larrow/Kind;)Larrow/Kind;
@@ -6231,6 +6182,7 @@ public final class arrow/fx/rx2/extensions/flowablek/foldable/FlowableKFoldableK
 	public static final fun foldLeft (Larrow/Kind;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Ljava/lang/Object;
 	public static final fun foldM (Larrow/Kind;Larrow/typeclasses/Monad;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Larrow/Kind;
 	public static final fun foldMap (Larrow/Kind;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Ljava/lang/Object;
+	public static final fun foldMapA (Larrow/Kind;Larrow/typeclasses/Applicative;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static final fun foldMapM (Larrow/Kind;Larrow/typeclasses/Monad;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static final fun foldRight (Larrow/Kind;Larrow/core/Eval;Lkotlin/jvm/functions/Function2;)Larrow/core/Eval;
 	public static final fun foldable (Larrow/fx/rx2/FlowableK$Companion;)Larrow/fx/rx2/extensions/FlowableKFoldable;
@@ -6260,7 +6212,6 @@ public final class arrow/fx/rx2/extensions/flowablek/functor/FlowableKFunctorKt 
 	public static final fun mapConst (Ljava/lang/Object;Larrow/Kind;)Larrow/fx/rx2/FlowableK;
 	public static final fun tupleLeft (Larrow/Kind;Ljava/lang/Object;)Larrow/fx/rx2/FlowableK;
 	public static final fun tupleRight (Larrow/Kind;Ljava/lang/Object;)Larrow/fx/rx2/FlowableK;
-	public static final fun unit (Larrow/Kind;)Larrow/fx/rx2/FlowableK;
 	public static final fun void (Larrow/Kind;)Larrow/fx/rx2/FlowableK;
 	public static final fun widen (Larrow/Kind;)Larrow/fx/rx2/FlowableK;
 }
@@ -6409,6 +6360,7 @@ public final class arrow/fx/rx2/extensions/maybek/foldable/MaybeKFoldableKt {
 	public static final fun foldLeft (Larrow/Kind;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Ljava/lang/Object;
 	public static final fun foldM (Larrow/Kind;Larrow/typeclasses/Monad;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Larrow/Kind;
 	public static final fun foldMap (Larrow/Kind;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Ljava/lang/Object;
+	public static final fun foldMapA (Larrow/Kind;Larrow/typeclasses/Applicative;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static final fun foldMapM (Larrow/Kind;Larrow/typeclasses/Monad;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static final fun foldRight (Larrow/Kind;Larrow/core/Eval;Lkotlin/jvm/functions/Function2;)Larrow/core/Eval;
 	public static final fun foldable (Larrow/fx/rx2/MaybeK$Companion;)Larrow/fx/rx2/extensions/MaybeKFoldable;
@@ -6438,7 +6390,6 @@ public final class arrow/fx/rx2/extensions/maybek/functor/MaybeKFunctorKt {
 	public static final fun mapConst (Ljava/lang/Object;Larrow/Kind;)Larrow/fx/rx2/MaybeK;
 	public static final fun tupleLeft (Larrow/Kind;Ljava/lang/Object;)Larrow/fx/rx2/MaybeK;
 	public static final fun tupleRight (Larrow/Kind;Ljava/lang/Object;)Larrow/fx/rx2/MaybeK;
-	public static final fun unit (Larrow/Kind;)Larrow/fx/rx2/MaybeK;
 	public static final fun void (Larrow/Kind;)Larrow/fx/rx2/MaybeK;
 	public static final fun widen (Larrow/Kind;)Larrow/fx/rx2/MaybeK;
 }
@@ -6590,6 +6541,7 @@ public final class arrow/fx/rx2/extensions/observablek/foldable/ObservableKFolda
 	public static final fun foldLeft (Larrow/Kind;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Ljava/lang/Object;
 	public static final fun foldM (Larrow/Kind;Larrow/typeclasses/Monad;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Larrow/Kind;
 	public static final fun foldMap (Larrow/Kind;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Ljava/lang/Object;
+	public static final fun foldMapA (Larrow/Kind;Larrow/typeclasses/Applicative;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static final fun foldMapM (Larrow/Kind;Larrow/typeclasses/Monad;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static final fun foldRight (Larrow/Kind;Larrow/core/Eval;Lkotlin/jvm/functions/Function2;)Larrow/core/Eval;
 	public static final fun foldable (Larrow/fx/rx2/ObservableK$Companion;)Larrow/fx/rx2/extensions/ObservableKFoldable;
@@ -6619,7 +6571,6 @@ public final class arrow/fx/rx2/extensions/observablek/functor/ObservableKFuncto
 	public static final fun mapConst (Ljava/lang/Object;Larrow/Kind;)Larrow/fx/rx2/ObservableK;
 	public static final fun tupleLeft (Larrow/Kind;Ljava/lang/Object;)Larrow/fx/rx2/ObservableK;
 	public static final fun tupleRight (Larrow/Kind;Ljava/lang/Object;)Larrow/fx/rx2/ObservableK;
-	public static final fun unit (Larrow/Kind;)Larrow/fx/rx2/ObservableK;
 	public static final fun void (Larrow/Kind;)Larrow/fx/rx2/ObservableK;
 	public static final fun widen (Larrow/Kind;)Larrow/fx/rx2/ObservableK;
 }
@@ -6756,7 +6707,6 @@ public final class arrow/fx/rx2/extensions/singlek/functor/SingleKFunctorKt {
 	public static final fun mapConst (Ljava/lang/Object;Larrow/Kind;)Larrow/fx/rx2/SingleK;
 	public static final fun tupleLeft (Larrow/Kind;Ljava/lang/Object;)Larrow/fx/rx2/SingleK;
 	public static final fun tupleRight (Larrow/Kind;Ljava/lang/Object;)Larrow/fx/rx2/SingleK;
-	public static final fun unit (Larrow/Kind;)Larrow/fx/rx2/SingleK;
 	public static final fun void (Larrow/Kind;)Larrow/fx/rx2/SingleK;
 	public static final fun widen (Larrow/Kind;)Larrow/fx/rx2/SingleK;
 }

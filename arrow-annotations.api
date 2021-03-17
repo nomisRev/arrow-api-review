@@ -15,6 +15,10 @@ public final class arrow/ExtensionKt {
 	public static final fun given ()Ljava/lang/Object;
 }
 
+public final class arrow/HksKt {
+	public static final field KindDeprecation Ljava/lang/String;
+}
+
 public abstract interface class arrow/Kind {
 }
 

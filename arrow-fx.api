@@ -191,6 +191,7 @@ public final class arrow/fx/IODispatchersKt {
 }
 
 public final class arrow/fx/IOKt {
+	public static final field IODeprecation Ljava/lang/String;
 	public static final fun effectMapEither (Larrow/fx/IO;Lkotlin/jvm/functions/Function2;)Larrow/fx/IO;
 	public static final fun fix (Larrow/Kind;)Larrow/fx/IO;
 	public static final fun flattenEither (Larrow/fx/IO;)Larrow/fx/IO;
@@ -1299,12 +1300,6 @@ public final class arrow/fx/Timer$Companion {
 	public final fun invoke (Larrow/fx/typeclasses/Concurrent;)Larrow/fx/Timer;
 }
 
-public final class arrow/fx/UnhandledError : java/lang/Throwable {
-	public fun <init> (Ljava/lang/Object;)V
-	public fun fillInStackTrace ()Ljava/lang/Throwable;
-	public final fun getError ()Ljava/lang/Object;
-}
-
 public abstract interface class arrow/fx/extensions/DurationEq : arrow/typeclasses/Eq {
 	public abstract fun eqv (Larrow/fx/typeclasses/Duration;Larrow/fx/typeclasses/Duration;)Z
 }
@@ -1454,7 +1449,6 @@ public final class arrow/fx/extensions/IOApplicative$DefaultImpls {
 	public static fun tupledN (Larrow/fx/extensions/IOApplicative;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun tupledN (Larrow/fx/extensions/IOApplicative;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/extensions/IOApplicative;)Larrow/Kind;
-	public static fun unit (Larrow/fx/extensions/IOApplicative;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/extensions/IOApplicative;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/extensions/IOApplicative;Larrow/Kind;)Larrow/Kind;
 }
@@ -1544,7 +1538,6 @@ public final class arrow/fx/extensions/IOApplicativeError$DefaultImpls {
 	public static fun tupledN (Larrow/fx/extensions/IOApplicativeError;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun tupledN (Larrow/fx/extensions/IOApplicativeError;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/extensions/IOApplicativeError;)Larrow/Kind;
-	public static fun unit (Larrow/fx/extensions/IOApplicativeError;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/extensions/IOApplicativeError;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/extensions/IOApplicativeError;Larrow/Kind;)Larrow/Kind;
 }
@@ -1615,7 +1608,6 @@ public final class arrow/fx/extensions/IOApply$DefaultImpls {
 	public static fun tupledN (Larrow/fx/extensions/IOApply;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun tupledN (Larrow/fx/extensions/IOApply;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun tupledN (Larrow/fx/extensions/IOApply;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
-	public static fun unit (Larrow/fx/extensions/IOApply;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/extensions/IOApply;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/extensions/IOApply;Larrow/Kind;)Larrow/Kind;
 }
@@ -1754,7 +1746,6 @@ public final class arrow/fx/extensions/IOAsync$DefaultImpls {
 	public static fun uncancelable (Larrow/fx/extensions/IOAsync;Larrow/Kind;)Larrow/Kind;
 	public static fun uncancellable (Larrow/fx/extensions/IOAsync;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/extensions/IOAsync;)Larrow/Kind;
-	public static fun unit (Larrow/fx/extensions/IOAsync;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/extensions/IOAsync;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/extensions/IOAsync;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/extensions/IOAsync;Larrow/Kind;)Larrow/Kind;
@@ -1875,7 +1866,6 @@ public final class arrow/fx/extensions/IOBracket$DefaultImpls {
 	public static fun uncancelable (Larrow/fx/extensions/IOBracket;Larrow/Kind;)Larrow/Kind;
 	public static fun uncancellable (Larrow/fx/extensions/IOBracket;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/extensions/IOBracket;)Larrow/Kind;
-	public static fun unit (Larrow/fx/extensions/IOBracket;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/extensions/IOBracket;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/extensions/IOBracket;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/extensions/IOBracket;Larrow/Kind;)Larrow/Kind;
@@ -2080,7 +2070,6 @@ public final class arrow/fx/extensions/IOConcurrent$DefaultImpls {
 	public static fun uncancelable (Larrow/fx/extensions/IOConcurrent;Larrow/Kind;)Larrow/Kind;
 	public static fun uncancellable (Larrow/fx/extensions/IOConcurrent;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/extensions/IOConcurrent;)Larrow/Kind;
-	public static fun unit (Larrow/fx/extensions/IOConcurrent;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/extensions/IOConcurrent;Larrow/Kind;)Larrow/Kind;
 	public static fun waitFor (Larrow/fx/extensions/IOConcurrent;Larrow/Kind;Larrow/fx/typeclasses/Duration;)Larrow/Kind;
 	public static fun waitFor (Larrow/fx/extensions/IOConcurrent;Larrow/Kind;Larrow/fx/typeclasses/Duration;Larrow/Kind;)Larrow/Kind;
@@ -2281,7 +2270,6 @@ public final class arrow/fx/extensions/IOConcurrentEffect$DefaultImpls {
 	public static fun uncancelable (Larrow/fx/extensions/IOConcurrentEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun uncancellable (Larrow/fx/extensions/IOConcurrentEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/extensions/IOConcurrentEffect;)Larrow/Kind;
-	public static fun unit (Larrow/fx/extensions/IOConcurrentEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/extensions/IOConcurrentEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun waitFor (Larrow/fx/extensions/IOConcurrentEffect;Larrow/Kind;Larrow/fx/typeclasses/Duration;)Larrow/Kind;
 	public static fun waitFor (Larrow/fx/extensions/IOConcurrentEffect;Larrow/Kind;Larrow/fx/typeclasses/Duration;Larrow/Kind;)Larrow/Kind;
@@ -2481,7 +2469,6 @@ public final class arrow/fx/extensions/IODefaultConcurrent$DefaultImpls {
 	public static fun uncancelable (Larrow/fx/extensions/IODefaultConcurrent;Larrow/Kind;)Larrow/Kind;
 	public static fun uncancellable (Larrow/fx/extensions/IODefaultConcurrent;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/extensions/IODefaultConcurrent;)Larrow/Kind;
-	public static fun unit (Larrow/fx/extensions/IODefaultConcurrent;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/extensions/IODefaultConcurrent;Larrow/Kind;)Larrow/Kind;
 	public static fun waitFor (Larrow/fx/extensions/IODefaultConcurrent;Larrow/Kind;Larrow/fx/typeclasses/Duration;)Larrow/Kind;
 	public static fun waitFor (Larrow/fx/extensions/IODefaultConcurrent;Larrow/Kind;Larrow/fx/typeclasses/Duration;Larrow/Kind;)Larrow/Kind;
@@ -2682,7 +2669,6 @@ public final class arrow/fx/extensions/IODefaultConcurrentEffect$DefaultImpls {
 	public static fun uncancelable (Larrow/fx/extensions/IODefaultConcurrentEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun uncancellable (Larrow/fx/extensions/IODefaultConcurrentEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/extensions/IODefaultConcurrentEffect;)Larrow/Kind;
-	public static fun unit (Larrow/fx/extensions/IODefaultConcurrentEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/extensions/IODefaultConcurrentEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun waitFor (Larrow/fx/extensions/IODefaultConcurrentEffect;Larrow/Kind;Larrow/fx/typeclasses/Duration;)Larrow/Kind;
 	public static fun waitFor (Larrow/fx/extensions/IODefaultConcurrentEffect;Larrow/Kind;Larrow/fx/typeclasses/Duration;Larrow/Kind;)Larrow/Kind;
@@ -2831,7 +2817,6 @@ public final class arrow/fx/extensions/IOEffect$DefaultImpls {
 	public static fun uncancelable (Larrow/fx/extensions/IOEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun uncancellable (Larrow/fx/extensions/IOEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/extensions/IOEffect;)Larrow/Kind;
-	public static fun unit (Larrow/fx/extensions/IOEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/extensions/IOEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/extensions/IOEffect;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/extensions/IOEffect;Larrow/Kind;)Larrow/Kind;
@@ -2860,7 +2845,6 @@ public final class arrow/fx/extensions/IOFunctor$DefaultImpls {
 	public static fun mapConst (Larrow/fx/extensions/IOFunctor;Ljava/lang/Object;Larrow/Kind;)Larrow/Kind;
 	public static fun tupleLeft (Larrow/fx/extensions/IOFunctor;Larrow/Kind;Ljava/lang/Object;)Larrow/Kind;
 	public static fun tupleRight (Larrow/fx/extensions/IOFunctor;Larrow/Kind;Ljava/lang/Object;)Larrow/Kind;
-	public static fun unit (Larrow/fx/extensions/IOFunctor;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/extensions/IOFunctor;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/extensions/IOFunctor;Larrow/Kind;)Larrow/Kind;
 }
@@ -2957,7 +2941,6 @@ public final class arrow/fx/extensions/IOMonad$DefaultImpls {
 	public static fun tupledN (Larrow/fx/extensions/IOMonad;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun tupledN (Larrow/fx/extensions/IOMonad;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/extensions/IOMonad;)Larrow/Kind;
-	public static fun unit (Larrow/fx/extensions/IOMonad;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/extensions/IOMonad;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/extensions/IOMonad;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/extensions/IOMonad;Larrow/Kind;)Larrow/Kind;
@@ -3082,7 +3065,6 @@ public final class arrow/fx/extensions/IOMonadDefer$DefaultImpls {
 	public static fun uncancelable (Larrow/fx/extensions/IOMonadDefer;Larrow/Kind;)Larrow/Kind;
 	public static fun uncancellable (Larrow/fx/extensions/IOMonadDefer;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/extensions/IOMonadDefer;)Larrow/Kind;
-	public static fun unit (Larrow/fx/extensions/IOMonadDefer;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/extensions/IOMonadDefer;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/extensions/IOMonadDefer;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/extensions/IOMonadDefer;Larrow/Kind;)Larrow/Kind;
@@ -3198,7 +3180,6 @@ public final class arrow/fx/extensions/IOMonadError$DefaultImpls {
 	public static fun tupledN (Larrow/fx/extensions/IOMonadError;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun tupledN (Larrow/fx/extensions/IOMonadError;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/extensions/IOMonadError;)Larrow/Kind;
-	public static fun unit (Larrow/fx/extensions/IOMonadError;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/extensions/IOMonadError;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/extensions/IOMonadError;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/extensions/IOMonadError;Larrow/Kind;)Larrow/Kind;
@@ -3293,7 +3274,6 @@ public final class arrow/fx/extensions/IOMonadIO$DefaultImpls {
 	public static fun tupledN (Larrow/fx/extensions/IOMonadIO;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun tupledN (Larrow/fx/extensions/IOMonadIO;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/extensions/IOMonadIO;)Larrow/Kind;
-	public static fun unit (Larrow/fx/extensions/IOMonadIO;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/extensions/IOMonadIO;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/extensions/IOMonadIO;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/extensions/IOMonadIO;Larrow/Kind;)Larrow/Kind;
@@ -3402,7 +3382,6 @@ public final class arrow/fx/extensions/IOMonadThrow$DefaultImpls {
 	public static fun tupledN (Larrow/fx/extensions/IOMonadThrow;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun tupledN (Larrow/fx/extensions/IOMonadThrow;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/extensions/IOMonadThrow;)Larrow/Kind;
-	public static fun unit (Larrow/fx/extensions/IOMonadThrow;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/extensions/IOMonadThrow;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/extensions/IOMonadThrow;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/extensions/IOMonadThrow;Larrow/Kind;)Larrow/Kind;
@@ -3555,7 +3534,6 @@ public final class arrow/fx/extensions/ResourceApplicative$DefaultImpls {
 	public static fun tupledN (Larrow/fx/extensions/ResourceApplicative;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun tupledN (Larrow/fx/extensions/ResourceApplicative;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/extensions/ResourceApplicative;)Larrow/Kind;
-	public static fun unit (Larrow/fx/extensions/ResourceApplicative;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/extensions/ResourceApplicative;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/extensions/ResourceApplicative;Larrow/Kind;)Larrow/Kind;
 }
@@ -3574,7 +3552,6 @@ public final class arrow/fx/extensions/ResourceFunctor$DefaultImpls {
 	public static fun mapConst (Larrow/fx/extensions/ResourceFunctor;Ljava/lang/Object;Larrow/Kind;)Larrow/Kind;
 	public static fun tupleLeft (Larrow/fx/extensions/ResourceFunctor;Larrow/Kind;Ljava/lang/Object;)Larrow/Kind;
 	public static fun tupleRight (Larrow/fx/extensions/ResourceFunctor;Larrow/Kind;Ljava/lang/Object;)Larrow/Kind;
-	public static fun unit (Larrow/fx/extensions/ResourceFunctor;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/extensions/ResourceFunctor;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/extensions/ResourceFunctor;Larrow/Kind;)Larrow/Kind;
 }
@@ -3672,7 +3649,6 @@ public final class arrow/fx/extensions/ResourceMonad$DefaultImpls {
 	public static fun tupledN (Larrow/fx/extensions/ResourceMonad;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun tupledN (Larrow/fx/extensions/ResourceMonad;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/extensions/ResourceMonad;)Larrow/Kind;
-	public static fun unit (Larrow/fx/extensions/ResourceMonad;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/extensions/ResourceMonad;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/extensions/ResourceMonad;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/extensions/ResourceMonad;Larrow/Kind;)Larrow/Kind;
@@ -3769,7 +3745,6 @@ public final class arrow/fx/extensions/ResourceMonadIO$DefaultImpls {
 	public static fun tupledN (Larrow/fx/extensions/ResourceMonadIO;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun tupledN (Larrow/fx/extensions/ResourceMonadIO;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/extensions/ResourceMonadIO;)Larrow/Kind;
-	public static fun unit (Larrow/fx/extensions/ResourceMonadIO;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/extensions/ResourceMonadIO;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/extensions/ResourceMonadIO;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/extensions/ResourceMonadIO;Larrow/Kind;)Larrow/Kind;
@@ -3867,7 +3842,6 @@ public final class arrow/fx/extensions/ResourceSelective$DefaultImpls {
 	public static fun tupledN (Larrow/fx/extensions/ResourceSelective;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun tupledN (Larrow/fx/extensions/ResourceSelective;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/extensions/ResourceSelective;)Larrow/Kind;
-	public static fun unit (Larrow/fx/extensions/ResourceSelective;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/extensions/ResourceSelective;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/extensions/ResourceSelective;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/extensions/ResourceSelective;Larrow/Kind;)Larrow/Kind;
@@ -3956,7 +3930,6 @@ public final class arrow/fx/extensions/ScheduleApplicative$DefaultImpls {
 	public static fun tupledN (Larrow/fx/extensions/ScheduleApplicative;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun tupledN (Larrow/fx/extensions/ScheduleApplicative;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/extensions/ScheduleApplicative;)Larrow/Kind;
-	public static fun unit (Larrow/fx/extensions/ScheduleApplicative;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/extensions/ScheduleApplicative;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/extensions/ScheduleApplicative;Larrow/Kind;)Larrow/Kind;
 }
@@ -4025,7 +3998,6 @@ public final class arrow/fx/extensions/ScheduleAppy$DefaultImpls {
 	public static fun tupledN (Larrow/fx/extensions/ScheduleAppy;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun tupledN (Larrow/fx/extensions/ScheduleAppy;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun tupledN (Larrow/fx/extensions/ScheduleAppy;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
-	public static fun unit (Larrow/fx/extensions/ScheduleAppy;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/extensions/ScheduleAppy;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/extensions/ScheduleAppy;Larrow/Kind;)Larrow/Kind;
 }
@@ -4068,7 +4040,6 @@ public final class arrow/fx/extensions/ScheduleFunctor$DefaultImpls {
 	public static fun mapConst (Larrow/fx/extensions/ScheduleFunctor;Ljava/lang/Object;Larrow/Kind;)Larrow/Kind;
 	public static fun tupleLeft (Larrow/fx/extensions/ScheduleFunctor;Larrow/Kind;Ljava/lang/Object;)Larrow/Kind;
 	public static fun tupleRight (Larrow/fx/extensions/ScheduleFunctor;Larrow/Kind;Ljava/lang/Object;)Larrow/Kind;
-	public static fun unit (Larrow/fx/extensions/ScheduleFunctor;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/extensions/ScheduleFunctor;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/extensions/ScheduleFunctor;Larrow/Kind;)Larrow/Kind;
 }
@@ -4156,6 +4127,11 @@ public final class arrow/fx/extensions/duration/semigroup/DurationSemigroupKt {
 public final class arrow/fx/extensions/exitcase/eq/ExitCaseEqKt {
 	public static final fun eq (Larrow/fx/typeclasses/ExitCase$Companion;Larrow/typeclasses/Eq;)Larrow/fx/extensions/ExitCaseEq;
 	public static final fun neqv (Larrow/fx/typeclasses/ExitCase;Larrow/typeclasses/Eq;Larrow/fx/typeclasses/ExitCase;)Z
+}
+
+public final class arrow/fx/extensions/invariant/QueueInvariantKt {
+	public static final fun imap (Larrow/Kind;Larrow/typeclasses/Functor;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;)Larrow/fx/Queue;
+	public static final fun invariant (Larrow/fx/Queue$Companion;Larrow/typeclasses/Functor;)Larrow/fx/extensions/QueueInvariant;
 }
 
 public final class arrow/fx/extensions/io/applicative/IOApplicativeKt {
@@ -4354,7 +4330,6 @@ public final class arrow/fx/extensions/io/functor/IOFunctorKt {
 	public static final fun mapConst (Ljava/lang/Object;Larrow/Kind;)Larrow/fx/IO;
 	public static final fun tupleLeft (Larrow/Kind;Ljava/lang/Object;)Larrow/fx/IO;
 	public static final fun tupleRight (Larrow/Kind;Ljava/lang/Object;)Larrow/fx/IO;
-	public static final fun unit (Larrow/Kind;)Larrow/fx/IO;
 	public static final fun void (Larrow/Kind;)Larrow/fx/IO;
 	public static final fun widen (Larrow/Kind;)Larrow/fx/IO;
 }
@@ -4436,11 +4411,6 @@ public final class arrow/fx/extensions/io/unsafeRun/IOUnsafeRunKt {
 	public static final fun unsafeRun (Larrow/fx/IO$Companion;)Larrow/fx/extensions/IOUnsafeRun;
 }
 
-public final class arrow/fx/extensions/queue/invariant/QueueInvariantKt {
-	public static final fun imap (Larrow/Kind;Larrow/typeclasses/Functor;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;)Larrow/fx/Queue;
-	public static final fun invariant (Larrow/fx/Queue$Companion;Larrow/typeclasses/Functor;)Larrow/fx/extensions/QueueInvariant;
-}
-
 public final class arrow/fx/extensions/resource/applicative/ResourceApplicativeKt {
 	public static final fun applicative (Larrow/fx/Resource$Companion;Larrow/fx/typeclasses/Bracket;)Larrow/fx/extensions/ResourceApplicative;
 	public static final fun just1 (Ljava/lang/Object;Larrow/fx/typeclasses/Bracket;)Larrow/fx/Resource;
@@ -4460,7 +4430,6 @@ public final class arrow/fx/extensions/resource/functor/ResourceFunctorKt {
 	public static final fun mapConst (Ljava/lang/Object;Larrow/fx/typeclasses/Bracket;Larrow/Kind;)Larrow/fx/Resource;
 	public static final fun tupleLeft (Larrow/Kind;Larrow/fx/typeclasses/Bracket;Ljava/lang/Object;)Larrow/fx/Resource;
 	public static final fun tupleRight (Larrow/Kind;Larrow/fx/typeclasses/Bracket;Ljava/lang/Object;)Larrow/fx/Resource;
-	public static final fun unit (Larrow/Kind;Larrow/fx/typeclasses/Bracket;)Larrow/fx/Resource;
 	public static final fun void (Larrow/Kind;Larrow/fx/typeclasses/Bracket;)Larrow/fx/Resource;
 	public static final fun widen (Larrow/Kind;Larrow/fx/typeclasses/Bracket;)Larrow/fx/Resource;
 }
@@ -4604,7 +4573,6 @@ public final class arrow/fx/extensions/schedule/functor/ScheduleFunctorKt {
 	public static final fun mapConst (Ljava/lang/Object;Larrow/Kind;)Larrow/fx/Schedule;
 	public static final fun tupleLeft (Larrow/Kind;Ljava/lang/Object;)Larrow/fx/Schedule;
 	public static final fun tupleRight (Larrow/Kind;Ljava/lang/Object;)Larrow/fx/Schedule;
-	public static final fun unit (Larrow/Kind;)Larrow/fx/Schedule;
 	public static final fun void (Larrow/Kind;)Larrow/fx/Schedule;
 	public static final fun widen (Larrow/Kind;)Larrow/fx/Schedule;
 }
@@ -4747,10 +4715,6 @@ public final class arrow/fx/internal/UnsafePromise {
 	public final fun remove (Lkotlin/jvm/functions/Function1;)V
 }
 
-public final class arrow/fx/typeclasses/Arrow_fx_typeclasses_FiberKt {
-	public static final fun fix (Larrow/Kind;)Larrow/fx/typeclasses/Fiber;
-}
-
 public abstract interface class arrow/fx/typeclasses/Async : arrow/fx/typeclasses/MonadDefer {
 	public abstract fun async (Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public abstract fun asyncF (Lkotlin/jvm/functions/Function1;)Larrow/Kind;
@@ -4884,7 +4848,6 @@ public final class arrow/fx/typeclasses/Async$DefaultImpls {
 	public static fun uncancelable (Larrow/fx/typeclasses/Async;Larrow/Kind;)Larrow/Kind;
 	public static fun uncancellable (Larrow/fx/typeclasses/Async;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/typeclasses/Async;)Larrow/Kind;
-	public static fun unit (Larrow/fx/typeclasses/Async;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/typeclasses/Async;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/typeclasses/Async;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/typeclasses/Async;Larrow/Kind;)Larrow/Kind;
@@ -5024,7 +4987,6 @@ public class arrow/fx/typeclasses/AsyncContinuation : arrow/typeclasses/MonadThr
 	public fun uncancelable (Larrow/Kind;)Larrow/Kind;
 	public fun uncancellable (Larrow/Kind;)Larrow/Kind;
 	public fun unit ()Larrow/Kind;
-	public fun unit (Larrow/Kind;)Larrow/Kind;
 	public fun void (Larrow/Kind;)Larrow/Kind;
 	public fun whenS (Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public fun widen (Larrow/Kind;)Larrow/Kind;
@@ -5163,7 +5125,6 @@ public final class arrow/fx/typeclasses/AsyncSyntax$DefaultImpls {
 	public static fun uncancelable (Larrow/fx/typeclasses/AsyncSyntax;Larrow/Kind;)Larrow/Kind;
 	public static fun uncancellable (Larrow/fx/typeclasses/AsyncSyntax;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/typeclasses/AsyncSyntax;)Larrow/Kind;
-	public static fun unit (Larrow/fx/typeclasses/AsyncSyntax;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/typeclasses/AsyncSyntax;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/typeclasses/AsyncSyntax;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/typeclasses/AsyncSyntax;Larrow/Kind;)Larrow/Kind;
@@ -5281,7 +5242,6 @@ public final class arrow/fx/typeclasses/Bracket$DefaultImpls {
 	public static fun uncancelable (Larrow/fx/typeclasses/Bracket;Larrow/Kind;)Larrow/Kind;
 	public static fun uncancellable (Larrow/fx/typeclasses/Bracket;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/typeclasses/Bracket;)Larrow/Kind;
-	public static fun unit (Larrow/fx/typeclasses/Bracket;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/typeclasses/Bracket;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/typeclasses/Bracket;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/typeclasses/Bracket;Larrow/Kind;)Larrow/Kind;
@@ -5534,7 +5494,6 @@ public final class arrow/fx/typeclasses/Concurrent$DefaultImpls {
 	public static fun uncancelable (Larrow/fx/typeclasses/Concurrent;Larrow/Kind;)Larrow/Kind;
 	public static fun uncancellable (Larrow/fx/typeclasses/Concurrent;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/typeclasses/Concurrent;)Larrow/Kind;
-	public static fun unit (Larrow/fx/typeclasses/Concurrent;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/typeclasses/Concurrent;Larrow/Kind;)Larrow/Kind;
 	public static fun waitFor (Larrow/fx/typeclasses/Concurrent;Larrow/Kind;Larrow/fx/typeclasses/Duration;)Larrow/Kind;
 	public static fun waitFor (Larrow/fx/typeclasses/Concurrent;Larrow/Kind;Larrow/fx/typeclasses/Duration;Larrow/Kind;)Larrow/Kind;
@@ -5738,7 +5697,6 @@ public class arrow/fx/typeclasses/ConcurrentContinuation : arrow/fx/typeclasses/
 	public fun uncancelable (Larrow/Kind;)Larrow/Kind;
 	public fun uncancellable (Larrow/Kind;)Larrow/Kind;
 	public fun unit ()Larrow/Kind;
-	public fun unit (Larrow/Kind;)Larrow/Kind;
 	public fun void (Larrow/Kind;)Larrow/Kind;
 	public fun waitFor (Larrow/Kind;Larrow/fx/typeclasses/Duration;)Larrow/Kind;
 	public fun waitFor (Larrow/Kind;Larrow/fx/typeclasses/Duration;Larrow/Kind;)Larrow/Kind;
@@ -5867,7 +5825,6 @@ public final class arrow/fx/typeclasses/ConcurrentEffect$DefaultImpls {
 	public static fun uncancelable (Larrow/fx/typeclasses/ConcurrentEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun uncancellable (Larrow/fx/typeclasses/ConcurrentEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/typeclasses/ConcurrentEffect;)Larrow/Kind;
-	public static fun unit (Larrow/fx/typeclasses/ConcurrentEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/typeclasses/ConcurrentEffect;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/typeclasses/ConcurrentEffect;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/typeclasses/ConcurrentEffect;Larrow/Kind;)Larrow/Kind;
@@ -6065,7 +6022,6 @@ public final class arrow/fx/typeclasses/ConcurrentSyntax$DefaultImpls {
 	public static fun uncancelable (Larrow/fx/typeclasses/ConcurrentSyntax;Larrow/Kind;)Larrow/Kind;
 	public static fun uncancellable (Larrow/fx/typeclasses/ConcurrentSyntax;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/typeclasses/ConcurrentSyntax;)Larrow/Kind;
-	public static fun unit (Larrow/fx/typeclasses/ConcurrentSyntax;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/typeclasses/ConcurrentSyntax;Larrow/Kind;)Larrow/Kind;
 	public static fun waitFor (Larrow/fx/typeclasses/ConcurrentSyntax;Larrow/Kind;Larrow/fx/typeclasses/Duration;)Larrow/Kind;
 	public static fun waitFor (Larrow/fx/typeclasses/ConcurrentSyntax;Larrow/Kind;Larrow/fx/typeclasses/Duration;Larrow/Kind;)Larrow/Kind;
@@ -6239,7 +6195,6 @@ public final class arrow/fx/typeclasses/Effect$DefaultImpls {
 	public static fun uncancelable (Larrow/fx/typeclasses/Effect;Larrow/Kind;)Larrow/Kind;
 	public static fun uncancellable (Larrow/fx/typeclasses/Effect;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/typeclasses/Effect;)Larrow/Kind;
-	public static fun unit (Larrow/fx/typeclasses/Effect;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/typeclasses/Effect;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/typeclasses/Effect;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/typeclasses/Effect;Larrow/Kind;)Larrow/Kind;
@@ -6293,6 +6248,10 @@ public final class arrow/fx/typeclasses/Fiber$Companion {
 public final class arrow/fx/typeclasses/Fiber$DefaultImpls {
 	public static fun component1 (Larrow/fx/typeclasses/Fiber;)Larrow/Kind;
 	public static fun component2 (Larrow/fx/typeclasses/Fiber;)Larrow/Kind;
+}
+
+public final class arrow/fx/typeclasses/FiberKt {
+	public static final fun fix (Larrow/Kind;)Larrow/fx/typeclasses/Fiber;
 }
 
 public final class arrow/fx/typeclasses/ForFiber {
@@ -6418,7 +6377,6 @@ public final class arrow/fx/typeclasses/MonadDefer$DefaultImpls {
 	public static fun uncancelable (Larrow/fx/typeclasses/MonadDefer;Larrow/Kind;)Larrow/Kind;
 	public static fun uncancellable (Larrow/fx/typeclasses/MonadDefer;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/typeclasses/MonadDefer;)Larrow/Kind;
-	public static fun unit (Larrow/fx/typeclasses/MonadDefer;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/typeclasses/MonadDefer;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/typeclasses/MonadDefer;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/typeclasses/MonadDefer;Larrow/Kind;)Larrow/Kind;
@@ -6509,7 +6467,6 @@ public final class arrow/fx/typeclasses/MonadIO$DefaultImpls {
 	public static fun tupledN (Larrow/fx/typeclasses/MonadIO;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun tupledN (Larrow/fx/typeclasses/MonadIO;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun unit (Larrow/fx/typeclasses/MonadIO;)Larrow/Kind;
-	public static fun unit (Larrow/fx/typeclasses/MonadIO;Larrow/Kind;)Larrow/Kind;
 	public static fun void (Larrow/fx/typeclasses/MonadIO;Larrow/Kind;)Larrow/Kind;
 	public static fun whenS (Larrow/fx/typeclasses/MonadIO;Larrow/Kind;Larrow/Kind;)Larrow/Kind;
 	public static fun widen (Larrow/fx/typeclasses/MonadIO;Larrow/Kind;)Larrow/Kind;
