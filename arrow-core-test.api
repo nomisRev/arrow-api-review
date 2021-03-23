@@ -381,7 +381,6 @@ public final class arrow/core/test/laws/FoldableLaws {
 	public final fun firstOrNoneReturnsNoneIfPredicateFails (Larrow/typeclasses/Foldable;Lio/kotlintest/properties/Gen;)V
 	public final fun fold should combine all items (Larrow/typeclasses/Foldable;Lio/kotlintest/properties/Gen;Larrow/typeclasses/Eq;)V
 	public final fun foldMIdIsFoldL (Larrow/typeclasses/Foldable;Lio/kotlintest/properties/Gen;Larrow/typeclasses/Eq;)V
-	public final fun foldMapA folds on F mapping values to G(B) using given Monoid (Larrow/typeclasses/Foldable;Lio/kotlintest/properties/Gen;Larrow/typeclasses/Eq;)V
 	public final fun foldMapM folds on F mapping values to G(B) using given Monoid (Larrow/typeclasses/Foldable;Lio/kotlintest/properties/Gen;Larrow/typeclasses/Eq;)V
 	public final fun foldRight is lazy (Larrow/typeclasses/Foldable;Lio/kotlintest/properties/Gen;)V
 	public final fun forAllIsLazy (Larrow/typeclasses/Foldable;Lio/kotlintest/properties/Gen;Larrow/typeclasses/Eq;)V

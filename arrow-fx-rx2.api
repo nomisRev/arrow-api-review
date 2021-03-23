@@ -1163,7 +1163,6 @@ public final class arrow/fx/rx2/extensions/FlowableKFoldable$DefaultImpls {
 	public static fun foldLeft (Larrow/fx/rx2/extensions/FlowableKFoldable;Larrow/Kind;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Ljava/lang/Object;
 	public static fun foldM (Larrow/fx/rx2/extensions/FlowableKFoldable;Larrow/Kind;Larrow/typeclasses/Monad;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Larrow/Kind;
 	public static fun foldMap (Larrow/fx/rx2/extensions/FlowableKFoldable;Larrow/Kind;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Ljava/lang/Object;
-	public static fun foldMapA (Larrow/fx/rx2/extensions/FlowableKFoldable;Larrow/Kind;Larrow/typeclasses/Applicative;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static fun foldMapM (Larrow/fx/rx2/extensions/FlowableKFoldable;Larrow/Kind;Larrow/typeclasses/Monad;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static fun foldRight (Larrow/fx/rx2/extensions/FlowableKFoldable;Larrow/Kind;Larrow/core/Eval;Lkotlin/jvm/functions/Function2;)Larrow/core/Eval;
 	public static fun forAll (Larrow/fx/rx2/extensions/FlowableKFoldable;Larrow/Kind;Lkotlin/jvm/functions/Function1;)Z
@@ -1788,7 +1787,6 @@ public final class arrow/fx/rx2/extensions/FlowableKTraverse$DefaultImpls {
 	public static fun foldLeft (Larrow/fx/rx2/extensions/FlowableKTraverse;Larrow/Kind;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Ljava/lang/Object;
 	public static fun foldM (Larrow/fx/rx2/extensions/FlowableKTraverse;Larrow/Kind;Larrow/typeclasses/Monad;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Larrow/Kind;
 	public static fun foldMap (Larrow/fx/rx2/extensions/FlowableKTraverse;Larrow/Kind;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Ljava/lang/Object;
-	public static fun foldMapA (Larrow/fx/rx2/extensions/FlowableKTraverse;Larrow/Kind;Larrow/typeclasses/Applicative;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static fun foldMapM (Larrow/fx/rx2/extensions/FlowableKTraverse;Larrow/Kind;Larrow/typeclasses/Monad;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static fun foldRight (Larrow/fx/rx2/extensions/FlowableKTraverse;Larrow/Kind;Larrow/core/Eval;Lkotlin/jvm/functions/Function2;)Larrow/core/Eval;
 	public static fun forAll (Larrow/fx/rx2/extensions/FlowableKTraverse;Larrow/Kind;Lkotlin/jvm/functions/Function1;)Z
@@ -2644,7 +2642,6 @@ public final class arrow/fx/rx2/extensions/MaybeKFoldable$DefaultImpls {
 	public static fun foldLeft (Larrow/fx/rx2/extensions/MaybeKFoldable;Larrow/Kind;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Ljava/lang/Object;
 	public static fun foldM (Larrow/fx/rx2/extensions/MaybeKFoldable;Larrow/Kind;Larrow/typeclasses/Monad;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Larrow/Kind;
 	public static fun foldMap (Larrow/fx/rx2/extensions/MaybeKFoldable;Larrow/Kind;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Ljava/lang/Object;
-	public static fun foldMapA (Larrow/fx/rx2/extensions/MaybeKFoldable;Larrow/Kind;Larrow/typeclasses/Applicative;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static fun foldMapM (Larrow/fx/rx2/extensions/MaybeKFoldable;Larrow/Kind;Larrow/typeclasses/Monad;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static fun foldRight (Larrow/fx/rx2/extensions/MaybeKFoldable;Larrow/Kind;Larrow/core/Eval;Lkotlin/jvm/functions/Function2;)Larrow/core/Eval;
 	public static fun forAll (Larrow/fx/rx2/extensions/MaybeKFoldable;Larrow/Kind;Lkotlin/jvm/functions/Function1;)Z
@@ -4193,7 +4190,6 @@ public final class arrow/fx/rx2/extensions/ObservableKFoldable$DefaultImpls {
 	public static fun foldLeft (Larrow/fx/rx2/extensions/ObservableKFoldable;Larrow/Kind;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Ljava/lang/Object;
 	public static fun foldM (Larrow/fx/rx2/extensions/ObservableKFoldable;Larrow/Kind;Larrow/typeclasses/Monad;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Larrow/Kind;
 	public static fun foldMap (Larrow/fx/rx2/extensions/ObservableKFoldable;Larrow/Kind;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Ljava/lang/Object;
-	public static fun foldMapA (Larrow/fx/rx2/extensions/ObservableKFoldable;Larrow/Kind;Larrow/typeclasses/Applicative;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static fun foldMapM (Larrow/fx/rx2/extensions/ObservableKFoldable;Larrow/Kind;Larrow/typeclasses/Monad;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static fun foldRight (Larrow/fx/rx2/extensions/ObservableKFoldable;Larrow/Kind;Larrow/core/Eval;Lkotlin/jvm/functions/Function2;)Larrow/core/Eval;
 	public static fun forAll (Larrow/fx/rx2/extensions/ObservableKFoldable;Larrow/Kind;Lkotlin/jvm/functions/Function1;)Z
@@ -6182,7 +6178,6 @@ public final class arrow/fx/rx2/extensions/flowablek/foldable/FlowableKFoldableK
 	public static final fun foldLeft (Larrow/Kind;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Ljava/lang/Object;
 	public static final fun foldM (Larrow/Kind;Larrow/typeclasses/Monad;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Larrow/Kind;
 	public static final fun foldMap (Larrow/Kind;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Ljava/lang/Object;
-	public static final fun foldMapA (Larrow/Kind;Larrow/typeclasses/Applicative;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static final fun foldMapM (Larrow/Kind;Larrow/typeclasses/Monad;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static final fun foldRight (Larrow/Kind;Larrow/core/Eval;Lkotlin/jvm/functions/Function2;)Larrow/core/Eval;
 	public static final fun foldable (Larrow/fx/rx2/FlowableK$Companion;)Larrow/fx/rx2/extensions/FlowableKFoldable;
@@ -6360,7 +6355,6 @@ public final class arrow/fx/rx2/extensions/maybek/foldable/MaybeKFoldableKt {
 	public static final fun foldLeft (Larrow/Kind;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Ljava/lang/Object;
 	public static final fun foldM (Larrow/Kind;Larrow/typeclasses/Monad;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Larrow/Kind;
 	public static final fun foldMap (Larrow/Kind;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Ljava/lang/Object;
-	public static final fun foldMapA (Larrow/Kind;Larrow/typeclasses/Applicative;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static final fun foldMapM (Larrow/Kind;Larrow/typeclasses/Monad;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static final fun foldRight (Larrow/Kind;Larrow/core/Eval;Lkotlin/jvm/functions/Function2;)Larrow/core/Eval;
 	public static final fun foldable (Larrow/fx/rx2/MaybeK$Companion;)Larrow/fx/rx2/extensions/MaybeKFoldable;
@@ -6541,7 +6535,6 @@ public final class arrow/fx/rx2/extensions/observablek/foldable/ObservableKFolda
 	public static final fun foldLeft (Larrow/Kind;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Ljava/lang/Object;
 	public static final fun foldM (Larrow/Kind;Larrow/typeclasses/Monad;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Larrow/Kind;
 	public static final fun foldMap (Larrow/Kind;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Ljava/lang/Object;
-	public static final fun foldMapA (Larrow/Kind;Larrow/typeclasses/Applicative;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static final fun foldMapM (Larrow/Kind;Larrow/typeclasses/Monad;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static final fun foldRight (Larrow/Kind;Larrow/core/Eval;Lkotlin/jvm/functions/Function2;)Larrow/core/Eval;
 	public static final fun foldable (Larrow/fx/rx2/ObservableK$Companion;)Larrow/fx/rx2/extensions/ObservableKFoldable;

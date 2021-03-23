@@ -19,66 +19,15 @@ public final class arrow/core/AndThen$Companion {
 	public final fun tailRecM (Ljava/lang/Object;Lkotlin/jvm/functions/Function1;)Larrow/core/AndThen;
 }
 
-public abstract class arrow/core/AndThen0 : kotlin/jvm/functions/Function0 {
-	public static final field Companion Larrow/core/AndThen0$Companion;
-	public final fun andThen (Lkotlin/jvm/functions/Function1;)Larrow/core/AndThen0;
-	public final fun andThenF (Larrow/core/AndThen1;)Larrow/core/AndThen0;
-	public fun invoke ()Ljava/lang/Object;
-	public fun toString ()Ljava/lang/String;
-}
-
-public final class arrow/core/AndThen0$Companion {
-	public final fun invoke (Lkotlin/jvm/functions/Function0;)Larrow/core/AndThen0;
-	public final fun loop (Larrow/core/AndThen0;Ljava/lang/Object;I)Ljava/lang/Object;
-	public final fun rotateAccumulate (Larrow/core/AndThen0;Larrow/core/AndThen1;)Larrow/core/AndThen0;
-}
-
-public final class arrow/core/AndThen0$Single : arrow/core/AndThen0 {
-	public fun <init> (Lkotlin/jvm/functions/Function0;I)V
-	public final fun component1 ()Lkotlin/jvm/functions/Function0;
-	public final fun component2 ()I
-	public final fun copy (Lkotlin/jvm/functions/Function0;I)Larrow/core/AndThen0$Single;
-	public static synthetic fun copy$default (Larrow/core/AndThen0$Single;Lkotlin/jvm/functions/Function0;IILjava/lang/Object;)Larrow/core/AndThen0$Single;
-	public fun equals (Ljava/lang/Object;)Z
-	public final fun getF ()Lkotlin/jvm/functions/Function0;
-	public final fun getIndex ()I
-	public fun hashCode ()I
-	public fun toString ()Ljava/lang/String;
-}
-
-public abstract class arrow/core/AndThen1 : kotlin/jvm/functions/Function1 {
-	public static final field Companion Larrow/core/AndThen1$Companion;
-	public final fun andThen (Lkotlin/jvm/functions/Function1;)Larrow/core/AndThen1;
-	public final fun andThenF (Larrow/core/AndThen1;)Larrow/core/AndThen1;
-	public final fun compose (Lkotlin/jvm/functions/Function1;)Larrow/core/AndThen1;
-	public final fun composeF (Larrow/core/AndThen1;)Larrow/core/AndThen1;
-	public fun invoke (Ljava/lang/Object;)Ljava/lang/Object;
-	public fun toString ()Ljava/lang/String;
-}
-
-public final class arrow/core/AndThen1$Companion {
-	public final fun invoke (Lkotlin/jvm/functions/Function1;)Larrow/core/AndThen1;
-	public final fun loop (Larrow/core/AndThen1;Ljava/lang/Object;I)Ljava/lang/Object;
-	public final fun rotateAccumulate (Larrow/core/AndThen1;Larrow/core/AndThen1;)Larrow/core/AndThen1;
-}
-
-public abstract class arrow/core/AndThen2 : kotlin/jvm/functions/Function2 {
-	public static final field Companion Larrow/core/AndThen2$Companion;
-	public final fun andThen (Lkotlin/jvm/functions/Function1;)Larrow/core/AndThen2;
-	public final fun andThenF (Larrow/core/AndThen1;)Larrow/core/AndThen2;
-	public fun invoke (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
-	public fun toString ()Ljava/lang/String;
-}
-
-public final class arrow/core/AndThen2$Companion {
-	public final fun invoke (Lkotlin/jvm/functions/Function2;)Larrow/core/AndThen2;
-	public final fun loop (Larrow/core/AndThen2;Ljava/lang/Object;Ljava/lang/Object;I)Ljava/lang/Object;
-	public final fun rotateAccumulate (Larrow/core/AndThen2;Larrow/core/AndThen1;)Larrow/core/AndThen2;
-}
-
 public final class arrow/core/AndThenKt {
+	public static final field AndThenDeprecation Ljava/lang/String;
 	public static final fun fix (Larrow/Kind;)Larrow/core/AndThen;
 	public static final fun invoke (Larrow/Kind;Ljava/lang/Object;)Ljava/lang/Object;
+}
+
+public final class arrow/core/ArrowCoreInternalException : java/lang/RuntimeException {
+	public static final field INSTANCE Larrow/core/ArrowCoreInternalException;
+	public fun fillInStackTrace ()Ljava/lang/Throwable;
 }
 
 public final class arrow/core/BooleanKt {
@@ -110,39 +59,6 @@ public final class arrow/core/ComparisonKt {
 	public static final fun sort (SS)Lkotlin/Pair;
 	public static final fun sort (SSS)Lkotlin/Triple;
 	public static final fun sort (S[S)Ljava/util/List;
-}
-
-public final class arrow/core/ComplementKt {
-	public static final fun complement (Lkotlin/jvm/functions/Function0;)Lkotlin/jvm/functions/Function0;
-	public static final fun complement (Lkotlin/jvm/functions/Function10;)Lkotlin/jvm/functions/Function10;
-	public static final fun complement (Lkotlin/jvm/functions/Function11;)Lkotlin/jvm/functions/Function11;
-	public static final fun complement (Lkotlin/jvm/functions/Function12;)Lkotlin/jvm/functions/Function12;
-	public static final fun complement (Lkotlin/jvm/functions/Function13;)Lkotlin/jvm/functions/Function13;
-	public static final fun complement (Lkotlin/jvm/functions/Function14;)Lkotlin/jvm/functions/Function14;
-	public static final fun complement (Lkotlin/jvm/functions/Function15;)Lkotlin/jvm/functions/Function15;
-	public static final fun complement (Lkotlin/jvm/functions/Function16;)Lkotlin/jvm/functions/Function16;
-	public static final fun complement (Lkotlin/jvm/functions/Function17;)Lkotlin/jvm/functions/Function17;
-	public static final fun complement (Lkotlin/jvm/functions/Function18;)Lkotlin/jvm/functions/Function18;
-	public static final fun complement (Lkotlin/jvm/functions/Function19;)Lkotlin/jvm/functions/Function19;
-	public static final fun complement (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function1;
-	public static final fun complement (Lkotlin/jvm/functions/Function20;)Lkotlin/jvm/functions/Function20;
-	public static final fun complement (Lkotlin/jvm/functions/Function21;)Lkotlin/jvm/functions/Function21;
-	public static final fun complement (Lkotlin/jvm/functions/Function22;)Lkotlin/jvm/functions/Function22;
-	public static final fun complement (Lkotlin/jvm/functions/Function2;)Lkotlin/jvm/functions/Function2;
-	public static final fun complement (Lkotlin/jvm/functions/Function3;)Lkotlin/jvm/functions/Function3;
-	public static final fun complement (Lkotlin/jvm/functions/Function4;)Lkotlin/jvm/functions/Function4;
-	public static final fun complement (Lkotlin/jvm/functions/Function5;)Lkotlin/jvm/functions/Function5;
-	public static final fun complement (Lkotlin/jvm/functions/Function6;)Lkotlin/jvm/functions/Function6;
-	public static final fun complement (Lkotlin/jvm/functions/Function7;)Lkotlin/jvm/functions/Function7;
-	public static final fun complement (Lkotlin/jvm/functions/Function8;)Lkotlin/jvm/functions/Function8;
-	public static final fun complement (Lkotlin/jvm/functions/Function9;)Lkotlin/jvm/functions/Function9;
-}
-
-public final class arrow/core/CompositionKt {
-	public static final fun andThen (Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function0;
-	public static final fun andThen (Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function1;
-	public static final fun andThen (Lkotlin/jvm/functions/Function2;Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function2;
-	public static final fun compose (Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function1;
 }
 
 public final class arrow/core/Const : arrow/Kind {
@@ -188,92 +104,6 @@ public final class arrow/core/ConstKt {
 	public static final fun value (Larrow/Kind;)Ljava/lang/Object;
 }
 
-public final class arrow/core/CurryingKt {
-	public static final fun curried (Lkotlin/jvm/functions/Function10;)Lkotlin/jvm/functions/Function1;
-	public static final fun curried (Lkotlin/jvm/functions/Function11;)Lkotlin/jvm/functions/Function1;
-	public static final fun curried (Lkotlin/jvm/functions/Function12;)Lkotlin/jvm/functions/Function1;
-	public static final fun curried (Lkotlin/jvm/functions/Function13;)Lkotlin/jvm/functions/Function1;
-	public static final fun curried (Lkotlin/jvm/functions/Function14;)Lkotlin/jvm/functions/Function1;
-	public static final fun curried (Lkotlin/jvm/functions/Function15;)Lkotlin/jvm/functions/Function1;
-	public static final fun curried (Lkotlin/jvm/functions/Function16;)Lkotlin/jvm/functions/Function1;
-	public static final fun curried (Lkotlin/jvm/functions/Function17;)Lkotlin/jvm/functions/Function1;
-	public static final fun curried (Lkotlin/jvm/functions/Function18;)Lkotlin/jvm/functions/Function1;
-	public static final fun curried (Lkotlin/jvm/functions/Function19;)Lkotlin/jvm/functions/Function1;
-	public static final fun curried (Lkotlin/jvm/functions/Function20;)Lkotlin/jvm/functions/Function1;
-	public static final fun curried (Lkotlin/jvm/functions/Function21;)Lkotlin/jvm/functions/Function1;
-	public static final fun curried (Lkotlin/jvm/functions/Function22;)Lkotlin/jvm/functions/Function1;
-	public static final fun curried (Lkotlin/jvm/functions/Function2;)Lkotlin/jvm/functions/Function1;
-	public static final fun curried (Lkotlin/jvm/functions/Function3;)Lkotlin/jvm/functions/Function1;
-	public static final fun curried (Lkotlin/jvm/functions/Function4;)Lkotlin/jvm/functions/Function1;
-	public static final fun curried (Lkotlin/jvm/functions/Function5;)Lkotlin/jvm/functions/Function1;
-	public static final fun curried (Lkotlin/jvm/functions/Function6;)Lkotlin/jvm/functions/Function1;
-	public static final fun curried (Lkotlin/jvm/functions/Function7;)Lkotlin/jvm/functions/Function1;
-	public static final fun curried (Lkotlin/jvm/functions/Function8;)Lkotlin/jvm/functions/Function1;
-	public static final fun curried (Lkotlin/jvm/functions/Function9;)Lkotlin/jvm/functions/Function1;
-	public static final fun curriedEffect (Lkotlin/jvm/functions/Function10;)Lkotlin/jvm/functions/Function1;
-	public static final fun curriedEffect (Lkotlin/jvm/functions/Function11;)Lkotlin/jvm/functions/Function1;
-	public static final fun curriedEffect (Lkotlin/jvm/functions/Function12;)Lkotlin/jvm/functions/Function1;
-	public static final fun curriedEffect (Lkotlin/jvm/functions/Function13;)Lkotlin/jvm/functions/Function1;
-	public static final fun curriedEffect (Lkotlin/jvm/functions/Function14;)Lkotlin/jvm/functions/Function1;
-	public static final fun curriedEffect (Lkotlin/jvm/functions/Function15;)Lkotlin/jvm/functions/Function1;
-	public static final fun curriedEffect (Lkotlin/jvm/functions/Function16;)Lkotlin/jvm/functions/Function1;
-	public static final fun curriedEffect (Lkotlin/jvm/functions/Function17;)Lkotlin/jvm/functions/Function1;
-	public static final fun curriedEffect (Lkotlin/jvm/functions/Function18;)Lkotlin/jvm/functions/Function1;
-	public static final fun curriedEffect (Lkotlin/jvm/functions/Function19;)Lkotlin/jvm/functions/Function1;
-	public static final fun curriedEffect (Lkotlin/jvm/functions/Function20;)Lkotlin/jvm/functions/Function1;
-	public static final fun curriedEffect (Lkotlin/jvm/functions/Function21;)Lkotlin/jvm/functions/Function1;
-	public static final fun curriedEffect (Lkotlin/jvm/functions/Function22;)Lkotlin/jvm/functions/Function1;
-	public static final fun curriedEffect (Lkotlin/jvm/functions/Function3;)Lkotlin/jvm/functions/Function1;
-	public static final fun curriedEffect (Lkotlin/jvm/functions/Function4;)Lkotlin/jvm/functions/Function1;
-	public static final fun curriedEffect (Lkotlin/jvm/functions/Function5;)Lkotlin/jvm/functions/Function1;
-	public static final fun curriedEffect (Lkotlin/jvm/functions/Function6;)Lkotlin/jvm/functions/Function1;
-	public static final fun curriedEffect (Lkotlin/jvm/functions/Function7;)Lkotlin/jvm/functions/Function1;
-	public static final fun curriedEffect (Lkotlin/jvm/functions/Function8;)Lkotlin/jvm/functions/Function1;
-	public static final fun curriedEffect (Lkotlin/jvm/functions/Function9;)Lkotlin/jvm/functions/Function1;
-	public static final fun curriedEffect (Lkotlin/jvm/functions/FunctionN;)Lkotlin/jvm/functions/Function1;
-	public static final fun uncurried (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function10;
-	public static final fun uncurried (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function11;
-	public static final fun uncurried (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function12;
-	public static final fun uncurried (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function13;
-	public static final fun uncurried (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function14;
-	public static final fun uncurried (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function15;
-	public static final fun uncurried (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function16;
-	public static final fun uncurried (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function17;
-	public static final fun uncurried (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function18;
-	public static final fun uncurried (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function19;
-	public static final fun uncurried (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function20;
-	public static final fun uncurried (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function21;
-	public static final fun uncurried (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function22;
-	public static final fun uncurried (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function2;
-	public static final fun uncurried (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function3;
-	public static final fun uncurried (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function4;
-	public static final fun uncurried (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function5;
-	public static final fun uncurried (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function6;
-	public static final fun uncurried (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function7;
-	public static final fun uncurried (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function8;
-	public static final fun uncurried (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function9;
-	public static final fun uncurriedEffect (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function10;
-	public static final fun uncurriedEffect (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function11;
-	public static final fun uncurriedEffect (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function12;
-	public static final fun uncurriedEffect (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function13;
-	public static final fun uncurriedEffect (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function14;
-	public static final fun uncurriedEffect (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function15;
-	public static final fun uncurriedEffect (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function16;
-	public static final fun uncurriedEffect (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function17;
-	public static final fun uncurriedEffect (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function18;
-	public static final fun uncurriedEffect (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function19;
-	public static final fun uncurriedEffect (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function20;
-	public static final fun uncurriedEffect (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function21;
-	public static final fun uncurriedEffect (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function22;
-	public static final fun uncurriedEffect (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function3;
-	public static final fun uncurriedEffect (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function4;
-	public static final fun uncurriedEffect (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function5;
-	public static final fun uncurriedEffect (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function6;
-	public static final fun uncurriedEffect (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function7;
-	public static final fun uncurriedEffect (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function8;
-	public static final fun uncurriedEffect (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function9;
-}
-
 public final class arrow/core/EQ : arrow/core/Ordering {
 	public static final field INSTANCE Larrow/core/EQ;
 }
@@ -301,13 +131,11 @@ public abstract class arrow/core/Either : arrow/Kind {
 	public final fun foldLeft (Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Ljava/lang/Object;
 	public final fun foldMap (Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Ljava/lang/Object;
 	public final fun foldRight (Larrow/core/Eval;Lkotlin/jvm/functions/Function2;)Larrow/core/Eval;
-	public final fun fproduct (Lkotlin/jvm/functions/Function1;)Larrow/core/Either;
 	public final fun isEmpty ()Z
 	public final fun isLeft ()Z
 	public final fun isNotEmpty ()Z
 	public final fun isRight ()Z
 	public final fun map (Lkotlin/jvm/functions/Function1;)Larrow/core/Either;
-	public final fun mapConst (Ljava/lang/Object;)Larrow/core/Either;
 	public final fun mapLeft (Lkotlin/jvm/functions/Function1;)Larrow/core/Either;
 	public final fun orNull ()Ljava/lang/Object;
 	public final fun replicate (I)Larrow/core/Either;
@@ -319,8 +147,6 @@ public abstract class arrow/core/Either : arrow/Kind {
 	public final fun toValidatedNel ()Larrow/core/Validated;
 	public final fun traverse (Lkotlin/jvm/functions/Function1;)Ljava/util/List;
 	public final fun traverseValidated (Lkotlin/jvm/functions/Function1;)Larrow/core/Validated;
-	public final fun tupleLeft (Ljava/lang/Object;)Larrow/core/Either;
-	public final fun tupleRight (Ljava/lang/Object;)Larrow/core/Either;
 	public final fun void ()Larrow/core/Either;
 }
 
@@ -401,12 +227,10 @@ public final class arrow/core/EitherKt {
 	public static final fun getOrHandle (Larrow/Kind;Lkotlin/jvm/functions/Function1;)Ljava/lang/Object;
 	public static final fun handleError (Larrow/core/Either;Lkotlin/jvm/functions/Function1;)Larrow/core/Either;
 	public static final fun handleErrorWith (Larrow/Kind;Lkotlin/jvm/functions/Function1;)Larrow/core/Either;
-	public static final fun ifM (Larrow/core/Either;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;)Larrow/core/Either;
 	public static final fun left (Ljava/lang/Object;)Larrow/core/Either;
 	public static final fun leftIfNull (Larrow/Kind;Lkotlin/jvm/functions/Function0;)Larrow/core/Either;
 	public static final fun leftWiden (Larrow/core/Either;)Larrow/core/Either;
 	public static final fun merge (Larrow/Kind;)Ljava/lang/Object;
-	public static final fun mproduct (Larrow/core/Either;Lkotlin/jvm/functions/Function1;)Larrow/core/Either;
 	public static final fun orNull (Larrow/Kind;)Ljava/lang/Object;
 	public static final fun redeem (Larrow/core/Either;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;)Larrow/core/Either;
 	public static final fun redeemWith (Larrow/core/Either;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;)Larrow/core/Either;
@@ -414,7 +238,6 @@ public final class arrow/core/EitherKt {
 	public static final fun right (Ljava/lang/Object;)Larrow/core/Either;
 	public static final fun rightIfNotNull (Ljava/lang/Object;Lkotlin/jvm/functions/Function0;)Larrow/core/Either;
 	public static final fun rightIfNull (Ljava/lang/Object;Lkotlin/jvm/functions/Function0;)Larrow/core/Either;
-	public static final fun selectM (Larrow/core/Either;Larrow/core/Either;)Larrow/core/Either;
 	public static final fun sequence (Larrow/core/Either;)Ljava/util/List;
 	public static final fun sequenceValidated (Larrow/core/Either;)Larrow/core/Validated;
 	public static final fun widen (Larrow/core/Either;)Larrow/core/Either;
@@ -428,7 +251,6 @@ public final class arrow/core/EitherKt {
 	public static final fun zip (Larrow/core/Either;Larrow/core/Either;Larrow/core/Either;Larrow/core/Either;Lkotlin/jvm/functions/Function4;)Larrow/core/Either;
 	public static final fun zip (Larrow/core/Either;Larrow/core/Either;Larrow/core/Either;Lkotlin/jvm/functions/Function3;)Larrow/core/Either;
 	public static final fun zip (Larrow/core/Either;Larrow/core/Either;Lkotlin/jvm/functions/Function2;)Larrow/core/Either;
-	public static final fun zipEval (Larrow/core/Either;Larrow/core/Eval;Lkotlin/jvm/functions/Function2;)Larrow/core/Eval;
 }
 
 public final class arrow/core/Endo {
@@ -454,7 +276,6 @@ public final class arrow/core/EndoKt {
 public abstract class arrow/core/Eval : arrow/Kind {
 	public static final field Companion Larrow/core/Eval$Companion;
 	public final fun ap (Larrow/Kind;)Larrow/core/Eval;
-	public final fun ap (Larrow/core/Eval;)Larrow/core/Eval;
 	public final fun coflatMap (Lkotlin/jvm/functions/Function1;)Larrow/core/Eval;
 	public final fun coflatMapKind (Lkotlin/jvm/functions/Function1;)Larrow/core/Eval;
 	public final fun extract ()Ljava/lang/Object;
@@ -490,7 +311,6 @@ public final class arrow/core/Eval$Companion {
 	public final fun now (Ljava/lang/Object;)Larrow/core/Eval;
 	public final fun raise (Ljava/lang/Throwable;)Larrow/core/Eval;
 	public final fun tailRecM (Ljava/lang/Object;Lkotlin/jvm/functions/Function1;)Larrow/core/Eval;
-	public final fun tailRecMKind (Ljava/lang/Object;Lkotlin/jvm/functions/Function1;)Larrow/core/Eval;
 }
 
 public final class arrow/core/Eval$Defer : arrow/core/Eval {
@@ -541,10 +361,7 @@ public final class arrow/core/Eval$Now : arrow/core/Eval {
 }
 
 public final class arrow/core/EvalKt {
-	public static final fun apEval (Larrow/core/Eval;Larrow/core/Eval;)Larrow/core/Eval;
-	public static final fun apTap (Larrow/core/Eval;Larrow/core/Eval;)Larrow/core/Eval;
 	public static final fun fix (Larrow/Kind;)Larrow/core/Eval;
-	public static final fun flatTap (Larrow/core/Eval;Lkotlin/jvm/functions/Function1;)Larrow/core/Eval;
 	public static final fun iterateRight (Ljava/util/Iterator;Larrow/core/Eval;Lkotlin/jvm/functions/Function2;)Larrow/core/Eval;
 	public static final fun replicate (Larrow/core/Eval;I)Larrow/core/Eval;
 	public static final fun replicate (Larrow/core/Eval;ILarrow/typeclasses/Monoid;)Larrow/core/Eval;
@@ -559,7 +376,6 @@ public final class arrow/core/EvalKt {
 	public static final fun zip (Larrow/core/Eval;Larrow/core/Eval;Larrow/core/Eval;Larrow/core/Eval;Lkotlin/jvm/functions/Function4;)Larrow/core/Eval;
 	public static final fun zip (Larrow/core/Eval;Larrow/core/Eval;Larrow/core/Eval;Lkotlin/jvm/functions/Function3;)Larrow/core/Eval;
 	public static final fun zip (Larrow/core/Eval;Larrow/core/Eval;Lkotlin/jvm/functions/Function2;)Larrow/core/Eval;
-	public static final fun zipEval (Larrow/core/Eval;Larrow/core/Eval;Lkotlin/jvm/functions/Function2;)Larrow/core/Eval;
 }
 
 public final class arrow/core/ForAndThen {
@@ -864,7 +680,6 @@ public abstract class arrow/core/Ior : arrow/Kind {
 	public final fun foldLeft (Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Ljava/lang/Object;
 	public final fun foldMap (Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Ljava/lang/Object;
 	public final fun foldRight (Larrow/core/Eval;Lkotlin/jvm/functions/Function2;)Larrow/core/Eval;
-	public final fun fproduct (Lkotlin/jvm/functions/Function1;)Larrow/core/Ior;
 	public abstract fun isBoth ()Z
 	public final fun isEmpty ()Z
 	public abstract fun isLeft ()Z
@@ -872,7 +687,6 @@ public abstract class arrow/core/Ior : arrow/Kind {
 	public abstract fun isRight ()Z
 	public final fun leftOrNull ()Ljava/lang/Object;
 	public final fun map (Lkotlin/jvm/functions/Function1;)Larrow/core/Ior;
-	public final fun mapConst (Ljava/lang/Object;)Larrow/core/Ior;
 	public final fun mapLeft (Lkotlin/jvm/functions/Function1;)Larrow/core/Ior;
 	public final fun orNull ()Ljava/lang/Object;
 	public final fun pad ()Lkotlin/Pair;
@@ -888,8 +702,6 @@ public abstract class arrow/core/Ior : arrow/Kind {
 	public final fun traverse (Lkotlin/jvm/functions/Function1;)Ljava/util/List;
 	public final fun traverseEither (Lkotlin/jvm/functions/Function1;)Larrow/core/Either;
 	public final fun traverseValidated (Lkotlin/jvm/functions/Function1;)Larrow/core/Validated;
-	public final fun tupleLeft (Ljava/lang/Object;)Larrow/core/Ior;
-	public final fun tupleRight (Ljava/lang/Object;)Larrow/core/Ior;
 	public final fun unwrap ()Larrow/core/Either;
 	public final fun void ()Larrow/core/Ior;
 }
@@ -914,12 +726,10 @@ public final class arrow/core/Ior$Companion {
 	public final fun bothNel (Ljava/lang/Object;Ljava/lang/Object;)Larrow/core/Ior;
 	public final fun fromNullables (Ljava/lang/Object;Ljava/lang/Object;)Larrow/core/Ior;
 	public final fun fromOptions (Larrow/core/Option;Larrow/core/Option;)Larrow/core/Option;
-	public final fun getUnit ()Larrow/core/Ior;
 	public final fun leftNel (Ljava/lang/Object;)Larrow/core/Ior;
 	public final fun lift (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function1;
 	public final fun lift (Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function1;
 	public final fun tailRecM (Ljava/lang/Object;Lkotlin/jvm/functions/Function1;Larrow/typeclasses/Semigroup;)Larrow/core/Ior;
-	public final fun unit ()Larrow/core/Ior;
 }
 
 public final class arrow/core/Ior$Left : arrow/core/Ior {
@@ -974,15 +784,12 @@ public final class arrow/core/IorKt {
 	public static final fun flatMap (Larrow/core/Ior;Larrow/typeclasses/Semigroup;Lkotlin/jvm/functions/Function1;)Larrow/core/Ior;
 	public static final fun flatten (Larrow/core/Ior;Larrow/typeclasses/Semigroup;)Larrow/core/Ior;
 	public static final fun getOrElse (Larrow/core/Ior;Lkotlin/jvm/functions/Function0;)Ljava/lang/Object;
-	public static final fun ifM (Larrow/core/Ior;Larrow/typeclasses/Semigroup;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;)Larrow/core/Ior;
 	public static final fun ior (Larrow/typeclasses/Semigroup$Companion;Larrow/typeclasses/Semigroup;Larrow/typeclasses/Semigroup;)Larrow/typeclasses/Semigroup;
 	public static final fun leftIor (Ljava/lang/Object;)Larrow/core/Ior;
 	public static final fun leftWiden (Larrow/core/Ior;)Larrow/core/Ior;
-	public static final fun mproduct (Larrow/core/Ior;Larrow/typeclasses/Semigroup;Lkotlin/jvm/functions/Function1;)Larrow/core/Ior;
 	public static final fun replicate (Larrow/core/Ior;Larrow/typeclasses/Semigroup;I)Larrow/core/Ior;
 	public static final fun replicate (Larrow/core/Ior;Larrow/typeclasses/Semigroup;ILarrow/typeclasses/Monoid;)Larrow/core/Ior;
 	public static final fun rightIor (Ljava/lang/Object;)Larrow/core/Ior;
-	public static final fun selectM (Larrow/core/Ior;Larrow/typeclasses/Semigroup;Larrow/core/Ior;)Larrow/core/Ior;
 	public static final fun sequence (Larrow/Kind;Larrow/typeclasses/Applicative;)Larrow/Kind;
 	public static final fun sequence (Larrow/core/Ior;)Ljava/util/List;
 	public static final fun sequenceEither (Larrow/core/Ior;)Larrow/core/Either;
@@ -998,13 +805,11 @@ public final class arrow/core/IorKt {
 	public static final fun zip (Larrow/core/Ior;Larrow/typeclasses/Semigroup;Larrow/core/Ior;Larrow/core/Ior;Larrow/core/Ior;Lkotlin/jvm/functions/Function4;)Larrow/core/Ior;
 	public static final fun zip (Larrow/core/Ior;Larrow/typeclasses/Semigroup;Larrow/core/Ior;Larrow/core/Ior;Lkotlin/jvm/functions/Function3;)Larrow/core/Ior;
 	public static final fun zip (Larrow/core/Ior;Larrow/typeclasses/Semigroup;Larrow/core/Ior;Lkotlin/jvm/functions/Function2;)Larrow/core/Ior;
-	public static final fun zipEval (Larrow/core/Ior;Larrow/typeclasses/Semigroup;Larrow/core/Eval;Lkotlin/jvm/functions/Function2;)Larrow/core/Eval;
 }
 
 public final class arrow/core/IterableKt {
 	public static final fun align (Ljava/lang/Iterable;Ljava/lang/Iterable;)Ljava/util/List;
 	public static final fun align (Ljava/lang/Iterable;Ljava/lang/Iterable;Lkotlin/jvm/functions/Function1;)Ljava/util/List;
-	public static final fun ap (Ljava/lang/Iterable;Ljava/lang/Iterable;)Ljava/util/List;
 	public static final fun collectionSizeOrDefault (Ljava/lang/Iterable;I)I
 	public static final fun combineAll (Ljava/lang/Iterable;Larrow/typeclasses/Monoid;)Ljava/lang/Object;
 	public static final fun compareTo (Ljava/lang/Iterable;Ljava/lang/Iterable;)I
@@ -1016,13 +821,10 @@ public final class arrow/core/IterableKt {
 	public static final fun foldMap (Ljava/lang/Iterable;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Ljava/lang/Object;
 	public static final fun foldRight (Ljava/lang/Iterable;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Ljava/lang/Object;
 	public static final fun foldRight (Ljava/util/List;Larrow/core/Eval;Lkotlin/jvm/functions/Function2;)Larrow/core/Eval;
-	public static final fun fproduct (Ljava/lang/Iterable;Lkotlin/jvm/functions/Function1;)Ljava/util/List;
-	public static final fun ifM (Ljava/lang/Iterable;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;)Ljava/util/List;
 	public static final fun ifThen (Ljava/lang/Iterable;Ljava/lang/Iterable;Lkotlin/jvm/functions/Function1;)Ljava/lang/Iterable;
 	public static final fun interleave (Ljava/lang/Iterable;Ljava/lang/Iterable;)Ljava/util/List;
 	public static final fun leftPadZip (Ljava/lang/Iterable;Ljava/lang/Iterable;)Ljava/util/List;
 	public static final fun leftPadZip (Ljava/lang/Iterable;Ljava/lang/Iterable;Lkotlin/jvm/functions/Function2;)Ljava/util/List;
-	public static final fun mapConst (Ljava/lang/Iterable;Ljava/lang/Object;)Ljava/util/List;
 	public static final fun padZip (Ljava/lang/Iterable;Ljava/lang/Iterable;)Ljava/util/List;
 	public static final fun padZip (Ljava/lang/Iterable;Ljava/lang/Iterable;Lkotlin/jvm/functions/Function2;)Ljava/util/List;
 	public static final fun reduceOrNull (Ljava/lang/Iterable;Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function2;)Ljava/lang/Object;
@@ -1033,18 +835,16 @@ public final class arrow/core/IterableKt {
 	public static final fun rightPadZip (Ljava/lang/Iterable;Ljava/lang/Iterable;)Ljava/util/List;
 	public static final fun rightPadZip (Ljava/lang/Iterable;Ljava/lang/Iterable;Lkotlin/jvm/functions/Function2;)Ljava/util/List;
 	public static final fun salign (Ljava/lang/Iterable;Larrow/typeclasses/Semigroup;Ljava/lang/Iterable;)Ljava/lang/Iterable;
-	public static final fun selectM (Ljava/lang/Iterable;Ljava/lang/Iterable;)Ljava/util/List;
 	public static final fun separateEither (Ljava/lang/Iterable;)Lkotlin/Pair;
 	public static final fun separateValidated (Ljava/lang/Iterable;)Lkotlin/Pair;
 	public static final fun sequenceEither (Ljava/lang/Iterable;)Larrow/core/Either;
+	public static final fun sequenceValidated (Ljava/lang/Iterable;)Larrow/core/Validated;
 	public static final fun sequenceValidated (Ljava/lang/Iterable;Larrow/typeclasses/Semigroup;)Larrow/core/Validated;
 	public static final fun split (Ljava/lang/Iterable;)Lkotlin/Pair;
 	public static final fun tail (Ljava/lang/Iterable;)Ljava/util/List;
-	public static final fun tailRecMIterable (Ljava/lang/Object;Lkotlin/jvm/functions/Function1;)Ljava/util/List;
 	public static final fun traverseEither (Ljava/lang/Iterable;Lkotlin/jvm/functions/Function1;)Larrow/core/Either;
 	public static final fun traverseValidated (Ljava/lang/Iterable;Larrow/typeclasses/Semigroup;Lkotlin/jvm/functions/Function1;)Larrow/core/Validated;
-	public static final fun tupleLeft (Ljava/lang/Iterable;Ljava/lang/Object;)Ljava/util/List;
-	public static final fun tupleRight (Ljava/lang/Iterable;Ljava/lang/Object;)Ljava/util/List;
+	public static final fun traverseValidated (Ljava/lang/Iterable;Lkotlin/jvm/functions/Function1;)Larrow/core/Validated;
 	public static final fun unalign (Ljava/lang/Iterable;)Lkotlin/Pair;
 	public static final fun unalign (Ljava/lang/Iterable;Lkotlin/jvm/functions/Function1;)Lkotlin/Pair;
 	public static final fun uniteEither (Ljava/lang/Iterable;)Ljava/util/List;
@@ -1238,14 +1038,12 @@ public final class arrow/core/MapKKt {
 public final class arrow/core/MapKt {
 	public static final fun align (Ljava/util/Map;Ljava/util/Map;)Ljava/util/Map;
 	public static final fun align (Ljava/util/Map;Ljava/util/Map;Lkotlin/jvm/functions/Function1;)Ljava/util/Map;
-	public static final fun ap (Ljava/util/Map;Ljava/util/Map;)Ljava/util/Map;
 	public static final fun combine (Ljava/util/Map;Larrow/typeclasses/Semigroup;Ljava/util/Map;)Ljava/util/Map;
 	public static final fun combineAll (Ljava/lang/Iterable;Larrow/typeclasses/Semigroup;)Ljava/util/Map;
 	public static final fun filterMap (Ljava/util/Map;Lkotlin/jvm/functions/Function1;)Ljava/util/Map;
 	public static final fun flatMap (Ljava/util/Map;Lkotlin/jvm/functions/Function1;)Ljava/util/Map;
 	public static final fun foldLeft (Ljava/util/Map;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Ljava/lang/Object;
 	public static final fun foldRight (Ljava/util/Map;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Ljava/lang/Object;
-	public static final fun fproduct (Ljava/util/Map;Lkotlin/jvm/functions/Function1;)Ljava/util/Map;
 	public static final fun map (Larrow/typeclasses/Monoid$Companion;Larrow/typeclasses/Semigroup;)Larrow/typeclasses/Monoid;
 	public static final fun padZip (Ljava/util/Map;Ljava/util/Map;)Ljava/util/Map;
 	public static final fun padZip (Ljava/util/Map;Ljava/util/Map;Lkotlin/jvm/functions/Function3;)Ljava/util/Map;
@@ -1254,8 +1052,6 @@ public final class arrow/core/MapKt {
 	public static final fun sequenceValidated (Ljava/util/Map;Larrow/typeclasses/Semigroup;)Larrow/core/Validated;
 	public static final fun traverseEither (Ljava/util/Map;Lkotlin/jvm/functions/Function1;)Larrow/core/Either;
 	public static final fun traverseValidated (Ljava/util/Map;Larrow/typeclasses/Semigroup;Lkotlin/jvm/functions/Function1;)Larrow/core/Validated;
-	public static final fun tupleLeft (Ljava/util/Map;Ljava/lang/Object;)Ljava/util/Map;
-	public static final fun tupleRight (Ljava/util/Map;Ljava/lang/Object;)Ljava/util/Map;
 	public static final fun unalign (Ljava/util/Map;)Lkotlin/Pair;
 	public static final fun unalign (Ljava/util/Map;Lkotlin/jvm/functions/Function1;)Lkotlin/Pair;
 	public static final fun unzip (Ljava/util/Map;)Lkotlin/Pair;
@@ -1274,39 +1070,12 @@ public final class arrow/core/MapKt {
 	public static final fun zip (Ljava/util/Map;Ljava/util/Map;Lkotlin/jvm/functions/Function3;)Ljava/util/Map;
 }
 
-public final class arrow/core/MemoizationKt {
-	public static final fun memoize (Lkotlin/jvm/functions/Function0;)Lkotlin/jvm/functions/Function0;
-	public static final fun memoize (Lkotlin/jvm/functions/Function10;)Lkotlin/jvm/functions/Function10;
-	public static final fun memoize (Lkotlin/jvm/functions/Function11;)Lkotlin/jvm/functions/Function11;
-	public static final fun memoize (Lkotlin/jvm/functions/Function12;)Lkotlin/jvm/functions/Function12;
-	public static final fun memoize (Lkotlin/jvm/functions/Function13;)Lkotlin/jvm/functions/Function13;
-	public static final fun memoize (Lkotlin/jvm/functions/Function14;)Lkotlin/jvm/functions/Function14;
-	public static final fun memoize (Lkotlin/jvm/functions/Function15;)Lkotlin/jvm/functions/Function15;
-	public static final fun memoize (Lkotlin/jvm/functions/Function16;)Lkotlin/jvm/functions/Function16;
-	public static final fun memoize (Lkotlin/jvm/functions/Function17;)Lkotlin/jvm/functions/Function17;
-	public static final fun memoize (Lkotlin/jvm/functions/Function18;)Lkotlin/jvm/functions/Function18;
-	public static final fun memoize (Lkotlin/jvm/functions/Function19;)Lkotlin/jvm/functions/Function19;
-	public static final fun memoize (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function1;
-	public static final fun memoize (Lkotlin/jvm/functions/Function20;)Lkotlin/jvm/functions/Function20;
-	public static final fun memoize (Lkotlin/jvm/functions/Function21;)Lkotlin/jvm/functions/Function21;
-	public static final fun memoize (Lkotlin/jvm/functions/Function22;)Lkotlin/jvm/functions/Function22;
-	public static final fun memoize (Lkotlin/jvm/functions/Function2;)Lkotlin/jvm/functions/Function2;
-	public static final fun memoize (Lkotlin/jvm/functions/Function3;)Lkotlin/jvm/functions/Function3;
-	public static final fun memoize (Lkotlin/jvm/functions/Function4;)Lkotlin/jvm/functions/Function4;
-	public static final fun memoize (Lkotlin/jvm/functions/Function5;)Lkotlin/jvm/functions/Function5;
-	public static final fun memoize (Lkotlin/jvm/functions/Function6;)Lkotlin/jvm/functions/Function6;
-	public static final fun memoize (Lkotlin/jvm/functions/Function7;)Lkotlin/jvm/functions/Function7;
-	public static final fun memoize (Lkotlin/jvm/functions/Function8;)Lkotlin/jvm/functions/Function8;
-	public static final fun memoize (Lkotlin/jvm/functions/Function9;)Lkotlin/jvm/functions/Function9;
-}
-
 public final class arrow/core/NonEmptyList : kotlin/collections/AbstractList, arrow/Kind {
 	public static final field Companion Larrow/core/NonEmptyList$Companion;
 	public fun <init> (Ljava/lang/Object;Ljava/util/List;)V
 	public synthetic fun <init> (Ljava/util/List;Lkotlin/jvm/internal/DefaultConstructorMarker;)V
 	public final fun align (Larrow/core/NonEmptyList;)Larrow/core/NonEmptyList;
-	public final fun ap (Larrow/core/NonEmptyList;)Larrow/core/NonEmptyList;
-	public final fun apKind (Larrow/Kind;)Larrow/core/NonEmptyList;
+	public final fun ap (Larrow/Kind;)Larrow/core/NonEmptyList;
 	public final fun coflatMap (Lkotlin/jvm/functions/Function1;)Larrow/core/NonEmptyList;
 	public final fun coflatMapKind (Lkotlin/jvm/functions/Function1;)Larrow/core/NonEmptyList;
 	public fun equals (Ljava/lang/Object;)Z
@@ -1394,6 +1163,7 @@ public final class arrow/core/None : arrow/core/Option {
 
 public final class arrow/core/Nullable {
 	public static final field INSTANCE Larrow/core/Nullable;
+	public final fun zip (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Lkotlin/jvm/functions/Function10;)Ljava/lang/Object;
 	public final fun zip (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Lkotlin/jvm/functions/Function9;)Ljava/lang/Object;
 	public final fun zip (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Lkotlin/jvm/functions/Function8;)Ljava/lang/Object;
 	public final fun zip (Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Lkotlin/jvm/functions/Function7;)Ljava/lang/Object;
@@ -1445,7 +1215,6 @@ public abstract class arrow/core/Option : arrow/Kind {
 	public final fun all (Lkotlin/jvm/functions/Function1;)Z
 	public final fun and (Larrow/core/Option;)Larrow/core/Option;
 	public final fun ap (Larrow/Kind;)Larrow/core/Option;
-	public final fun apEval (Larrow/core/Eval;)Larrow/core/Eval;
 	public final fun crosswalk (Lkotlin/jvm/functions/Function1;)Larrow/core/Option;
 	public final fun crosswalkMap (Lkotlin/jvm/functions/Function1;)Ljava/util/Map;
 	public final fun crosswalkNull (Lkotlin/jvm/functions/Function1;)Larrow/core/Option;
@@ -1460,13 +1229,11 @@ public abstract class arrow/core/Option : arrow/Kind {
 	public final fun foldMap (Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Ljava/lang/Object;
 	public final fun foldRight (Larrow/core/Eval;Lkotlin/jvm/functions/Function2;)Larrow/core/Eval;
 	public final fun forall (Lkotlin/jvm/functions/Function1;)Z
-	public final fun fproduct (Lkotlin/jvm/functions/Function1;)Larrow/core/Option;
 	public final fun isDefined ()Z
 	public abstract fun isEmpty ()Z
 	public final fun isNotEmpty ()Z
 	public final fun map (Lkotlin/jvm/functions/Function1;)Larrow/core/Option;
 	public final fun map2 (Larrow/Kind;Lkotlin/jvm/functions/Function1;)Larrow/core/Option;
-	public final fun mapConst (Ljava/lang/Object;)Larrow/core/Option;
 	public final fun mapNotNull (Lkotlin/jvm/functions/Function1;)Larrow/core/Option;
 	public final fun nonEmpty ()Z
 	public final fun orNull ()Ljava/lang/Object;
@@ -1482,8 +1249,6 @@ public abstract class arrow/core/Option : arrow/Kind {
 	public final fun traverse (Lkotlin/jvm/functions/Function1;)Ljava/util/List;
 	public final fun traverseEither (Lkotlin/jvm/functions/Function1;)Larrow/core/Either;
 	public final fun traverseValidated (Lkotlin/jvm/functions/Function1;)Larrow/core/Validated;
-	public final fun tupleLeft (Ljava/lang/Object;)Larrow/core/Option;
-	public final fun tupleRight (Ljava/lang/Object;)Larrow/core/Option;
 	public final fun void ()Larrow/core/Option;
 	public final fun zip (Larrow/core/Option;)Larrow/core/Option;
 	public final fun zip (Larrow/core/Option;Larrow/core/Option;Larrow/core/Option;Larrow/core/Option;Larrow/core/Option;Larrow/core/Option;Larrow/core/Option;Larrow/core/Option;Larrow/core/Option;Lkotlin/jvm/functions/Function10;)Larrow/core/Option;
@@ -1495,7 +1260,6 @@ public abstract class arrow/core/Option : arrow/Kind {
 	public final fun zip (Larrow/core/Option;Larrow/core/Option;Larrow/core/Option;Lkotlin/jvm/functions/Function4;)Larrow/core/Option;
 	public final fun zip (Larrow/core/Option;Larrow/core/Option;Lkotlin/jvm/functions/Function3;)Larrow/core/Option;
 	public final fun zip (Larrow/core/Option;Lkotlin/jvm/functions/Function2;)Larrow/core/Option;
-	public final fun zipEval (Larrow/core/Eval;Lkotlin/jvm/functions/Function2;)Larrow/core/Eval;
 }
 
 public final class arrow/core/Option$Companion {
@@ -1522,11 +1286,9 @@ public final class arrow/core/OptionKt {
 	public static final fun getOrElse (Larrow/core/Option;Lkotlin/jvm/functions/Function0;)Ljava/lang/Object;
 	public static final fun handleError (Larrow/core/Option;Lkotlin/jvm/functions/Function1;)Larrow/core/Option;
 	public static final fun handleErrorWith (Larrow/core/Option;Lkotlin/jvm/functions/Function1;)Larrow/core/Option;
-	public static final fun ifM (Larrow/core/Option;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;)Larrow/core/Option;
 	public static final fun lastOrNone (Ljava/lang/Iterable;)Larrow/core/Option;
 	public static final fun lastOrNone (Ljava/lang/Iterable;Lkotlin/jvm/functions/Function1;)Larrow/core/Option;
 	public static final fun maybe (ZLkotlin/jvm/functions/Function0;)Larrow/core/Option;
-	public static final fun mproduct (Larrow/core/Option;Lkotlin/jvm/functions/Function1;)Larrow/core/Option;
 	public static final fun none ()Larrow/core/Option;
 	public static final fun option (Larrow/typeclasses/Monoid$Companion;Larrow/typeclasses/Monoid;)Larrow/typeclasses/Monoid;
 	public static final fun option (Larrow/typeclasses/Semigroup$Companion;Larrow/typeclasses/Semigroup;)Larrow/typeclasses/Semigroup;
@@ -1538,7 +1300,6 @@ public final class arrow/core/OptionKt {
 	public static final fun rethrow (Larrow/core/Option;)Larrow/core/Option;
 	public static final fun salign (Larrow/core/Option;Larrow/typeclasses/Semigroup;Larrow/core/Option;)Larrow/core/Option;
 	public static final fun select (Larrow/core/Option;Larrow/Kind;)Larrow/core/Option;
-	public static final fun selectM (Larrow/core/Option;Larrow/core/Option;)Larrow/core/Option;
 	public static final fun separateEither (Larrow/core/Option;)Lkotlin/Pair;
 	public static final fun separateValidated (Larrow/core/Option;)Lkotlin/Pair;
 	public static final fun sequence (Larrow/core/Option;)Ljava/util/List;
@@ -1575,317 +1336,12 @@ public final class arrow/core/OrderingKt {
 	public static final field OrderingDeprecation Ljava/lang/String;
 }
 
-public final class arrow/core/PartialsKt {
-	public static final fun partially1 (Lkotlin/jvm/functions/Function10;Ljava/lang/Object;)Lkotlin/jvm/functions/Function9;
-	public static final fun partially1 (Lkotlin/jvm/functions/Function11;Ljava/lang/Object;)Lkotlin/jvm/functions/Function10;
-	public static final fun partially1 (Lkotlin/jvm/functions/Function12;Ljava/lang/Object;)Lkotlin/jvm/functions/Function11;
-	public static final fun partially1 (Lkotlin/jvm/functions/Function13;Ljava/lang/Object;)Lkotlin/jvm/functions/Function12;
-	public static final fun partially1 (Lkotlin/jvm/functions/Function14;Ljava/lang/Object;)Lkotlin/jvm/functions/Function13;
-	public static final fun partially1 (Lkotlin/jvm/functions/Function15;Ljava/lang/Object;)Lkotlin/jvm/functions/Function14;
-	public static final fun partially1 (Lkotlin/jvm/functions/Function16;Ljava/lang/Object;)Lkotlin/jvm/functions/Function15;
-	public static final fun partially1 (Lkotlin/jvm/functions/Function17;Ljava/lang/Object;)Lkotlin/jvm/functions/Function16;
-	public static final fun partially1 (Lkotlin/jvm/functions/Function18;Ljava/lang/Object;)Lkotlin/jvm/functions/Function17;
-	public static final fun partially1 (Lkotlin/jvm/functions/Function19;Ljava/lang/Object;)Lkotlin/jvm/functions/Function18;
-	public static final fun partially1 (Lkotlin/jvm/functions/Function1;Ljava/lang/Object;)Lkotlin/jvm/functions/Function0;
-	public static final fun partially1 (Lkotlin/jvm/functions/Function20;Ljava/lang/Object;)Lkotlin/jvm/functions/Function19;
-	public static final fun partially1 (Lkotlin/jvm/functions/Function21;Ljava/lang/Object;)Lkotlin/jvm/functions/Function20;
-	public static final fun partially1 (Lkotlin/jvm/functions/Function22;Ljava/lang/Object;)Lkotlin/jvm/functions/Function21;
-	public static final fun partially1 (Lkotlin/jvm/functions/Function2;Ljava/lang/Object;)Lkotlin/jvm/functions/Function1;
-	public static final fun partially1 (Lkotlin/jvm/functions/Function3;Ljava/lang/Object;)Lkotlin/jvm/functions/Function2;
-	public static final fun partially1 (Lkotlin/jvm/functions/Function4;Ljava/lang/Object;)Lkotlin/jvm/functions/Function3;
-	public static final fun partially1 (Lkotlin/jvm/functions/Function5;Ljava/lang/Object;)Lkotlin/jvm/functions/Function4;
-	public static final fun partially1 (Lkotlin/jvm/functions/Function6;Ljava/lang/Object;)Lkotlin/jvm/functions/Function5;
-	public static final fun partially1 (Lkotlin/jvm/functions/Function7;Ljava/lang/Object;)Lkotlin/jvm/functions/Function6;
-	public static final fun partially1 (Lkotlin/jvm/functions/Function8;Ljava/lang/Object;)Lkotlin/jvm/functions/Function7;
-	public static final fun partially1 (Lkotlin/jvm/functions/Function9;Ljava/lang/Object;)Lkotlin/jvm/functions/Function8;
-	public static final fun partially10 (Lkotlin/jvm/functions/Function10;Ljava/lang/Object;)Lkotlin/jvm/functions/Function9;
-	public static final fun partially10 (Lkotlin/jvm/functions/Function11;Ljava/lang/Object;)Lkotlin/jvm/functions/Function10;
-	public static final fun partially10 (Lkotlin/jvm/functions/Function12;Ljava/lang/Object;)Lkotlin/jvm/functions/Function11;
-	public static final fun partially10 (Lkotlin/jvm/functions/Function13;Ljava/lang/Object;)Lkotlin/jvm/functions/Function12;
-	public static final fun partially10 (Lkotlin/jvm/functions/Function14;Ljava/lang/Object;)Lkotlin/jvm/functions/Function13;
-	public static final fun partially10 (Lkotlin/jvm/functions/Function15;Ljava/lang/Object;)Lkotlin/jvm/functions/Function14;
-	public static final fun partially10 (Lkotlin/jvm/functions/Function16;Ljava/lang/Object;)Lkotlin/jvm/functions/Function15;
-	public static final fun partially10 (Lkotlin/jvm/functions/Function17;Ljava/lang/Object;)Lkotlin/jvm/functions/Function16;
-	public static final fun partially10 (Lkotlin/jvm/functions/Function18;Ljava/lang/Object;)Lkotlin/jvm/functions/Function17;
-	public static final fun partially10 (Lkotlin/jvm/functions/Function19;Ljava/lang/Object;)Lkotlin/jvm/functions/Function18;
-	public static final fun partially10 (Lkotlin/jvm/functions/Function20;Ljava/lang/Object;)Lkotlin/jvm/functions/Function19;
-	public static final fun partially10 (Lkotlin/jvm/functions/Function21;Ljava/lang/Object;)Lkotlin/jvm/functions/Function20;
-	public static final fun partially10 (Lkotlin/jvm/functions/Function22;Ljava/lang/Object;)Lkotlin/jvm/functions/Function21;
-	public static final fun partially11 (Lkotlin/jvm/functions/Function11;Ljava/lang/Object;)Lkotlin/jvm/functions/Function10;
-	public static final fun partially11 (Lkotlin/jvm/functions/Function12;Ljava/lang/Object;)Lkotlin/jvm/functions/Function11;
-	public static final fun partially11 (Lkotlin/jvm/functions/Function13;Ljava/lang/Object;)Lkotlin/jvm/functions/Function12;
-	public static final fun partially11 (Lkotlin/jvm/functions/Function14;Ljava/lang/Object;)Lkotlin/jvm/functions/Function13;
-	public static final fun partially11 (Lkotlin/jvm/functions/Function15;Ljava/lang/Object;)Lkotlin/jvm/functions/Function14;
-	public static final fun partially11 (Lkotlin/jvm/functions/Function16;Ljava/lang/Object;)Lkotlin/jvm/functions/Function15;
-	public static final fun partially11 (Lkotlin/jvm/functions/Function17;Ljava/lang/Object;)Lkotlin/jvm/functions/Function16;
-	public static final fun partially11 (Lkotlin/jvm/functions/Function18;Ljava/lang/Object;)Lkotlin/jvm/functions/Function17;
-	public static final fun partially11 (Lkotlin/jvm/functions/Function19;Ljava/lang/Object;)Lkotlin/jvm/functions/Function18;
-	public static final fun partially11 (Lkotlin/jvm/functions/Function20;Ljava/lang/Object;)Lkotlin/jvm/functions/Function19;
-	public static final fun partially11 (Lkotlin/jvm/functions/Function21;Ljava/lang/Object;)Lkotlin/jvm/functions/Function20;
-	public static final fun partially11 (Lkotlin/jvm/functions/Function22;Ljava/lang/Object;)Lkotlin/jvm/functions/Function21;
-	public static final fun partially12 (Lkotlin/jvm/functions/Function12;Ljava/lang/Object;)Lkotlin/jvm/functions/Function11;
-	public static final fun partially12 (Lkotlin/jvm/functions/Function13;Ljava/lang/Object;)Lkotlin/jvm/functions/Function12;
-	public static final fun partially12 (Lkotlin/jvm/functions/Function14;Ljava/lang/Object;)Lkotlin/jvm/functions/Function13;
-	public static final fun partially12 (Lkotlin/jvm/functions/Function15;Ljava/lang/Object;)Lkotlin/jvm/functions/Function14;
-	public static final fun partially12 (Lkotlin/jvm/functions/Function16;Ljava/lang/Object;)Lkotlin/jvm/functions/Function15;
-	public static final fun partially12 (Lkotlin/jvm/functions/Function17;Ljava/lang/Object;)Lkotlin/jvm/functions/Function16;
-	public static final fun partially12 (Lkotlin/jvm/functions/Function18;Ljava/lang/Object;)Lkotlin/jvm/functions/Function17;
-	public static final fun partially12 (Lkotlin/jvm/functions/Function19;Ljava/lang/Object;)Lkotlin/jvm/functions/Function18;
-	public static final fun partially12 (Lkotlin/jvm/functions/Function20;Ljava/lang/Object;)Lkotlin/jvm/functions/Function19;
-	public static final fun partially12 (Lkotlin/jvm/functions/Function21;Ljava/lang/Object;)Lkotlin/jvm/functions/Function20;
-	public static final fun partially12 (Lkotlin/jvm/functions/Function22;Ljava/lang/Object;)Lkotlin/jvm/functions/Function21;
-	public static final fun partially13 (Lkotlin/jvm/functions/Function13;Ljava/lang/Object;)Lkotlin/jvm/functions/Function12;
-	public static final fun partially13 (Lkotlin/jvm/functions/Function14;Ljava/lang/Object;)Lkotlin/jvm/functions/Function13;
-	public static final fun partially13 (Lkotlin/jvm/functions/Function15;Ljava/lang/Object;)Lkotlin/jvm/functions/Function14;
-	public static final fun partially13 (Lkotlin/jvm/functions/Function16;Ljava/lang/Object;)Lkotlin/jvm/functions/Function15;
-	public static final fun partially13 (Lkotlin/jvm/functions/Function17;Ljava/lang/Object;)Lkotlin/jvm/functions/Function16;
-	public static final fun partially13 (Lkotlin/jvm/functions/Function18;Ljava/lang/Object;)Lkotlin/jvm/functions/Function17;
-	public static final fun partially13 (Lkotlin/jvm/functions/Function19;Ljava/lang/Object;)Lkotlin/jvm/functions/Function18;
-	public static final fun partially13 (Lkotlin/jvm/functions/Function20;Ljava/lang/Object;)Lkotlin/jvm/functions/Function19;
-	public static final fun partially13 (Lkotlin/jvm/functions/Function21;Ljava/lang/Object;)Lkotlin/jvm/functions/Function20;
-	public static final fun partially13 (Lkotlin/jvm/functions/Function22;Ljava/lang/Object;)Lkotlin/jvm/functions/Function21;
-	public static final fun partially14 (Lkotlin/jvm/functions/Function14;Ljava/lang/Object;)Lkotlin/jvm/functions/Function13;
-	public static final fun partially14 (Lkotlin/jvm/functions/Function15;Ljava/lang/Object;)Lkotlin/jvm/functions/Function14;
-	public static final fun partially14 (Lkotlin/jvm/functions/Function16;Ljava/lang/Object;)Lkotlin/jvm/functions/Function15;
-	public static final fun partially14 (Lkotlin/jvm/functions/Function17;Ljava/lang/Object;)Lkotlin/jvm/functions/Function16;
-	public static final fun partially14 (Lkotlin/jvm/functions/Function18;Ljava/lang/Object;)Lkotlin/jvm/functions/Function17;
-	public static final fun partially14 (Lkotlin/jvm/functions/Function19;Ljava/lang/Object;)Lkotlin/jvm/functions/Function18;
-	public static final fun partially14 (Lkotlin/jvm/functions/Function20;Ljava/lang/Object;)Lkotlin/jvm/functions/Function19;
-	public static final fun partially14 (Lkotlin/jvm/functions/Function21;Ljava/lang/Object;)Lkotlin/jvm/functions/Function20;
-	public static final fun partially14 (Lkotlin/jvm/functions/Function22;Ljava/lang/Object;)Lkotlin/jvm/functions/Function21;
-	public static final fun partially15 (Lkotlin/jvm/functions/Function15;Ljava/lang/Object;)Lkotlin/jvm/functions/Function14;
-	public static final fun partially15 (Lkotlin/jvm/functions/Function16;Ljava/lang/Object;)Lkotlin/jvm/functions/Function15;
-	public static final fun partially15 (Lkotlin/jvm/functions/Function17;Ljava/lang/Object;)Lkotlin/jvm/functions/Function16;
-	public static final fun partially15 (Lkotlin/jvm/functions/Function18;Ljava/lang/Object;)Lkotlin/jvm/functions/Function17;
-	public static final fun partially15 (Lkotlin/jvm/functions/Function19;Ljava/lang/Object;)Lkotlin/jvm/functions/Function18;
-	public static final fun partially15 (Lkotlin/jvm/functions/Function20;Ljava/lang/Object;)Lkotlin/jvm/functions/Function19;
-	public static final fun partially15 (Lkotlin/jvm/functions/Function21;Ljava/lang/Object;)Lkotlin/jvm/functions/Function20;
-	public static final fun partially15 (Lkotlin/jvm/functions/Function22;Ljava/lang/Object;)Lkotlin/jvm/functions/Function21;
-	public static final fun partially16 (Lkotlin/jvm/functions/Function16;Ljava/lang/Object;)Lkotlin/jvm/functions/Function15;
-	public static final fun partially16 (Lkotlin/jvm/functions/Function17;Ljava/lang/Object;)Lkotlin/jvm/functions/Function16;
-	public static final fun partially16 (Lkotlin/jvm/functions/Function18;Ljava/lang/Object;)Lkotlin/jvm/functions/Function17;
-	public static final fun partially16 (Lkotlin/jvm/functions/Function19;Ljava/lang/Object;)Lkotlin/jvm/functions/Function18;
-	public static final fun partially16 (Lkotlin/jvm/functions/Function20;Ljava/lang/Object;)Lkotlin/jvm/functions/Function19;
-	public static final fun partially16 (Lkotlin/jvm/functions/Function21;Ljava/lang/Object;)Lkotlin/jvm/functions/Function20;
-	public static final fun partially16 (Lkotlin/jvm/functions/Function22;Ljava/lang/Object;)Lkotlin/jvm/functions/Function21;
-	public static final fun partially17 (Lkotlin/jvm/functions/Function17;Ljava/lang/Object;)Lkotlin/jvm/functions/Function16;
-	public static final fun partially17 (Lkotlin/jvm/functions/Function18;Ljava/lang/Object;)Lkotlin/jvm/functions/Function17;
-	public static final fun partially17 (Lkotlin/jvm/functions/Function19;Ljava/lang/Object;)Lkotlin/jvm/functions/Function18;
-	public static final fun partially17 (Lkotlin/jvm/functions/Function20;Ljava/lang/Object;)Lkotlin/jvm/functions/Function19;
-	public static final fun partially17 (Lkotlin/jvm/functions/Function21;Ljava/lang/Object;)Lkotlin/jvm/functions/Function20;
-	public static final fun partially17 (Lkotlin/jvm/functions/Function22;Ljava/lang/Object;)Lkotlin/jvm/functions/Function21;
-	public static final fun partially18 (Lkotlin/jvm/functions/Function18;Ljava/lang/Object;)Lkotlin/jvm/functions/Function17;
-	public static final fun partially18 (Lkotlin/jvm/functions/Function19;Ljava/lang/Object;)Lkotlin/jvm/functions/Function18;
-	public static final fun partially18 (Lkotlin/jvm/functions/Function20;Ljava/lang/Object;)Lkotlin/jvm/functions/Function19;
-	public static final fun partially18 (Lkotlin/jvm/functions/Function21;Ljava/lang/Object;)Lkotlin/jvm/functions/Function20;
-	public static final fun partially18 (Lkotlin/jvm/functions/Function22;Ljava/lang/Object;)Lkotlin/jvm/functions/Function21;
-	public static final fun partially19 (Lkotlin/jvm/functions/Function19;Ljava/lang/Object;)Lkotlin/jvm/functions/Function18;
-	public static final fun partially19 (Lkotlin/jvm/functions/Function20;Ljava/lang/Object;)Lkotlin/jvm/functions/Function19;
-	public static final fun partially19 (Lkotlin/jvm/functions/Function21;Ljava/lang/Object;)Lkotlin/jvm/functions/Function20;
-	public static final fun partially19 (Lkotlin/jvm/functions/Function22;Ljava/lang/Object;)Lkotlin/jvm/functions/Function21;
-	public static final fun partially2 (Lkotlin/jvm/functions/Function10;Ljava/lang/Object;)Lkotlin/jvm/functions/Function9;
-	public static final fun partially2 (Lkotlin/jvm/functions/Function11;Ljava/lang/Object;)Lkotlin/jvm/functions/Function10;
-	public static final fun partially2 (Lkotlin/jvm/functions/Function12;Ljava/lang/Object;)Lkotlin/jvm/functions/Function11;
-	public static final fun partially2 (Lkotlin/jvm/functions/Function13;Ljava/lang/Object;)Lkotlin/jvm/functions/Function12;
-	public static final fun partially2 (Lkotlin/jvm/functions/Function14;Ljava/lang/Object;)Lkotlin/jvm/functions/Function13;
-	public static final fun partially2 (Lkotlin/jvm/functions/Function15;Ljava/lang/Object;)Lkotlin/jvm/functions/Function14;
-	public static final fun partially2 (Lkotlin/jvm/functions/Function16;Ljava/lang/Object;)Lkotlin/jvm/functions/Function15;
-	public static final fun partially2 (Lkotlin/jvm/functions/Function17;Ljava/lang/Object;)Lkotlin/jvm/functions/Function16;
-	public static final fun partially2 (Lkotlin/jvm/functions/Function18;Ljava/lang/Object;)Lkotlin/jvm/functions/Function17;
-	public static final fun partially2 (Lkotlin/jvm/functions/Function19;Ljava/lang/Object;)Lkotlin/jvm/functions/Function18;
-	public static final fun partially2 (Lkotlin/jvm/functions/Function20;Ljava/lang/Object;)Lkotlin/jvm/functions/Function19;
-	public static final fun partially2 (Lkotlin/jvm/functions/Function21;Ljava/lang/Object;)Lkotlin/jvm/functions/Function20;
-	public static final fun partially2 (Lkotlin/jvm/functions/Function22;Ljava/lang/Object;)Lkotlin/jvm/functions/Function21;
-	public static final fun partially2 (Lkotlin/jvm/functions/Function2;Ljava/lang/Object;)Lkotlin/jvm/functions/Function1;
-	public static final fun partially2 (Lkotlin/jvm/functions/Function3;Ljava/lang/Object;)Lkotlin/jvm/functions/Function2;
-	public static final fun partially2 (Lkotlin/jvm/functions/Function4;Ljava/lang/Object;)Lkotlin/jvm/functions/Function3;
-	public static final fun partially2 (Lkotlin/jvm/functions/Function5;Ljava/lang/Object;)Lkotlin/jvm/functions/Function4;
-	public static final fun partially2 (Lkotlin/jvm/functions/Function6;Ljava/lang/Object;)Lkotlin/jvm/functions/Function5;
-	public static final fun partially2 (Lkotlin/jvm/functions/Function7;Ljava/lang/Object;)Lkotlin/jvm/functions/Function6;
-	public static final fun partially2 (Lkotlin/jvm/functions/Function8;Ljava/lang/Object;)Lkotlin/jvm/functions/Function7;
-	public static final fun partially2 (Lkotlin/jvm/functions/Function9;Ljava/lang/Object;)Lkotlin/jvm/functions/Function8;
-	public static final fun partially20 (Lkotlin/jvm/functions/Function20;Ljava/lang/Object;)Lkotlin/jvm/functions/Function19;
-	public static final fun partially20 (Lkotlin/jvm/functions/Function21;Ljava/lang/Object;)Lkotlin/jvm/functions/Function20;
-	public static final fun partially20 (Lkotlin/jvm/functions/Function22;Ljava/lang/Object;)Lkotlin/jvm/functions/Function21;
-	public static final fun partially21 (Lkotlin/jvm/functions/Function21;Ljava/lang/Object;)Lkotlin/jvm/functions/Function20;
-	public static final fun partially21 (Lkotlin/jvm/functions/Function22;Ljava/lang/Object;)Lkotlin/jvm/functions/Function21;
-	public static final fun partially22 (Lkotlin/jvm/functions/Function22;Ljava/lang/Object;)Lkotlin/jvm/functions/Function21;
-	public static final fun partially3 (Lkotlin/jvm/functions/Function10;Ljava/lang/Object;)Lkotlin/jvm/functions/Function9;
-	public static final fun partially3 (Lkotlin/jvm/functions/Function11;Ljava/lang/Object;)Lkotlin/jvm/functions/Function10;
-	public static final fun partially3 (Lkotlin/jvm/functions/Function12;Ljava/lang/Object;)Lkotlin/jvm/functions/Function11;
-	public static final fun partially3 (Lkotlin/jvm/functions/Function13;Ljava/lang/Object;)Lkotlin/jvm/functions/Function12;
-	public static final fun partially3 (Lkotlin/jvm/functions/Function14;Ljava/lang/Object;)Lkotlin/jvm/functions/Function13;
-	public static final fun partially3 (Lkotlin/jvm/functions/Function15;Ljava/lang/Object;)Lkotlin/jvm/functions/Function14;
-	public static final fun partially3 (Lkotlin/jvm/functions/Function16;Ljava/lang/Object;)Lkotlin/jvm/functions/Function15;
-	public static final fun partially3 (Lkotlin/jvm/functions/Function17;Ljava/lang/Object;)Lkotlin/jvm/functions/Function16;
-	public static final fun partially3 (Lkotlin/jvm/functions/Function18;Ljava/lang/Object;)Lkotlin/jvm/functions/Function17;
-	public static final fun partially3 (Lkotlin/jvm/functions/Function19;Ljava/lang/Object;)Lkotlin/jvm/functions/Function18;
-	public static final fun partially3 (Lkotlin/jvm/functions/Function20;Ljava/lang/Object;)Lkotlin/jvm/functions/Function19;
-	public static final fun partially3 (Lkotlin/jvm/functions/Function21;Ljava/lang/Object;)Lkotlin/jvm/functions/Function20;
-	public static final fun partially3 (Lkotlin/jvm/functions/Function22;Ljava/lang/Object;)Lkotlin/jvm/functions/Function21;
-	public static final fun partially3 (Lkotlin/jvm/functions/Function3;Ljava/lang/Object;)Lkotlin/jvm/functions/Function2;
-	public static final fun partially3 (Lkotlin/jvm/functions/Function4;Ljava/lang/Object;)Lkotlin/jvm/functions/Function3;
-	public static final fun partially3 (Lkotlin/jvm/functions/Function5;Ljava/lang/Object;)Lkotlin/jvm/functions/Function4;
-	public static final fun partially3 (Lkotlin/jvm/functions/Function6;Ljava/lang/Object;)Lkotlin/jvm/functions/Function5;
-	public static final fun partially3 (Lkotlin/jvm/functions/Function7;Ljava/lang/Object;)Lkotlin/jvm/functions/Function6;
-	public static final fun partially3 (Lkotlin/jvm/functions/Function8;Ljava/lang/Object;)Lkotlin/jvm/functions/Function7;
-	public static final fun partially3 (Lkotlin/jvm/functions/Function9;Ljava/lang/Object;)Lkotlin/jvm/functions/Function8;
-	public static final fun partially4 (Lkotlin/jvm/functions/Function10;Ljava/lang/Object;)Lkotlin/jvm/functions/Function9;
-	public static final fun partially4 (Lkotlin/jvm/functions/Function11;Ljava/lang/Object;)Lkotlin/jvm/functions/Function10;
-	public static final fun partially4 (Lkotlin/jvm/functions/Function12;Ljava/lang/Object;)Lkotlin/jvm/functions/Function11;
-	public static final fun partially4 (Lkotlin/jvm/functions/Function13;Ljava/lang/Object;)Lkotlin/jvm/functions/Function12;
-	public static final fun partially4 (Lkotlin/jvm/functions/Function14;Ljava/lang/Object;)Lkotlin/jvm/functions/Function13;
-	public static final fun partially4 (Lkotlin/jvm/functions/Function15;Ljava/lang/Object;)Lkotlin/jvm/functions/Function14;
-	public static final fun partially4 (Lkotlin/jvm/functions/Function16;Ljava/lang/Object;)Lkotlin/jvm/functions/Function15;
-	public static final fun partially4 (Lkotlin/jvm/functions/Function17;Ljava/lang/Object;)Lkotlin/jvm/functions/Function16;
-	public static final fun partially4 (Lkotlin/jvm/functions/Function18;Ljava/lang/Object;)Lkotlin/jvm/functions/Function17;
-	public static final fun partially4 (Lkotlin/jvm/functions/Function19;Ljava/lang/Object;)Lkotlin/jvm/functions/Function18;
-	public static final fun partially4 (Lkotlin/jvm/functions/Function20;Ljava/lang/Object;)Lkotlin/jvm/functions/Function19;
-	public static final fun partially4 (Lkotlin/jvm/functions/Function21;Ljava/lang/Object;)Lkotlin/jvm/functions/Function20;
-	public static final fun partially4 (Lkotlin/jvm/functions/Function22;Ljava/lang/Object;)Lkotlin/jvm/functions/Function21;
-	public static final fun partially4 (Lkotlin/jvm/functions/Function4;Ljava/lang/Object;)Lkotlin/jvm/functions/Function3;
-	public static final fun partially4 (Lkotlin/jvm/functions/Function5;Ljava/lang/Object;)Lkotlin/jvm/functions/Function4;
-	public static final fun partially4 (Lkotlin/jvm/functions/Function6;Ljava/lang/Object;)Lkotlin/jvm/functions/Function5;
-	public static final fun partially4 (Lkotlin/jvm/functions/Function7;Ljava/lang/Object;)Lkotlin/jvm/functions/Function6;
-	public static final fun partially4 (Lkotlin/jvm/functions/Function8;Ljava/lang/Object;)Lkotlin/jvm/functions/Function7;
-	public static final fun partially4 (Lkotlin/jvm/functions/Function9;Ljava/lang/Object;)Lkotlin/jvm/functions/Function8;
-	public static final fun partially5 (Lkotlin/jvm/functions/Function10;Ljava/lang/Object;)Lkotlin/jvm/functions/Function9;
-	public static final fun partially5 (Lkotlin/jvm/functions/Function11;Ljava/lang/Object;)Lkotlin/jvm/functions/Function10;
-	public static final fun partially5 (Lkotlin/jvm/functions/Function12;Ljava/lang/Object;)Lkotlin/jvm/functions/Function11;
-	public static final fun partially5 (Lkotlin/jvm/functions/Function13;Ljava/lang/Object;)Lkotlin/jvm/functions/Function12;
-	public static final fun partially5 (Lkotlin/jvm/functions/Function14;Ljava/lang/Object;)Lkotlin/jvm/functions/Function13;
-	public static final fun partially5 (Lkotlin/jvm/functions/Function15;Ljava/lang/Object;)Lkotlin/jvm/functions/Function14;
-	public static final fun partially5 (Lkotlin/jvm/functions/Function16;Ljava/lang/Object;)Lkotlin/jvm/functions/Function15;
-	public static final fun partially5 (Lkotlin/jvm/functions/Function17;Ljava/lang/Object;)Lkotlin/jvm/functions/Function16;
-	public static final fun partially5 (Lkotlin/jvm/functions/Function18;Ljava/lang/Object;)Lkotlin/jvm/functions/Function17;
-	public static final fun partially5 (Lkotlin/jvm/functions/Function19;Ljava/lang/Object;)Lkotlin/jvm/functions/Function18;
-	public static final fun partially5 (Lkotlin/jvm/functions/Function20;Ljava/lang/Object;)Lkotlin/jvm/functions/Function19;
-	public static final fun partially5 (Lkotlin/jvm/functions/Function21;Ljava/lang/Object;)Lkotlin/jvm/functions/Function20;
-	public static final fun partially5 (Lkotlin/jvm/functions/Function22;Ljava/lang/Object;)Lkotlin/jvm/functions/Function21;
-	public static final fun partially5 (Lkotlin/jvm/functions/Function5;Ljava/lang/Object;)Lkotlin/jvm/functions/Function4;
-	public static final fun partially5 (Lkotlin/jvm/functions/Function6;Ljava/lang/Object;)Lkotlin/jvm/functions/Function5;
-	public static final fun partially5 (Lkotlin/jvm/functions/Function7;Ljava/lang/Object;)Lkotlin/jvm/functions/Function6;
-	public static final fun partially5 (Lkotlin/jvm/functions/Function8;Ljava/lang/Object;)Lkotlin/jvm/functions/Function7;
-	public static final fun partially5 (Lkotlin/jvm/functions/Function9;Ljava/lang/Object;)Lkotlin/jvm/functions/Function8;
-	public static final fun partially6 (Lkotlin/jvm/functions/Function10;Ljava/lang/Object;)Lkotlin/jvm/functions/Function9;
-	public static final fun partially6 (Lkotlin/jvm/functions/Function11;Ljava/lang/Object;)Lkotlin/jvm/functions/Function10;
-	public static final fun partially6 (Lkotlin/jvm/functions/Function12;Ljava/lang/Object;)Lkotlin/jvm/functions/Function11;
-	public static final fun partially6 (Lkotlin/jvm/functions/Function13;Ljava/lang/Object;)Lkotlin/jvm/functions/Function12;
-	public static final fun partially6 (Lkotlin/jvm/functions/Function14;Ljava/lang/Object;)Lkotlin/jvm/functions/Function13;
-	public static final fun partially6 (Lkotlin/jvm/functions/Function15;Ljava/lang/Object;)Lkotlin/jvm/functions/Function14;
-	public static final fun partially6 (Lkotlin/jvm/functions/Function16;Ljava/lang/Object;)Lkotlin/jvm/functions/Function15;
-	public static final fun partially6 (Lkotlin/jvm/functions/Function17;Ljava/lang/Object;)Lkotlin/jvm/functions/Function16;
-	public static final fun partially6 (Lkotlin/jvm/functions/Function18;Ljava/lang/Object;)Lkotlin/jvm/functions/Function17;
-	public static final fun partially6 (Lkotlin/jvm/functions/Function19;Ljava/lang/Object;)Lkotlin/jvm/functions/Function18;
-	public static final fun partially6 (Lkotlin/jvm/functions/Function20;Ljava/lang/Object;)Lkotlin/jvm/functions/Function19;
-	public static final fun partially6 (Lkotlin/jvm/functions/Function21;Ljava/lang/Object;)Lkotlin/jvm/functions/Function20;
-	public static final fun partially6 (Lkotlin/jvm/functions/Function22;Ljava/lang/Object;)Lkotlin/jvm/functions/Function21;
-	public static final fun partially6 (Lkotlin/jvm/functions/Function6;Ljava/lang/Object;)Lkotlin/jvm/functions/Function5;
-	public static final fun partially6 (Lkotlin/jvm/functions/Function7;Ljava/lang/Object;)Lkotlin/jvm/functions/Function6;
-	public static final fun partially6 (Lkotlin/jvm/functions/Function8;Ljava/lang/Object;)Lkotlin/jvm/functions/Function7;
-	public static final fun partially6 (Lkotlin/jvm/functions/Function9;Ljava/lang/Object;)Lkotlin/jvm/functions/Function8;
-	public static final fun partially7 (Lkotlin/jvm/functions/Function10;Ljava/lang/Object;)Lkotlin/jvm/functions/Function9;
-	public static final fun partially7 (Lkotlin/jvm/functions/Function11;Ljava/lang/Object;)Lkotlin/jvm/functions/Function10;
-	public static final fun partially7 (Lkotlin/jvm/functions/Function12;Ljava/lang/Object;)Lkotlin/jvm/functions/Function11;
-	public static final fun partially7 (Lkotlin/jvm/functions/Function13;Ljava/lang/Object;)Lkotlin/jvm/functions/Function12;
-	public static final fun partially7 (Lkotlin/jvm/functions/Function14;Ljava/lang/Object;)Lkotlin/jvm/functions/Function13;
-	public static final fun partially7 (Lkotlin/jvm/functions/Function15;Ljava/lang/Object;)Lkotlin/jvm/functions/Function14;
-	public static final fun partially7 (Lkotlin/jvm/functions/Function16;Ljava/lang/Object;)Lkotlin/jvm/functions/Function15;
-	public static final fun partially7 (Lkotlin/jvm/functions/Function17;Ljava/lang/Object;)Lkotlin/jvm/functions/Function16;
-	public static final fun partially7 (Lkotlin/jvm/functions/Function18;Ljava/lang/Object;)Lkotlin/jvm/functions/Function17;
-	public static final fun partially7 (Lkotlin/jvm/functions/Function19;Ljava/lang/Object;)Lkotlin/jvm/functions/Function18;
-	public static final fun partially7 (Lkotlin/jvm/functions/Function20;Ljava/lang/Object;)Lkotlin/jvm/functions/Function19;
-	public static final fun partially7 (Lkotlin/jvm/functions/Function21;Ljava/lang/Object;)Lkotlin/jvm/functions/Function20;
-	public static final fun partially7 (Lkotlin/jvm/functions/Function22;Ljava/lang/Object;)Lkotlin/jvm/functions/Function21;
-	public static final fun partially7 (Lkotlin/jvm/functions/Function7;Ljava/lang/Object;)Lkotlin/jvm/functions/Function6;
-	public static final fun partially7 (Lkotlin/jvm/functions/Function8;Ljava/lang/Object;)Lkotlin/jvm/functions/Function7;
-	public static final fun partially7 (Lkotlin/jvm/functions/Function9;Ljava/lang/Object;)Lkotlin/jvm/functions/Function8;
-	public static final fun partially8 (Lkotlin/jvm/functions/Function10;Ljava/lang/Object;)Lkotlin/jvm/functions/Function9;
-	public static final fun partially8 (Lkotlin/jvm/functions/Function11;Ljava/lang/Object;)Lkotlin/jvm/functions/Function10;
-	public static final fun partially8 (Lkotlin/jvm/functions/Function12;Ljava/lang/Object;)Lkotlin/jvm/functions/Function11;
-	public static final fun partially8 (Lkotlin/jvm/functions/Function13;Ljava/lang/Object;)Lkotlin/jvm/functions/Function12;
-	public static final fun partially8 (Lkotlin/jvm/functions/Function14;Ljava/lang/Object;)Lkotlin/jvm/functions/Function13;
-	public static final fun partially8 (Lkotlin/jvm/functions/Function15;Ljava/lang/Object;)Lkotlin/jvm/functions/Function14;
-	public static final fun partially8 (Lkotlin/jvm/functions/Function16;Ljava/lang/Object;)Lkotlin/jvm/functions/Function15;
-	public static final fun partially8 (Lkotlin/jvm/functions/Function17;Ljava/lang/Object;)Lkotlin/jvm/functions/Function16;
-	public static final fun partially8 (Lkotlin/jvm/functions/Function18;Ljava/lang/Object;)Lkotlin/jvm/functions/Function17;
-	public static final fun partially8 (Lkotlin/jvm/functions/Function19;Ljava/lang/Object;)Lkotlin/jvm/functions/Function18;
-	public static final fun partially8 (Lkotlin/jvm/functions/Function20;Ljava/lang/Object;)Lkotlin/jvm/functions/Function19;
-	public static final fun partially8 (Lkotlin/jvm/functions/Function21;Ljava/lang/Object;)Lkotlin/jvm/functions/Function20;
-	public static final fun partially8 (Lkotlin/jvm/functions/Function22;Ljava/lang/Object;)Lkotlin/jvm/functions/Function21;
-	public static final fun partially8 (Lkotlin/jvm/functions/Function8;Ljava/lang/Object;)Lkotlin/jvm/functions/Function7;
-	public static final fun partially8 (Lkotlin/jvm/functions/Function9;Ljava/lang/Object;)Lkotlin/jvm/functions/Function8;
-	public static final fun partially9 (Lkotlin/jvm/functions/Function10;Ljava/lang/Object;)Lkotlin/jvm/functions/Function9;
-	public static final fun partially9 (Lkotlin/jvm/functions/Function11;Ljava/lang/Object;)Lkotlin/jvm/functions/Function10;
-	public static final fun partially9 (Lkotlin/jvm/functions/Function12;Ljava/lang/Object;)Lkotlin/jvm/functions/Function11;
-	public static final fun partially9 (Lkotlin/jvm/functions/Function13;Ljava/lang/Object;)Lkotlin/jvm/functions/Function12;
-	public static final fun partially9 (Lkotlin/jvm/functions/Function14;Ljava/lang/Object;)Lkotlin/jvm/functions/Function13;
-	public static final fun partially9 (Lkotlin/jvm/functions/Function15;Ljava/lang/Object;)Lkotlin/jvm/functions/Function14;
-	public static final fun partially9 (Lkotlin/jvm/functions/Function16;Ljava/lang/Object;)Lkotlin/jvm/functions/Function15;
-	public static final fun partially9 (Lkotlin/jvm/functions/Function17;Ljava/lang/Object;)Lkotlin/jvm/functions/Function16;
-	public static final fun partially9 (Lkotlin/jvm/functions/Function18;Ljava/lang/Object;)Lkotlin/jvm/functions/Function17;
-	public static final fun partially9 (Lkotlin/jvm/functions/Function19;Ljava/lang/Object;)Lkotlin/jvm/functions/Function18;
-	public static final fun partially9 (Lkotlin/jvm/functions/Function20;Ljava/lang/Object;)Lkotlin/jvm/functions/Function19;
-	public static final fun partially9 (Lkotlin/jvm/functions/Function21;Ljava/lang/Object;)Lkotlin/jvm/functions/Function20;
-	public static final fun partially9 (Lkotlin/jvm/functions/Function22;Ljava/lang/Object;)Lkotlin/jvm/functions/Function21;
-	public static final fun partially9 (Lkotlin/jvm/functions/Function9;Ljava/lang/Object;)Lkotlin/jvm/functions/Function8;
-}
-
-public final class arrow/core/PipeKt {
-	public static final fun pipe (Ljava/lang/Object;Lkotlin/jvm/functions/Function1;)Ljava/lang/Object;
-	public static final fun pipe10 (Ljava/lang/Object;Lkotlin/jvm/functions/Function10;)Lkotlin/jvm/functions/Function9;
-	public static final fun pipe11 (Ljava/lang/Object;Lkotlin/jvm/functions/Function11;)Lkotlin/jvm/functions/Function10;
-	public static final fun pipe12 (Ljava/lang/Object;Lkotlin/jvm/functions/Function12;)Lkotlin/jvm/functions/Function11;
-	public static final fun pipe13 (Ljava/lang/Object;Lkotlin/jvm/functions/Function13;)Lkotlin/jvm/functions/Function12;
-	public static final fun pipe14 (Ljava/lang/Object;Lkotlin/jvm/functions/Function14;)Lkotlin/jvm/functions/Function13;
-	public static final fun pipe15 (Ljava/lang/Object;Lkotlin/jvm/functions/Function15;)Lkotlin/jvm/functions/Function14;
-	public static final fun pipe16 (Ljava/lang/Object;Lkotlin/jvm/functions/Function16;)Lkotlin/jvm/functions/Function15;
-	public static final fun pipe17 (Ljava/lang/Object;Lkotlin/jvm/functions/Function17;)Lkotlin/jvm/functions/Function16;
-	public static final fun pipe18 (Ljava/lang/Object;Lkotlin/jvm/functions/Function18;)Lkotlin/jvm/functions/Function17;
-	public static final fun pipe19 (Ljava/lang/Object;Lkotlin/jvm/functions/Function19;)Lkotlin/jvm/functions/Function18;
-	public static final fun pipe2 (Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Lkotlin/jvm/functions/Function1;
-	public static final fun pipe20 (Ljava/lang/Object;Lkotlin/jvm/functions/Function20;)Lkotlin/jvm/functions/Function19;
-	public static final fun pipe21 (Ljava/lang/Object;Lkotlin/jvm/functions/Function21;)Lkotlin/jvm/functions/Function20;
-	public static final fun pipe22 (Ljava/lang/Object;Lkotlin/jvm/functions/Function22;)Lkotlin/jvm/functions/Function21;
-	public static final fun pipe3 (Ljava/lang/Object;Lkotlin/jvm/functions/Function3;)Lkotlin/jvm/functions/Function2;
-	public static final fun pipe4 (Ljava/lang/Object;Lkotlin/jvm/functions/Function4;)Lkotlin/jvm/functions/Function3;
-	public static final fun pipe5 (Ljava/lang/Object;Lkotlin/jvm/functions/Function5;)Lkotlin/jvm/functions/Function4;
-	public static final fun pipe6 (Ljava/lang/Object;Lkotlin/jvm/functions/Function6;)Lkotlin/jvm/functions/Function5;
-	public static final fun pipe7 (Ljava/lang/Object;Lkotlin/jvm/functions/Function7;)Lkotlin/jvm/functions/Function6;
-	public static final fun pipe8 (Ljava/lang/Object;Lkotlin/jvm/functions/Function8;)Lkotlin/jvm/functions/Function7;
-	public static final fun pipe9 (Ljava/lang/Object;Lkotlin/jvm/functions/Function9;)Lkotlin/jvm/functions/Function8;
-	public static final fun pipeLazy (Ljava/lang/Object;Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function0;
-}
-
 public final class arrow/core/PredefKt {
+	public static final field TailRecMDeprecation Ljava/lang/String;
 	public static final fun andThen (Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function1;
 	public static final fun compose (Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function1;
 	public static final fun curry (Lkotlin/jvm/functions/Function2;)Lkotlin/jvm/functions/Function1;
 	public static final fun identity (Ljava/lang/Object;)Ljava/lang/Object;
-}
-
-public final class arrow/core/ReverseKt {
-	public static final fun reverse (Lkotlin/jvm/functions/Function10;)Lkotlin/jvm/functions/Function10;
-	public static final fun reverse (Lkotlin/jvm/functions/Function11;)Lkotlin/jvm/functions/Function11;
-	public static final fun reverse (Lkotlin/jvm/functions/Function12;)Lkotlin/jvm/functions/Function12;
-	public static final fun reverse (Lkotlin/jvm/functions/Function13;)Lkotlin/jvm/functions/Function13;
-	public static final fun reverse (Lkotlin/jvm/functions/Function14;)Lkotlin/jvm/functions/Function14;
-	public static final fun reverse (Lkotlin/jvm/functions/Function15;)Lkotlin/jvm/functions/Function15;
-	public static final fun reverse (Lkotlin/jvm/functions/Function16;)Lkotlin/jvm/functions/Function16;
-	public static final fun reverse (Lkotlin/jvm/functions/Function17;)Lkotlin/jvm/functions/Function17;
-	public static final fun reverse (Lkotlin/jvm/functions/Function18;)Lkotlin/jvm/functions/Function18;
-	public static final fun reverse (Lkotlin/jvm/functions/Function19;)Lkotlin/jvm/functions/Function19;
-	public static final fun reverse (Lkotlin/jvm/functions/Function20;)Lkotlin/jvm/functions/Function20;
-	public static final fun reverse (Lkotlin/jvm/functions/Function21;)Lkotlin/jvm/functions/Function21;
-	public static final fun reverse (Lkotlin/jvm/functions/Function22;)Lkotlin/jvm/functions/Function22;
-	public static final fun reverse (Lkotlin/jvm/functions/Function2;)Lkotlin/jvm/functions/Function2;
-	public static final fun reverse (Lkotlin/jvm/functions/Function3;)Lkotlin/jvm/functions/Function3;
-	public static final fun reverse (Lkotlin/jvm/functions/Function4;)Lkotlin/jvm/functions/Function4;
-	public static final fun reverse (Lkotlin/jvm/functions/Function5;)Lkotlin/jvm/functions/Function5;
-	public static final fun reverse (Lkotlin/jvm/functions/Function6;)Lkotlin/jvm/functions/Function6;
-	public static final fun reverse (Lkotlin/jvm/functions/Function7;)Lkotlin/jvm/functions/Function7;
-	public static final fun reverse (Lkotlin/jvm/functions/Function8;)Lkotlin/jvm/functions/Function8;
-	public static final fun reverse (Lkotlin/jvm/functions/Function9;)Lkotlin/jvm/functions/Function9;
 }
 
 public final class arrow/core/SequenceK : arrow/Kind, kotlin/sequences/Sequence {
@@ -1929,8 +1385,6 @@ public final class arrow/core/SequenceKKt {
 public final class arrow/core/SequenceKt {
 	public static final fun align (Lkotlin/sequences/Sequence;Lkotlin/sequences/Sequence;)Lkotlin/sequences/Sequence;
 	public static final fun align (Lkotlin/sequences/Sequence;Lkotlin/sequences/Sequence;Lkotlin/jvm/functions/Function1;)Lkotlin/sequences/Sequence;
-	public static final fun ap (Lkotlin/sequences/Sequence;Lkotlin/sequences/Sequence;)Lkotlin/sequences/Sequence;
-	public static final fun apEval (Lkotlin/sequences/Sequence;Larrow/core/Eval;)Larrow/core/Eval;
 	public static final fun combineAll (Lkotlin/sequences/Sequence;Larrow/typeclasses/Monoid;)Ljava/lang/Object;
 	public static final fun crosswalk (Lkotlin/sequences/Sequence;Lkotlin/jvm/functions/Function1;)Lkotlin/sequences/Sequence;
 	public static final fun crosswalkMap (Lkotlin/sequences/Sequence;Lkotlin/jvm/functions/Function1;)Ljava/util/Map;
@@ -1939,14 +1393,11 @@ public final class arrow/core/SequenceKt {
 	public static final fun fold (Lkotlin/sequences/Sequence;Larrow/typeclasses/Monoid;)Ljava/lang/Object;
 	public static final fun foldMap (Lkotlin/sequences/Sequence;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Ljava/lang/Object;
 	public static final fun foldRight (Lkotlin/sequences/Sequence;Larrow/core/Eval;Lkotlin/jvm/functions/Function2;)Larrow/core/Eval;
-	public static final fun fproduct (Lkotlin/sequences/Sequence;Lkotlin/jvm/functions/Function1;)Lkotlin/sequences/Sequence;
-	public static final fun ifM (Lkotlin/sequences/Sequence;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;)Lkotlin/sequences/Sequence;
 	public static final fun ifThen (Lkotlin/sequences/Sequence;Lkotlin/sequences/Sequence;Lkotlin/jvm/functions/Function1;)Lkotlin/sequences/Sequence;
 	public static final fun interleave (Lkotlin/sequences/Sequence;Lkotlin/sequences/Sequence;)Lkotlin/sequences/Sequence;
 	public static final fun leftPadZip (Lkotlin/sequences/Sequence;Lkotlin/sequences/Sequence;)Lkotlin/sequences/Sequence;
 	public static final fun leftPadZip (Lkotlin/sequences/Sequence;Lkotlin/sequences/Sequence;Lkotlin/jvm/functions/Function2;)Lkotlin/sequences/Sequence;
 	public static final fun many (Lkotlin/sequences/Sequence;)Lkotlin/sequences/Sequence;
-	public static final fun mapConst (Lkotlin/sequences/Sequence;Ljava/lang/Object;)Lkotlin/sequences/Sequence;
 	public static final fun once (Lkotlin/sequences/Sequence;)Lkotlin/sequences/Sequence;
 	public static final fun padZip (Lkotlin/sequences/Sequence;Lkotlin/sequences/Sequence;)Lkotlin/sequences/Sequence;
 	public static final fun padZip (Lkotlin/sequences/Sequence;Lkotlin/sequences/Sequence;Lkotlin/jvm/functions/Function2;)Lkotlin/sequences/Sequence;
@@ -1956,7 +1407,6 @@ public final class arrow/core/SequenceKt {
 	public static final fun rightPadZip (Lkotlin/sequences/Sequence;Lkotlin/sequences/Sequence;)Lkotlin/sequences/Sequence;
 	public static final fun rightPadZip (Lkotlin/sequences/Sequence;Lkotlin/sequences/Sequence;Lkotlin/jvm/functions/Function2;)Lkotlin/sequences/Sequence;
 	public static final fun salign (Lkotlin/sequences/Sequence;Larrow/typeclasses/Semigroup;Lkotlin/sequences/Sequence;)Lkotlin/sequences/Sequence;
-	public static final fun selectM (Lkotlin/sequences/Sequence;Lkotlin/sequences/Sequence;)Lkotlin/sequences/Sequence;
 	public static final fun separateEither (Lkotlin/sequences/Sequence;)Lkotlin/Pair;
 	public static final fun separateValidated (Lkotlin/sequences/Sequence;)Lkotlin/Pair;
 	public static final fun sequence (Larrow/typeclasses/Monoid$Companion;)Larrow/typeclasses/Monoid;
@@ -1968,8 +1418,6 @@ public final class arrow/core/SequenceKt {
 	public static final fun tail (Lkotlin/sequences/Sequence;)Lkotlin/sequences/Sequence;
 	public static final fun traverseEither (Lkotlin/sequences/Sequence;Lkotlin/jvm/functions/Function1;)Larrow/core/Either;
 	public static final fun traverseValidated (Lkotlin/sequences/Sequence;Larrow/typeclasses/Semigroup;Lkotlin/jvm/functions/Function1;)Larrow/core/Validated;
-	public static final fun tupleLeft (Lkotlin/sequences/Sequence;Ljava/lang/Object;)Lkotlin/sequences/Sequence;
-	public static final fun tupleRight (Lkotlin/sequences/Sequence;Ljava/lang/Object;)Lkotlin/sequences/Sequence;
 	public static final fun unalign (Lkotlin/sequences/Sequence;)Lkotlin/Pair;
 	public static final fun unalign (Lkotlin/sequences/Sequence;Lkotlin/jvm/functions/Function1;)Lkotlin/Pair;
 	public static final fun uniteEither (Lkotlin/sequences/Sequence;)Lkotlin/sequences/Sequence;
@@ -1987,8 +1435,6 @@ public final class arrow/core/SequenceKt {
 	public static final fun zip (Lkotlin/sequences/Sequence;Lkotlin/sequences/Sequence;Lkotlin/sequences/Sequence;Lkotlin/sequences/Sequence;Lkotlin/sequences/Sequence;Lkotlin/sequences/Sequence;Lkotlin/sequences/Sequence;Lkotlin/sequences/Sequence;Lkotlin/jvm/functions/Function8;)Lkotlin/sequences/Sequence;
 	public static final fun zip (Lkotlin/sequences/Sequence;Lkotlin/sequences/Sequence;Lkotlin/sequences/Sequence;Lkotlin/sequences/Sequence;Lkotlin/sequences/Sequence;Lkotlin/sequences/Sequence;Lkotlin/sequences/Sequence;Lkotlin/sequences/Sequence;Lkotlin/sequences/Sequence;Lkotlin/jvm/functions/Function9;)Lkotlin/sequences/Sequence;
 	public static final fun zip (Lkotlin/sequences/Sequence;Lkotlin/sequences/Sequence;Lkotlin/sequences/Sequence;Lkotlin/sequences/Sequence;Lkotlin/sequences/Sequence;Lkotlin/sequences/Sequence;Lkotlin/sequences/Sequence;Lkotlin/sequences/Sequence;Lkotlin/sequences/Sequence;Lkotlin/sequences/Sequence;Lkotlin/jvm/functions/Function10;)Lkotlin/sequences/Sequence;
-	public static final fun zipEval (Lkotlin/sequences/Sequence;Larrow/core/Eval;)Larrow/core/Eval;
-	public static final fun zipEval (Lkotlin/sequences/Sequence;Larrow/core/Eval;Lkotlin/jvm/functions/Function1;)Larrow/core/Eval;
 }
 
 public final class arrow/core/SequenceMonoid : arrow/typeclasses/Monoid {
@@ -3243,51 +2689,6 @@ public final class arrow/core/TupleNKt {
 	public static final fun toTuple3 (Lkotlin/Triple;)Larrow/core/Tuple3;
 }
 
-public final class arrow/core/TuplingKt {
-	public static final fun paired (Lkotlin/jvm/functions/Function2;)Lkotlin/jvm/functions/Function1;
-	public static final fun tripled (Lkotlin/jvm/functions/Function3;)Lkotlin/jvm/functions/Function1;
-	public static final fun tupled (Lkotlin/jvm/functions/Function10;)Lkotlin/jvm/functions/Function1;
-	public static final fun tupled (Lkotlin/jvm/functions/Function11;)Lkotlin/jvm/functions/Function1;
-	public static final fun tupled (Lkotlin/jvm/functions/Function12;)Lkotlin/jvm/functions/Function1;
-	public static final fun tupled (Lkotlin/jvm/functions/Function13;)Lkotlin/jvm/functions/Function1;
-	public static final fun tupled (Lkotlin/jvm/functions/Function14;)Lkotlin/jvm/functions/Function1;
-	public static final fun tupled (Lkotlin/jvm/functions/Function15;)Lkotlin/jvm/functions/Function1;
-	public static final fun tupled (Lkotlin/jvm/functions/Function16;)Lkotlin/jvm/functions/Function1;
-	public static final fun tupled (Lkotlin/jvm/functions/Function17;)Lkotlin/jvm/functions/Function1;
-	public static final fun tupled (Lkotlin/jvm/functions/Function18;)Lkotlin/jvm/functions/Function1;
-	public static final fun tupled (Lkotlin/jvm/functions/Function19;)Lkotlin/jvm/functions/Function1;
-	public static final fun tupled (Lkotlin/jvm/functions/Function20;)Lkotlin/jvm/functions/Function1;
-	public static final fun tupled (Lkotlin/jvm/functions/Function21;)Lkotlin/jvm/functions/Function1;
-	public static final fun tupled (Lkotlin/jvm/functions/Function22;)Lkotlin/jvm/functions/Function1;
-	public static final fun tupled (Lkotlin/jvm/functions/Function4;)Lkotlin/jvm/functions/Function1;
-	public static final fun tupled (Lkotlin/jvm/functions/Function5;)Lkotlin/jvm/functions/Function1;
-	public static final fun tupled (Lkotlin/jvm/functions/Function6;)Lkotlin/jvm/functions/Function1;
-	public static final fun tupled (Lkotlin/jvm/functions/Function7;)Lkotlin/jvm/functions/Function1;
-	public static final fun tupled (Lkotlin/jvm/functions/Function8;)Lkotlin/jvm/functions/Function1;
-	public static final fun tupled (Lkotlin/jvm/functions/Function9;)Lkotlin/jvm/functions/Function1;
-	public static final fun unpaired (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function2;
-	public static final fun untripled (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function3;
-	public static final fun untupled (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function10;
-	public static final fun untupled (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function11;
-	public static final fun untupled (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function12;
-	public static final fun untupled (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function13;
-	public static final fun untupled (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function14;
-	public static final fun untupled (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function15;
-	public static final fun untupled (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function16;
-	public static final fun untupled (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function17;
-	public static final fun untupled (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function18;
-	public static final fun untupled (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function19;
-	public static final fun untupled (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function20;
-	public static final fun untupled (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function21;
-	public static final fun untupled (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function22;
-	public static final fun untupled (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function4;
-	public static final fun untupled (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function5;
-	public static final fun untupled (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function6;
-	public static final fun untupled (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function7;
-	public static final fun untupled (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function8;
-	public static final fun untupled (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function9;
-}
-
 public final class arrow/core/UtilsKt {
 	public static final field DeprecatedAmbiguity Ljava/lang/String;
 	public static final field DeprecatedUnsafeAccess Ljava/lang/String;
@@ -3310,14 +2711,12 @@ public abstract class arrow/core/Validated : arrow/Kind {
 	public final fun foldLeft (Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Ljava/lang/Object;
 	public final fun foldMap (Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Ljava/lang/Object;
 	public final fun foldRight (Larrow/core/Eval;Lkotlin/jvm/functions/Function2;)Larrow/core/Eval;
-	public final fun fproduct (Lkotlin/jvm/functions/Function1;)Larrow/core/Validated;
 	public final fun isEmpty ()Z
 	public final fun isInvalid ()Z
 	public final fun isNotEmpty ()Z
 	public final fun isValid ()Z
 	public final fun leftMap (Lkotlin/jvm/functions/Function1;)Larrow/core/Validated;
 	public final fun map (Lkotlin/jvm/functions/Function1;)Larrow/core/Validated;
-	public final fun mapConst (Ljava/lang/Object;)Larrow/core/Validated;
 	public final fun mapLeft (Lkotlin/jvm/functions/Function1;)Larrow/core/Validated;
 	public final fun show (Larrow/typeclasses/Show;Larrow/typeclasses/Show;)Ljava/lang/String;
 	public final fun swap ()Larrow/core/Validated;
@@ -3328,8 +2727,6 @@ public abstract class arrow/core/Validated : arrow/Kind {
 	public final fun toValidatedNel ()Larrow/core/Validated;
 	public final fun traverse (Lkotlin/jvm/functions/Function1;)Ljava/util/List;
 	public final fun traverseEither (Lkotlin/jvm/functions/Function1;)Larrow/core/Either;
-	public final fun tupleLeft (Ljava/lang/Object;)Larrow/core/Validated;
-	public final fun tupleRight (Ljava/lang/Object;)Larrow/core/Validated;
 	public final fun void ()Larrow/core/Validated;
 	public final fun withEither (Lkotlin/jvm/functions/Function1;)Larrow/core/Validated;
 }
@@ -3343,7 +2740,6 @@ public final class arrow/core/Validated$Companion {
 	public final fun fromEither (Larrow/core/Either;)Larrow/core/Validated;
 	public final fun fromNullable (Ljava/lang/Object;Lkotlin/jvm/functions/Function0;)Larrow/core/Validated;
 	public final fun fromOption (Larrow/core/Option;Lkotlin/jvm/functions/Function0;)Larrow/core/Validated;
-	public final fun getS ()I
 	public final fun invalidNel (Ljava/lang/Object;)Larrow/core/Validated;
 	public final fun lift (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function1;
 	public final fun lift (Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function1;
@@ -4306,7 +3702,6 @@ public final class arrow/typeclasses/Crosswalk$DefaultImpls {
 	public static fun fold (Larrow/typeclasses/Crosswalk;Larrow/Kind;Larrow/typeclasses/Monoid;)Ljava/lang/Object;
 	public static fun foldM (Larrow/typeclasses/Crosswalk;Larrow/Kind;Larrow/typeclasses/Monad;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Larrow/Kind;
 	public static fun foldMap (Larrow/typeclasses/Crosswalk;Larrow/Kind;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Ljava/lang/Object;
-	public static fun foldMapA (Larrow/typeclasses/Crosswalk;Larrow/Kind;Larrow/typeclasses/Applicative;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static fun foldMapM (Larrow/typeclasses/Crosswalk;Larrow/Kind;Larrow/typeclasses/Monad;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static fun forAll (Larrow/typeclasses/Crosswalk;Larrow/Kind;Lkotlin/jvm/functions/Function1;)Z
 	public static fun fproduct (Larrow/typeclasses/Crosswalk;Larrow/Kind;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
@@ -4507,7 +3902,6 @@ public abstract interface class arrow/typeclasses/Foldable {
 	public abstract fun foldLeft (Larrow/Kind;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Ljava/lang/Object;
 	public abstract fun foldM (Larrow/Kind;Larrow/typeclasses/Monad;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Larrow/Kind;
 	public abstract fun foldMap (Larrow/Kind;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Ljava/lang/Object;
-	public abstract fun foldMapA (Larrow/Kind;Larrow/typeclasses/Applicative;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public abstract fun foldMapM (Larrow/Kind;Larrow/typeclasses/Monad;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public abstract fun foldRight (Larrow/Kind;Larrow/core/Eval;Lkotlin/jvm/functions/Function2;)Larrow/core/Eval;
 	public abstract fun forAll (Larrow/Kind;Lkotlin/jvm/functions/Function1;)Z
@@ -4542,7 +3936,6 @@ public final class arrow/typeclasses/Foldable$DefaultImpls {
 	public static fun fold (Larrow/typeclasses/Foldable;Larrow/Kind;Larrow/typeclasses/Monoid;)Ljava/lang/Object;
 	public static fun foldM (Larrow/typeclasses/Foldable;Larrow/Kind;Larrow/typeclasses/Monad;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Larrow/Kind;
 	public static fun foldMap (Larrow/typeclasses/Foldable;Larrow/Kind;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Ljava/lang/Object;
-	public static fun foldMapA (Larrow/typeclasses/Foldable;Larrow/Kind;Larrow/typeclasses/Applicative;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static fun foldMapM (Larrow/typeclasses/Foldable;Larrow/Kind;Larrow/typeclasses/Monad;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static fun forAll (Larrow/typeclasses/Foldable;Larrow/Kind;Lkotlin/jvm/functions/Function1;)Z
 	public static fun get (Larrow/typeclasses/Foldable;Larrow/Kind;J)Larrow/core/Option;
@@ -6004,7 +5397,6 @@ public final class arrow/typeclasses/NonEmptyReducible$DefaultImpls {
 	public static fun foldM (Larrow/typeclasses/NonEmptyReducible;Larrow/Kind;Larrow/typeclasses/Monad;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Larrow/Kind;
 	public static fun foldM_ (Larrow/typeclasses/NonEmptyReducible;Larrow/Kind;Larrow/typeclasses/Monad;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Larrow/Kind;
 	public static fun foldMap (Larrow/typeclasses/NonEmptyReducible;Larrow/Kind;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Ljava/lang/Object;
-	public static fun foldMapA (Larrow/typeclasses/NonEmptyReducible;Larrow/Kind;Larrow/typeclasses/Applicative;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static fun foldMapM (Larrow/typeclasses/NonEmptyReducible;Larrow/Kind;Larrow/typeclasses/Monad;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static fun foldRight (Larrow/typeclasses/NonEmptyReducible;Larrow/Kind;Larrow/core/Eval;Lkotlin/jvm/functions/Function2;)Larrow/core/Eval;
 	public static fun forAll (Larrow/typeclasses/NonEmptyReducible;Larrow/Kind;Lkotlin/jvm/functions/Function1;)Z
@@ -6103,7 +5495,6 @@ public final class arrow/typeclasses/Reducible$DefaultImpls {
 	public static fun fold (Larrow/typeclasses/Reducible;Larrow/Kind;Larrow/typeclasses/Monoid;)Ljava/lang/Object;
 	public static fun foldM (Larrow/typeclasses/Reducible;Larrow/Kind;Larrow/typeclasses/Monad;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Larrow/Kind;
 	public static fun foldMap (Larrow/typeclasses/Reducible;Larrow/Kind;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Ljava/lang/Object;
-	public static fun foldMapA (Larrow/typeclasses/Reducible;Larrow/Kind;Larrow/typeclasses/Applicative;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static fun foldMapM (Larrow/typeclasses/Reducible;Larrow/Kind;Larrow/typeclasses/Monad;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static fun forAll (Larrow/typeclasses/Reducible;Larrow/Kind;Lkotlin/jvm/functions/Function1;)Z
 	public static fun get (Larrow/typeclasses/Reducible;Larrow/Kind;J)Larrow/core/Option;
@@ -6349,7 +5740,6 @@ public final class arrow/typeclasses/Traverse$DefaultImpls {
 	public static fun fold (Larrow/typeclasses/Traverse;Larrow/Kind;Larrow/typeclasses/Monoid;)Ljava/lang/Object;
 	public static fun foldM (Larrow/typeclasses/Traverse;Larrow/Kind;Larrow/typeclasses/Monad;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Larrow/Kind;
 	public static fun foldMap (Larrow/typeclasses/Traverse;Larrow/Kind;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Ljava/lang/Object;
-	public static fun foldMapA (Larrow/typeclasses/Traverse;Larrow/Kind;Larrow/typeclasses/Applicative;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static fun foldMapM (Larrow/typeclasses/Traverse;Larrow/Kind;Larrow/typeclasses/Monad;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static fun forAll (Larrow/typeclasses/Traverse;Larrow/Kind;Lkotlin/jvm/functions/Function1;)Z
 	public static fun fproduct (Larrow/typeclasses/Traverse;Larrow/Kind;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
@@ -6404,7 +5794,6 @@ public final class arrow/typeclasses/TraverseFilter$DefaultImpls {
 	public static fun fold (Larrow/typeclasses/TraverseFilter;Larrow/Kind;Larrow/typeclasses/Monoid;)Ljava/lang/Object;
 	public static fun foldM (Larrow/typeclasses/TraverseFilter;Larrow/Kind;Larrow/typeclasses/Monad;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Larrow/Kind;
 	public static fun foldMap (Larrow/typeclasses/TraverseFilter;Larrow/Kind;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Ljava/lang/Object;
-	public static fun foldMapA (Larrow/typeclasses/TraverseFilter;Larrow/Kind;Larrow/typeclasses/Applicative;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static fun foldMapM (Larrow/typeclasses/TraverseFilter;Larrow/Kind;Larrow/typeclasses/Monad;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static fun forAll (Larrow/typeclasses/TraverseFilter;Larrow/Kind;Lkotlin/jvm/functions/Function1;)Z
 	public static fun fproduct (Larrow/typeclasses/TraverseFilter;Larrow/Kind;Lkotlin/jvm/functions/Function1;)Larrow/Kind;

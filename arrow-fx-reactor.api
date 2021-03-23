@@ -824,7 +824,6 @@ public final class arrow/fx/reactor/extensions/FluxKFoldable$DefaultImpls {
 	public static fun foldLeft (Larrow/fx/reactor/extensions/FluxKFoldable;Larrow/Kind;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Ljava/lang/Object;
 	public static fun foldM (Larrow/fx/reactor/extensions/FluxKFoldable;Larrow/Kind;Larrow/typeclasses/Monad;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Larrow/Kind;
 	public static fun foldMap (Larrow/fx/reactor/extensions/FluxKFoldable;Larrow/Kind;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Ljava/lang/Object;
-	public static fun foldMapA (Larrow/fx/reactor/extensions/FluxKFoldable;Larrow/Kind;Larrow/typeclasses/Applicative;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static fun foldMapM (Larrow/fx/reactor/extensions/FluxKFoldable;Larrow/Kind;Larrow/typeclasses/Monad;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static fun foldRight (Larrow/fx/reactor/extensions/FluxKFoldable;Larrow/Kind;Larrow/core/Eval;Lkotlin/jvm/functions/Function2;)Larrow/core/Eval;
 	public static fun forAll (Larrow/fx/reactor/extensions/FluxKFoldable;Larrow/Kind;Lkotlin/jvm/functions/Function1;)Z
@@ -1447,7 +1446,6 @@ public final class arrow/fx/reactor/extensions/FluxKTraverse$DefaultImpls {
 	public static fun foldLeft (Larrow/fx/reactor/extensions/FluxKTraverse;Larrow/Kind;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Ljava/lang/Object;
 	public static fun foldM (Larrow/fx/reactor/extensions/FluxKTraverse;Larrow/Kind;Larrow/typeclasses/Monad;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Larrow/Kind;
 	public static fun foldMap (Larrow/fx/reactor/extensions/FluxKTraverse;Larrow/Kind;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Ljava/lang/Object;
-	public static fun foldMapA (Larrow/fx/reactor/extensions/FluxKTraverse;Larrow/Kind;Larrow/typeclasses/Applicative;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static fun foldMapM (Larrow/fx/reactor/extensions/FluxKTraverse;Larrow/Kind;Larrow/typeclasses/Monad;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static fun foldRight (Larrow/fx/reactor/extensions/FluxKTraverse;Larrow/Kind;Larrow/core/Eval;Lkotlin/jvm/functions/Function2;)Larrow/core/Eval;
 	public static fun forAll (Larrow/fx/reactor/extensions/FluxKTraverse;Larrow/Kind;Lkotlin/jvm/functions/Function1;)Z
@@ -2717,7 +2715,6 @@ public final class arrow/fx/reactor/extensions/fluxk/foldable/FluxKFoldableKt {
 	public static final fun foldLeft (Larrow/Kind;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Ljava/lang/Object;
 	public static final fun foldM (Larrow/Kind;Larrow/typeclasses/Monad;Ljava/lang/Object;Lkotlin/jvm/functions/Function2;)Larrow/Kind;
 	public static final fun foldMap (Larrow/Kind;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Ljava/lang/Object;
-	public static final fun foldMapA (Larrow/Kind;Larrow/typeclasses/Applicative;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static final fun foldMapM (Larrow/Kind;Larrow/typeclasses/Monad;Larrow/typeclasses/Monoid;Lkotlin/jvm/functions/Function1;)Larrow/Kind;
 	public static final fun foldRight (Larrow/Kind;Larrow/core/Eval;Lkotlin/jvm/functions/Function2;)Larrow/core/Eval;
 	public static final fun foldable (Larrow/fx/reactor/FluxK$Companion;)Larrow/fx/reactor/extensions/FluxKFoldable;

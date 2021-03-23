@@ -104,7 +104,7 @@ public final class arrow/fx/coroutines/CancelToken$Companion {
 	public final fun getUnit-CF6U7qU ()Lkotlin/jvm/functions/Function1;
 }
 
-public abstract class arrow/fx/coroutines/CancellableContinuation : kotlin/coroutines/Continuation {
+public abstract interface class arrow/fx/coroutines/CancellableContinuation : kotlin/coroutines/Continuation {
 }
 
 public final class arrow/fx/coroutines/CircuitBreaker {
@@ -646,7 +646,6 @@ public final class arrow/fx/coroutines/Resource$Companion {
 	public final fun defer (Lkotlin/jvm/functions/Function1;)Larrow/fx/coroutines/Resource;
 	public final fun fromClosable (Lkotlin/jvm/functions/Function1;)Larrow/fx/coroutines/Resource;
 	public final fun fromExecutor (Lkotlin/jvm/functions/Function1;)Larrow/fx/coroutines/Resource;
-	public final fun getUnit ()Larrow/fx/coroutines/Resource;
 	public final fun invoke (Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function2;)Larrow/fx/coroutines/Resource;
 	public final fun invoke (Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function3;)Larrow/fx/coroutines/Resource;
 	public final fun just (Ljava/lang/Object;)Larrow/fx/coroutines/Resource;
@@ -660,14 +659,10 @@ public final class arrow/fx/coroutines/Resource$Defer : arrow/fx/coroutines/Reso
 }
 
 public final class arrow/fx/coroutines/ResourceKt {
-	public static final fun flatSequence (Ljava/lang/Iterable;)Larrow/fx/coroutines/Resource;
-	public static final fun flatTraverseFilterResource (Ljava/lang/Iterable;Lkotlin/jvm/functions/Function1;)Larrow/fx/coroutines/Resource;
-	public static final fun flatTraverseResource (Ljava/lang/Iterable;Lkotlin/jvm/functions/Function1;)Larrow/fx/coroutines/Resource;
 	public static final fun release-zgiIeyo (Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function2;)Larrow/fx/coroutines/Resource;
 	public static final fun releaseCase-zgiIeyo (Lkotlin/jvm/functions/Function1;Lkotlin/jvm/functions/Function3;)Larrow/fx/coroutines/Resource;
 	public static final fun resource (Lkotlin/jvm/functions/Function1;)Lkotlin/jvm/functions/Function1;
 	public static final fun sequence (Ljava/lang/Iterable;)Larrow/fx/coroutines/Resource;
-	public static final fun traverseFilterResource (Ljava/lang/Iterable;Lkotlin/jvm/functions/Function1;)Larrow/fx/coroutines/Resource;
 	public static final fun traverseResource (Ljava/lang/Iterable;Lkotlin/jvm/functions/Function1;)Larrow/fx/coroutines/Resource;
 }
 
